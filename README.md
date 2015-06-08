@@ -1,7 +1,8 @@
 # Hastigram
 
 ## Minimum Viable Product
-Hastigram is a clone of Instagram on Rails and Backbone. Users can:
+Hastigram is a clone of Instagram on Rails and Backbone for users
+to share pictures they haven't put enough thought into. Users can:
 
 - [ ] Create accounts
 - [ ] Create sessions (log in)
