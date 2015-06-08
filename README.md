@@ -20,3 +20,11 @@ to share pictures they haven't put enough thought into. Users can:
 
 [views]: ./docs/views.md
 [schema]: ./docs/schema.md
+
+
+
+### Bonus Features (TBD)
+- [ ] Filters
+- [ ] Search Photos
+- [ ] Search People
+- [ ] Callouts (@bsmith) gives user an alert.
