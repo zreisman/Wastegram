@@ -12,3 +12,11 @@ to share pictures they haven't put enough thought into. Users can:
 - [ ] View posts and their comments
 - [ ] Like posts
 - [ ] View a feed of subscribed user's posts
+
+
+## Design Docs
+* [View Wireframes][views]
+* [DB schema][schema]
+
+[views]: ./docs/views.md
+[schema]: ./docs/schema.md
