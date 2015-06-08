@@ -25,7 +25,7 @@
 ![usertag-subview]
 
 [home-view]: ./wireframes/Home.png
-[new_session]: ./wireframes/LogIn_View.png
+[new-session]: ./wireframes/LogIn_View.png
 [feed-composite]: ./wireframes/Feed_Composite.png
 [post-show]: ./wireframes/PostShow_Composite.png
 [post-subview]: ./wireframes/Post_Subview.png
