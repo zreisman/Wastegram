@@ -1,5 +1,9 @@
 # Hastigram
 
+[Heroku link][heroku]
+
+[heroku]: https://murmuring-dusk-1251.herokuapp.com/
+
 ## Minimum Viable Product
 Hastigram is a clone of Instagram on Rails and Backbone for users
 to share pictures they haven't put enough thought into. Users can:
@@ -8,6 +12,7 @@ to share pictures they haven't put enough thought into. Users can:
 - [ ] Create sessions (log in)
 - [ ] Create posts
 - [ ] Add images to posts
+- [ ] Follow Users
 - [ ] Comment on posts
 - [ ] View posts and their comments
 - [ ] Like posts
@@ -21,10 +26,38 @@ to share pictures they haven't put enough thought into. Users can:
 [views]: ./docs/views.md
 [schema]: ./docs/schema.md
 
+## Implementation Timeline
+
+### Phase 1: User Authentication, Verification, Root (~1 day)
+I will implement user authentication in Rails based on the practices learned at App Academy. By completion of this phase, Users will be able to register for an account. An email will be sent out to validate a users address. The app will be deployed to Heroku.
+
+[Details][phase-one]
+
+### Phase 2: Create Posts, View Posts (~2 days)
+Here I will build out a posts api and construct Backbone views to render the data. Users will be able to view individual posts or a feed of all posts in the database.
+
+[Details][phase-two]
+
+### Phase 3: Find Users, Follow Users (~2 days)
+I'll add a Backbone view for a search form.  
+
+[Details][phase-three]
+
+### Phase 4: View Feed of Posts For Subscribed Users (~2 days)
+
+[Details][phase-four]
+
+### Phase 5: Like Posts, Comment on Posts (~2 days)
+
+[Details][phase-five]
 
 
 ### Bonus Features (TBD)
 - [ ] Filters
-- [ ] Search Photos
-- [ ] Search People
 - [ ] Callouts (@bsmith) gives user an alert.
+
+[phase-one]: ./docs/phases/phase1.md
+[phase-two]: ./docs/phases/phase2.md
+[phase-three]: ./docs/phases/phase3.md
+[phase-four]: ./docs/phases/phase4.md
+[phase-five]: ./docs/phases/phase5.md
