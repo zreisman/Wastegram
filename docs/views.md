@@ -1,26 +1,34 @@
 # View Wireframes
 
-## New Session
+## Home
 ![home-view]
 
-## Feed Show (landing page)
-![feed-show]
+## New Session
+![new-session]
 
-## Blog Show
-![blog-show]
+## Feed Composite (landing page)
+![feed-composite]
 
-## Post Show
+## Post Show Composite
 ![post-show]
 
-## Post Form
-![post-form]
+## Post Subview
+![post-subview]
 
-## Search Results
-![search-results]
+## Comment Subview
+![comment-subview]
+
+## Like Subview
+![like-subview]
+
+## Usertag Subview
+![usertag-subview]
 
 [home-view]: ./wireframes/Home.png
-[feed-show]: ./wireframes/feed_show.png
-[blog-show]: ./wireframes/blog_show.png
-[post-show]: ./wireframes/post_show.png
-[post-form]: ./wireframes/post_form.png
-[search-results]: ./wireframes/search_results.png
+[new_session]: ./wireframes/Login_View.png
+[feed-composite]: ./wireframes/Feed_Composite.png
+[post-show]: ./wireframes/PostShow_Composite.png
+[post-subview]: ./wireframes/Post_Subview.png
+[comment-subview]: ./wireframes/Comment_Subview.png
+[like-subview]: ./wireframes/Like_Subview.png
+[usertag-subview]: ./wireframes/Usertag_Subview.png
