@@ -7,7 +7,6 @@
 Api::PostsController (feed)
 
 ### Views
-posts/feed.json.jbuilder
 
 ## Backbone
 ### Models
@@ -15,6 +14,6 @@ posts/feed.json.jbuilder
 ### Collections
 
 ### Views
-* FeedShow (composite view, contains PostsIndex subview)
+* FeedShow (composite view, contains Posts subview)
 
 ## Gems/Libraries

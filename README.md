@@ -39,21 +39,25 @@ Here I will build out a posts api and construct Backbone views to render the dat
 [Details][phase-two]
 
 ### Phase 3: Find Users, Follow Users (~2 days)
-I'll add a Backbone view for a search form.  
+I'll add a Backbone view for a search form. Backbone will query the database through Api::UsersController, but only filtered results will be returned with minimal information.
 
 [Details][phase-three]
 
-### Phase 4: View Feed of Posts For Subscribed Users (~2 days)
+### Phase 4: View Feed of Posts For Followed Users (~2 days)
+I'll build Backbone composite view of a feed using post and usertag subviews.  A user's feed will be built using the association on the Rails end. The client will display all posts returned.
 
 [Details][phase-four]
 
 ### Phase 5: Like Posts, Comment on Posts (~2 days)
+By the end this phase, users should be able to like and comment on posts of their followees. The post subview will be broken out into comment and like subviews.
 
 [Details][phase-five]
 
 
 ### Bonus Features (TBD)
 - [ ] Filters
+- [ ] Notifications
+- [ ] Video support
 - [ ] Callouts (@bsmith) gives user an alert.
 
 [phase-one]: ./docs/phases/phase1.md

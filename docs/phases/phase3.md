@@ -2,20 +2,22 @@
 
 ## Rails
 ### Models
+Follow
 
 ### Controllers
+Api::FollowsController
+Api::UsersController
 
 ### Views
 
 ## Backbone
 ### Models
+  User
 
 ### Collections
+  SearchResults
 
 ### Views
-* PostForm
+* SearchForm
 
 ## Gems/Libraries
-* Filepicker
-* Markdown-js
-* Bootstrap Markdown
