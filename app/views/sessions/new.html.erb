@@ -1,0 +1,19 @@
+<h3>Log In</h3>
+
+<%= flash_messages %>
+
+<form action="<%= session_url %>" method="POST">
+
+  <%= render_auth_token %>
+
+  <label>Email:
+    <input type="text" name="user[email]" value="<%= @user.email %>">
+  </label>
+
+  <label>Password:
+   <input type="password" name="user[password]">
+  </label>
+
+  <input type="submit" value="Log In">
+
+</form>
