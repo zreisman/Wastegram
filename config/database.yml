@@ -17,11 +17,11 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: hastigram_development
+  database: hastigram_test
   pool: 5
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: hastigram_development
+  database: hastigram_production
   pool: 5
