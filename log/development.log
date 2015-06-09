@@ -2289,3 +2289,315 @@ NoMethodError (undefined method `is_password?' for #<ActiveRecord::Relation []>)
   Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
   Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (21.6ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2015-06-09 16:17:44 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"f38RWMv0zAMV66IbgCLs7XIKOwtV8TM3fRgH0yttKx69+NNIjJjfG8cgJEhcjdG4kFmkXQiPQ5q+w16g90yjTw==", "user"=>{"email"=>"johnny@five.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT 1[0m  [["username", "johnny@five.com"]]
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.3ms)
+
+NoMethodError (undefined method `save' for nil:NilClass):
+  app/controllers/sessions_controller.rb:9:in `create'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.4ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2015-06-09 16:18:31 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"f38RWMv0zAMV66IbgCLs7XIKOwtV8TM3fRgH0yttKx69+NNIjJjfG8cgJEhcjdG4kFmkXQiPQ5q+w16g90yjTw==", "user"=>{"email"=>"johnny@five.com", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT 1  [["username", "johnny@five.com"]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 2.5ms)
+
+NoMethodError (undefined method `save' for nil:NilClass):
+  app/controllers/sessions_controller.rb:9:in `create'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.4ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2015-06-09 16:18:47 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"f38RWMv0zAMV66IbgCLs7XIKOwtV8TM3fRgH0yttKx69+NNIjJjfG8cgJEhcjdG4kFmkXQiPQ5q+w16g90yjTw==", "user"=>{"email"=>"johnny@five.com", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT 1  [["username", "johnny@five.com"]]
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 3.6ms)
+
+NoMethodError (undefined method `save' for nil:NilClass):
+  app/controllers/sessions_controller.rb:9:in `create'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (36.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-09 16:18:51 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 162ms (Views: 147.9ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-09 16:18:54 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1460d1f25f9f8b9462505a615790e9f2e5eb65fdb5dd058853269c0d93de435f.css?body=1" for 127.0.0.1 at 2015-06-09 16:18:54 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-09 16:18:54 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-09 16:18:54 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-09 16:18:54 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:18:54 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:18:54 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:18:54 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-06-09 16:18:54 -0700
+
+
+Started POST "/session" for 127.0.0.1 at 2015-06-09 16:19:31 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"ImQx1zce0/1j+YMF8JEjko1yNM3QbMVEyfHj0FmocEng4/PHcHLA5bEyBVYsPh7HbyGrm40StekKKrqjhYn4GA==", "user"=>{"email"=>"johnny@five.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT 1[0m  [["username", "johnny@five.com"]]
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.7ms)
+
+NoMethodError (undefined method `save' for nil:NilClass):
+  app/controllers/sessions_controller.rb:9:in `create'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.3ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2015-06-09 16:19:50 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"ImQx1zce0/1j+YMF8JEjko1yNM3QbMVEyfHj0FmocEng4/PHcHLA5bEyBVYsPh7HbyGrm40StekKKrqjhYn4GA==", "user"=>{"email"=>"johnny@five.com", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT 1  [["username", "johnny@five.com"]]
+  Rendered sessions/new.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 2.3ms)
+
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+     7:   <%= render_auth_token %>
+     8: 
+     9:   <label>Email:
+    10:     <input type="text" name="user[email]" value="<%= @user.email %>">
+    11:   </label>
+    12: 
+    13:   <label>Password:
+  app/views/sessions/new.html.erb:10:in `_app_views_sessions_new_html_erb___3195808202991097282_51047760'
+  app/controllers/sessions_controller.rb:13:in `create'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2015-06-09 16:20:45 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"ImQx1zce0/1j+YMF8JEjko1yNM3QbMVEyfHj0FmocEng4/PHcHLA5bEyBVYsPh7HbyGrm40StekKKrqjhYn4GA==", "user"=>{"email"=>"johnny@five.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT 1[0m  [["username", "johnny@five.com"]]
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 55ms (Views: 42.2ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/application.self-1460d1f25f9f8b9462505a615790e9f2e5eb65fdb5dd058853269c0d93de435f.css?body=1" for 127.0.0.1 at 2015-06-09 16:20:45 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-09 16:20:45 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-09 16:20:45 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-09 16:20:45 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:20:45 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:20:45 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:20:45 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-06-09 16:20:45 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-09 16:23:51 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 42ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-09 16:23:52 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 55ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1460d1f25f9f8b9462505a615790e9f2e5eb65fdb5dd058853269c0d93de435f.css?body=1" for 127.0.0.1 at 2015-06-09 16:23:52 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-09 16:23:52 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-09 16:23:52 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:23:52 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:23:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-09 16:23:52 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:23:52 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-06-09 16:23:52 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-09 16:23:53 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-09 16:24:34 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1460d1f25f9f8b9462505a615790e9f2e5eb65fdb5dd058853269c0d93de435f.css?body=1" for 127.0.0.1 at 2015-06-09 16:24:34 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-09 16:24:34 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:24:34 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-09 16:24:34 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-09 16:24:34 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:24:34 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-09 16:24:34 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-06-09 16:24:34 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-09 16:24:35 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-09 16:24:36 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-09 16:24:37 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-09 16:24:37 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-09 16:24:38 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-09 16:24:38 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-09 16:24:39 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)

@@ -6,10 +6,11 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by_credentials(user_params[:email], user_params[:password])
-    if user.save
+    if user
       redirect_to root_url
     else
       flash[:errors] = ["Invalid email and password combination"]
+      @user = User.new
       render :new
     end
   end
