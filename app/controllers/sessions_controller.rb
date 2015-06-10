@@ -1,7 +1,11 @@
 class SessionsController < ApplicationController
 
-  def new
-    @user = User.new
+  def activate
+    token = params[:activation_token]
+    if !User.activate_user(token)
+      flash[:errors] = ["Activation Failed!"]
+    end
+    redirect_to root_url
   end
 
   def create
@@ -15,6 +19,9 @@ class SessionsController < ApplicationController
     end
   end
 
+  def new
+    @user = User.new
+  end
   private
 
   def user_params

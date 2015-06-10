@@ -16,6 +16,17 @@ class User < ActiveRecord::Base
     end
   end
 
+  def self.activate_user(token)
+    user = User.find_by(activation_token: token)
+    if user
+      user.activated = true
+      user.save!
+      return true
+    else
+      return false
+    end
+  end
+
   def self.find_by_session_token(token)
     User.where(session_token: token)
   end
@@ -30,7 +41,7 @@ class User < ActiveRecord::Base
   end
 
   def ensure_activation_token
-    self.activation_token = SecureRandom.urlsafe_base64(16)
+    self.activation_token ||= SecureRandom.urlsafe_base64(16)
   end
 
   def reset_session_token!

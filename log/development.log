@@ -3223,3 +3223,631 @@ Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde45
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-06-09 17:58:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 09:50:50 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 173ms (Views: 165.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 09:50:58 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 127ms (Views: 98.2ms | ActiveRecord: 9.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-10 09:51:06 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"avxnl7tZpXDfGYC/0N6WQqwZryVjZFahuj4UU8i0NSqoe6WH/DW2aA3SBuwMcasXTkowcz4aJgx55U0gFJW9ew==", "user"=>{"email"=>"lkjldldjf", "username"=>"dslfkjdsflsjdfl", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (3.7ms)[0m  [1mINSERT INTO "users" ("email", "username", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "lkjldldjf"], ["username", "dslfkjdsflsjdfl"], ["password_digest", "$2a$10$n5TIOZTL8RqBwSlrE72gKet.rNXMWCzsrWekRcrRcY8FYuQd5ysJq"], ["session_token", "IItrqr0SENUEFYbM7-INXw"], ["activation_token", "5SyPzthUdOOjpYKHYYEWmg"], ["created_at", "2015-06-10 16:51:06.136010"], ["updated_at", "2015-06-10 16:51:06.136010"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /home/zreisman/Workspaces/Hastigram/app/controllers/users_controller.rb:11)
+  Rendered user_mailer/activation_email.html.erb within layouts/mailer (0.5ms)
+
+UserMailer#activation_email: processed outbound mail in 113.4ms
+
+Sent mail to lkjldldjf (27.7ms)
+Date: Wed, 10 Jun 2015 09:51:06 -0700
+From: Hastigram <admin@hastigram.com>
+To: lkjldldjf
+Message-ID: <55786afa44d75_d8b1fc5570618ee@deep-thought.mail>
+Subject: Activate Your Hastigram Account!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Hastigram, dslfkjdsflsjdfl</h1>
+    <p>
+      Please activate your Hastigram account by clicking the following link:
+      <a href="https://murmuring-dusk-1251.herokuapp.com/activate/5SyPzthUdOOjpYKHYYEWmg">Activate!</a><br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: https://murmuring-dusk-1251.herokuapp.com.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+  </body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 253ms (ActiveRecord: 4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 09:51:06 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 09:51:42 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 48.1ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 09:53:00 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 44ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:01 -0700
+
+
+Started GET "/assets/application.self-1460d1f25f9f8b9462505a615790e9f2e5eb65fdb5dd058853269c0d93de435f.css?body=1" for 127.0.0.1 at 2015-06-10 09:53:01 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:01 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:01 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:01 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:01 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:01 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:01 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 09:53:03 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 09:53:05 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 09:53:06 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 09:53:48 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 42ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1460d1f25f9f8b9462505a615790e9f2e5eb65fdb5dd058853269c0d93de435f.css?body=1" for 127.0.0.1 at 2015-06-10 09:53:49 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:49 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:49 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:49 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:49 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:49 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:49 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-06-10 09:53:49 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 09:53:50 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 09:53:52 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 09:53:53 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 09:53:54 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 09:54:50 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 09:54:51 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 62ms (Views: 44.7ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 09:54:52 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 09:54:53 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 09:54:54 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 09:54:55 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-10 09:55:20 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"I38hZrQ+l1uFKQFOO0oVck14uUxicY0LB66TQkRYFgrh+ON281KEQ1fihx3n5SgnrysmGj8P/abEdcoxmHmeWw==", "user"=>{"email"=>"sldjfdslfjdsfklj", "username"=>"slfjslfjsdflkj", "password"=>"[FILTERED]"}}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("email", "username", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["email", "sldjfdslfjdsfklj"], ["username", "slfjslfjsdflkj"], ["password_digest", "$2a$10$7o9Nb6dremdGAxmf2MjMdev4rNaCIn3n0TftgqOHNM5v8FfY5y63O"], ["session_token", "31MrskLQSRrdXXxyu-cA1A"], ["activation_token", "lQYYQlVu6xBJf0X4yDRs4Q"], ["created_at", "2015-06-10 16:55:20.391767"], ["updated_at", "2015-06-10 16:55:20.391767"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /home/zreisman/Workspaces/Hastigram/app/controllers/users_controller.rb:11)
+  Rendered user_mailer/activation_email.html.erb within layouts/mailer (0.2ms)
+
+UserMailer#activation_email: processed outbound mail in 7.5ms
+
+Sent mail to sldjfdslfjdsfklj (28.3ms)
+Date: Wed, 10 Jun 2015 09:55:20 -0700
+From: Hastigram <admin@hastigram.com>
+To: sldjfdslfjdsfklj
+Message-ID: <55786bf864acf_d8b3fb5915040e861912@deep-thought.mail>
+Subject: Activate Your Hastigram Account!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Hastigram, slfjslfjsdflkj</h1>
+    <p>
+      Please activate your Hastigram account by clicking the following link:
+      <a href="https://murmuring-dusk-1251.herokuapp.com/activate/lQYYQlVu6xBJf0X4yDRs4Q">Activate!</a><br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: https://murmuring-dusk-1251.herokuapp.com.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+  </body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 130ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 09:55:20 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activate/lQYYQlVu6xBJf0X4yDRs4Q" for 127.0.0.1 at 2015-06-10 09:56:57 -0700
+Processing by SessionsController#activate as HTML
+  Parameters: {"activation_token"=>"lQYYQlVu6xBJf0X4yDRs4Q"}
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (1.9ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+Completed 500 Internal Server Error in 451664ms (ActiveRecord: 0.0ms)
+
+SystemExit (exit):
+  app/controllers/sessions_controller.rb:5:in `exit'
+  app/controllers/sessions_controller.rb:5:in `activate'
+  app/controllers/sessions_controller.rb:5:in `activate'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (133.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (44.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (202.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (2.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (42.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (99.0ms)
+
+
+Started GET "/activate/lQYYQlVu6xBJf0X4yDRs4Q" for 127.0.0.1 at 2015-06-10 10:04:44 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#activate as HTML
+  Parameters: {"activation_token"=>"lQYYQlVu6xBJf0X4yDRs4Q"}
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "lQYYQlVu6xBJf0X4yDRs4Q"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  UPDATE "users" SET "activated" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["activated", "t"], ["updated_at", "2015-06-10 17:04:44.959847"], ["id", 12]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 49ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 10:04:44 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 155ms (Views: 153.9ms | ActiveRecord: 0.0ms)
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 10:08:09 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 53ms (Views: 39.9ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 10:08:11 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-10 10:08:26 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"e7uYmFGnawGMlcFK+byJqXAbg86SOrsUfgF/03G17Ry5PFqIFst4GV5eRxklE7T8kkgcmM9Ey7m92iagrZRlTQ==", "user"=>{"email"=>"hellohello", "username"=>"heyhey", "password"=>"[FILTERED]"}}
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "users" ("email", "username", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "hellohello"], ["username", "heyhey"], ["password_digest", "$2a$10$rABmJY8UgIpGIbUrE3aa0uo8r2qciiwa6N7CGBKZC1J3i9azqhP/O"], ["session_token", "P9VxeJs_kmp_rsZdr6piCQ"], ["activation_token", "PiPpjazg9dfUhoFDzHa-ZQ"], ["created_at", "2015-06-10 17:08:26.265666"], ["updated_at", "2015-06-10 17:08:26.265666"]]
+  [1m[35m (2.0ms)[0m  COMMIT
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /home/zreisman/Workspaces/Hastigram/app/controllers/users_controller.rb:11)
+
+UserMailer#activation_email: processed outbound mail in 54032.5ms
+Completed 500 Internal Server Error in 54201ms (ActiveRecord: 3.3ms)
+
+SystemExit (exit):
+  app/mailers/user_mailer.rb:7:in `exit'
+  app/mailers/user_mailer.rb:7:in `activation_email'
+  app/mailers/user_mailer.rb:7:in `activation_email'
+  app/controllers/users_controller.rb:11:in `create'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (200.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (46.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (275.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (9.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (36.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (66.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 10:09:30 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 660ms (Views: 645.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 10:09:33 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 761ms (Views: 657.2ms | ActiveRecord: 6.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-10 10:09:38 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"q3mNwqWTsz/jnLDdBQFMn1m3xBWq3KErct+DM9ZB81Np/k/S4v+gJzFXNo7ZrnHKu+RbQ/ei0YaxBNpACmB7Ag==", "user"=>{"email"=>"ldsjflsjfklj", "username"=>"sdlfjdsfklsjfklfj", "password"=>"[FILTERED]"}}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "users" ("email", "username", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["email", "ldsjflsjfklj"], ["username", "sdlfjdsfklsjfklfj"], ["password_digest", "$2a$10$za6nCj1iA3PBo6FLWvWoB.I5zqEnYpU6vJ2EMXlt18IXvqhke0F06"], ["session_token", "d0vU1-cydm_y9oa-PF0CAA"], ["activation_token", "l_DoAg52klglbUFY-cB4Wg"], ["created_at", "2015-06-10 17:09:38.497410"], ["updated_at", "2015-06-10 17:09:38.497410"]]
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /home/zreisman/Workspaces/Hastigram/app/controllers/users_controller.rb:11)
+
+UserMailer#activation_email: processed outbound mail in 5562.4ms
+Completed 500 Internal Server Error in 5780ms (ActiveRecord: 4.4ms)
+
+SystemExit (exit):
+  app/mailers/user_mailer.rb:7:in `exit'
+  app/mailers/user_mailer.rb:7:in `activation_email'
+  app/mailers/user_mailer.rb:7:in `activation_email'
+  app/controllers/users_controller.rb:11:in `create'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (176.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (54.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (252.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (3.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (40.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (68.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-10 10:10:07 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"/MUo+XyT8Sc61wQTo2eAC7qFKMOgrPAxPYKWZAK4OFU+QurpO//iP+gcgkB/yL1eWNa3lf3SgJz+Wc8X3pmwBA==", "user"=>{"email"=>"ldsjflsjfklj", "username"=>"sdlfjdsfklsjfklfj", "password"=>"[FILTERED]"}}
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("email", "username", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "ldsjflsjfklj"], ["username", "sdlfjdsfklsjfklfj"], ["password_digest", "$2a$10$kOiMZIvRdsuBSpEbYJZbbezFaEVzCUKW1rQ3u4Og4nghq5Ledarbq"], ["session_token", "qv0uMiVxh7bkltD71xDqMA"], ["activation_token", "VOCA9gRemkcpetLrl-mA2A"], ["created_at", "2015-06-10 17:10:07.789418"], ["updated_at", "2015-06-10 17:10:07.789418"]]
+  [1m[35m (2.3ms)[0m  COMMIT
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /home/zreisman/Workspaces/Hastigram/app/controllers/users_controller.rb:11)
+  Rendered user_mailer/activation_email.html.erb within layouts/mailer (2.5ms)
+
+UserMailer#activation_email: processed outbound mail in 145.3ms
+
+Sent mail to ldsjflsjfklj (157.2ms)
+Date: Wed, 10 Jun 2015 10:10:08 -0700
+From: Hastigram <admin@hastigram.com>
+To: ldsjflsjfklj
+Message-ID: <55786f70ba02_119d3fc912006c5075414@deep-thought.mail>
+Subject: Activate Your Hastigram Account!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Hastigram, sdlfjdsfklsjfklfj</h1>
+    <p>
+      Please activate your Hastigram account by clicking the following link:
+      <a href="http://localhost:3000//activate/VOCA9gRemkcpetLrl-mA2A">Activate!</a><br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://localhost:3000/.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+  </body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 570ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 10:10:08 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 510ms (Views: 503.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activate/VOCA9gRemkcpetLrl-mA2A" for 127.0.0.1 at 2015-06-10 10:10:16 -0700
+Processing by SessionsController#activate as HTML
+  Parameters: {"activation_token"=>"VOCA9gRemkcpetLrl-mA2A"}
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "VOCA9gRemkcpetLrl-mA2A"]]
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE "users" SET "activated" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["activated", "t"], ["updated_at", "2015-06-10 17:10:17.012887"], ["id", 15]]
+  [1m[35m (3.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 37ms (ActiveRecord: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 10:10:17 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 334ms (Views: 331.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1460d1f25f9f8b9462505a615790e9f2e5eb65fdb5dd058853269c0d93de435f.css?body=1" for 127.0.0.1 at 2015-06-10 10:10:17 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-06-10 10:10:17 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-10 10:10:17 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-10 10:10:17 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-10 10:10:17 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-10 10:10:17 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-10 10:10:17 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-06-10 10:10:17 -0700
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 10:20:11 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 335ms (Views: 289.8ms | ActiveRecord: 5.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-06-10 10:20:18 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"DcfJvz90rn3pZMGPjWB2ODDGMCADyah/1G9PysTrVk3PQAuveBi9ZTuvR9xRz0tt0pWvdl632NIXtBa5GMreHA==", "user"=>{"email"=>"lskdjfslfjdslfjfkl", "username"=>"sldfkjsdfljdsfklj", "password"=>"[FILTERED]"}}
+  [1m[36m (0.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO "users" ("email", "username", "password_digest", "session_token", "activation_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"  [["email", "lskdjfslfjdslfjfkl"], ["username", "sldfkjsdfljdsfklj"], ["password_digest", "$2a$10$q2o5LjeufauBLnGjwJhkj.2eyJzWHW9Wh.tHKk8c.0CIJ6XxPapk6"], ["session_token", "atXaLhKSyqCtCnaVIhCBuA"], ["activation_token", "b8levBh65Csm-MNrxVksKA"], ["created_at", "2015-06-10 17:20:18.559167"], ["updated_at", "2015-06-10 17:20:18.559167"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: `#deliver` is deprecated and will be removed in Rails 5. Use `#deliver_now` to deliver immediately or `#deliver_later` to deliver through Active Job. (called from create at /home/zreisman/Workspaces/Hastigram/app/controllers/users_controller.rb:11)
+  Rendered user_mailer/activation_email.html.erb within layouts/mailer (0.8ms)
+
+UserMailer#activation_email: processed outbound mail in 22.0ms
+
+Sent mail to lskdjfslfjdslfjfkl (98.0ms)
+Date: Wed, 10 Jun 2015 10:20:18 -0700
+From: Hastigram <admin@hastigram.com>
+To: lskdjfslfjdslfjfkl
+Message-ID: <557871d29f517_119d3fc91b4088a4755c7@deep-thought.mail>
+Subject: Activate Your Hastigram Account!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Hastigram, sldfkjsdfljdsfklj</h1>
+    <p>
+      Please activate your Hastigram account by clicking the following link:
+      <a href="http://localhost:3000//activate/b8levBh65Csm-MNrxVksKA">Activate!</a><br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://localhost:3000/.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+
+  </body>
+</html>
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 274ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 10:20:18 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 596ms (Views: 589.3ms | ActiveRecord: 0.0ms)
+  [1m[36mUser Load (1.8ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+
+
+Started GET "/activate/b8levBh65Csm-MNrxVksKA" for 127.0.0.1 at 2015-06-10 10:20:51 -0700
+Processing by SessionsController#activate as HTML
+  Parameters: {"activation_token"=>"b8levBh65Csm-MNrxVksKA"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "b8levBh65Csm-MNrxVksKA"]]
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "users" SET "activated" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["activated", "t"], ["updated_at", "2015-06-10 17:20:51.526874"], ["id", 16]]
+  [1m[36m (2.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 34ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 10:20:51 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 296ms (Views: 293.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activate/b8levBh65Csm-MNrxVksKA" for 127.0.0.1 at 2015-06-10 10:21:02 -0700
+Processing by SessionsController#activate as HTML
+  Parameters: {"activation_token"=>"b8levBh65Csm-MNrxVksKA"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "b8levBh65Csm-MNrxVksKA"]]
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 21ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 10:21:02 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 300ms (Views: 296.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activate/b8levBh65Csm-MNrxVksKA" for 127.0.0.1 at 2015-06-10 10:21:52 -0700
+Processing by SessionsController#activate as HTML
+  Parameters: {"activation_token"=>"b8levBh65Csm-MNrxVksKA"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1[0m  [["activation_token", "b8levBh65Csm-MNrxVksKA"]]
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 19ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 10:21:52 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 304ms (Views: 300.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activate/b8levBh65Csm-MNrxVk" for 127.0.0.1 at 2015-06-10 10:23:07 -0700
+Processing by SessionsController#activate as HTML
+  Parameters: {"activation_token"=>"b8levBh65Csm-MNrxVk"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."activation_token" = $1 LIMIT 1  [["activation_token", "b8levBh65Csm-MNrxVk"]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-10 10:23:07 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 314ms (Views: 310.7ms | ActiveRecord: 0.0ms)
