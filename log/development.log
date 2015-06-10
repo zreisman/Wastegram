@@ -3851,3 +3851,17 @@ Started GET "/" for 127.0.0.1 at 2015-06-10 10:23:07 -0700
 Processing by StaticPagesController#index as HTML
   Rendered static_pages/index.html.erb within layouts/application (2.3ms)
 Completed 200 OK in 314ms (Views: 310.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 10:24:57 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 309ms (Views: 302.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2015-06-10 10:25:00 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"wTQds6CjlsoJT5fX1LTvZOMSSWwMDRQVVwh+Ccy7++phEjz52qwRTEB0H8QXQ6MCKgBO7MvFNgoF04REHpdSyA==", "user"=>{"email"=>"lsdkjfdskfj", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT 1[0m  [["username", "lsdkjfdskfj"]]
+  Rendered sessions/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 326ms (Views: 302.8ms | ActiveRecord: 0.7ms)
