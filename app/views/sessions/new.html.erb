@@ -1,21 +1,38 @@
-<h3>Log In</h3>
-<%= link_to "Index", root_url %>
-<%= link_to "Sign Up", new_user_url %>
 
-<%= flash_messages %>
+  <div class="row">
+    <div class="col-md-3 col-md-offset-4 vert-align">
+      <div class="sign-in-form">
 
-<form action="<%= session_url %>" method="POST">
+        <div class="home-link">
+          <%= link_to "Hastigram", root_url %>
+        </div>
 
-  <%= render_auth_token %>
+        <%= flash_messages %>
 
-  <label>Email:
-    <input type="text" name="user[email]" value="<%= @user.email %>">
-  </label>
+        <form class="form-horizontal" action="<%= session_url %>" method="POST">
 
-  <label>Password:
-   <input type="password" name="user[password]">
-  </label>
+          <%= render_auth_token %>
 
-  <input type="submit" value="Log In">
+          <div class="form-group">
+            <label class="maxwidth">Email:
+              <input type="text" class="form-control" name="user[email]" value="<%= @user.email %>">
+            </label>
+          </div>
 
-</form>
+          <div class="form-group">
+            <label class="maxwidth">Password:
+             <input type="password" class="form-control" name="user[password]">
+            </label>
+          </div>
+
+          <div class="form-group">
+            <input type="submit" class="btn btn-default maxwidth" value="Log In">
+          </div>
+
+        </form>
+      </div>
+      <div class="sign-up-link">
+       <%= link_to "Need an account?", new_user_url %>
+      </div>
+    </div>
+  </div>

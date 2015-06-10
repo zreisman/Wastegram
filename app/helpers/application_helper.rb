@@ -18,7 +18,7 @@ module ApplicationHelper
         content << "<li class=\"#{bootstrap_class_for(msg_type)}\">#{message}</li>"
       end
     end
-    return "<li>#{content}</li>".html_safe
+    return "<ul>#{content}</ul>".html_safe
   end
 
   def render_auth_token

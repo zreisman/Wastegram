@@ -1,0 +1,27 @@
+
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.sign-in-form {
+  background-color: #FFFFFF;
+  border: solid 1px #CCC;
+  border-radius: 5px;
+  padding: 10px 50px 10px 50px;
+  top: calc(50vh - 125px);
+}
+
+.maxwidth {
+  width: 100%;
+}
+
+.vert-align {
+  max-height: 250px;
+  position: absolute;
+
+}
+
+body {
+  background-color: #F0F0F0;
+}

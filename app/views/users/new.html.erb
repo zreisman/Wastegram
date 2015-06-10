@@ -1,26 +1,30 @@
-<h3>Sign Up</h3>
+<div class="sign-up-form">
 
-<%= link_to "Index", root_url %>
-<%= link_to "Log In", new_session_url %>
+  <h3>Sign Up</h3>
 
-<%= flash_messages %>
+  <%= link_to "Index", root_url %>
+  <%= link_to "Log In", new_session_url %>
 
-<form action="<%= users_url %>" method="POST">
+  <%= flash_messages %>
 
-  <%= render_auth_token %>
+  <form action="<%= users_url %>" method="POST">
 
-  <label>Email:
-    <input type="text" name="user[email]" value="<%= @user.email %>">
-  </label>
+    <%= render_auth_token %>
 
-  <label>Username:
-    <input type="text" name="user[username]" value="<%= @user.username %>">
-  </label>
+    <label>Email:
+      <input type="text" name="user[email]" value="<%= @user.email %>">
+    </label>
 
-  <label>Password:
-   <input type="password" name="user[password]">
-  </label>
+    <label>Username:
+      <input type="text" name="user[username]" value="<%= @user.username %>">
+    </label>
 
-  <input type="submit" value="Log In">
+    <label>Password:
+     <input type="password" name="user[password]">
+    </label>
 
-</form>
+    <input type="submit" value="Log In">
+
+  </form>
+
+<div>
