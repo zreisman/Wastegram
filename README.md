@@ -8,8 +8,9 @@
 Hastigram is a clone of Instagram on Rails and Backbone for users
 to share pictures they haven't put enough thought into. Users can:
 
-- [ ] Create accounts
-- [ ] Create sessions (log in)
+- [x] Create accounts
+- [x] Create sessions (log in)
+- [x] Email validation
 - [ ] Create posts
 - [ ] Add images to posts
 - [ ] Follow Users

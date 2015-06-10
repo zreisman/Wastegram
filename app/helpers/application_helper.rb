@@ -15,10 +15,10 @@ module ApplicationHelper
     content = ""
     flash.each do |msg_type, messages|
       messages.each do |message|
-        content << "<li class=\"#{bootstrap_class_for(msg_type)}\">#{message}</li>"
+        content << "<li class=\"#{bootstrap_class_for(msg_type)}\"><h6>#{message}</h6></li>"
       end
     end
-    return "<ul>#{content}</ul>".html_safe
+    return "<ul class=\"flash-message\">#{content}</ul>".html_safe
   end
 
   def render_auth_token
