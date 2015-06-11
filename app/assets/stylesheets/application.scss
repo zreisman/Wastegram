@@ -3,9 +3,19 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@font-face {
+ font-family: 'billbong';
+ src: font-url('Billabong.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
 
-.sign-in-form {
-  background-color: #FFFFFF;
+.billabong{
+ font-family:'billabong';
+}
+
+.cred-form {
+  background-color: #D6E0FF;
   border: solid 1px #CCC;
   border-radius: 5px;
   padding: 10px 50px 10px 50px;
@@ -17,8 +27,11 @@
 }
 
 .vert-align {
-  max-height: 250px;
-  position: absolute;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+  // max-height: 250px;
+  // position: absolute;
 }
 
 body {

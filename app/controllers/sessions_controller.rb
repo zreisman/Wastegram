@@ -11,6 +11,7 @@ class SessionsController < ApplicationController
   def create
     user = User.find_by_credentials(user_params[:email], user_params[:password])
     if user
+      log_in!(user)
       redirect_to root_url
     else
       flash[:errors] = ["Invalid email and password combination"]

@@ -2,13 +2,19 @@ class User < ActiveRecord::Base
   validates :username, :email, :password_digest, :session_token, presence: true
   validates :password, length: { minimum: 8, allow_nil: true }
 
+  has_many(
+    :posts,
+    class_name: 'Post',
+    foreign_key: :author_id,
+    primary_key: :id
+  )
 
   after_initialize :ensure_session_token, :ensure_activation_token
 
   attr_reader :password
 
-  def self.find_by_credentials(username, password)
-    user = User.find_by(username: username)
+  def self.find_by_credentials(email, password)
+    user = User.find_by(email: email)
     if user && user.is_password?(password)
       return user
     else
@@ -46,10 +52,11 @@ class User < ActiveRecord::Base
 
   def reset_session_token!
     self.session_token = SecureRandom.urlsafe_base64(16)
+    self.save!
     self.session_token
   end
 
   def ensure_session_token
-    self.session_token ||= reset_session_token!
+    self.session_token ||= SecureRandom.urlsafe_base64(16)
   end
 end

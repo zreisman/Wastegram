@@ -5,3 +5,22 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+5.times do |n|
+  username = "user#{n}"
+  email = "#{username}@example.com"
+  password = "password"
+
+  User.create!(username: username,
+    email: email,
+    password: password,
+    activated: true
+  )
+end
+
+User.all.each do |user|
+  5.times do |n|
+    user.posts.create!(body: "body 1", image_url: "www.google.com")
+  end
+end

@@ -1,38 +1,37 @@
 
-  <div class="row">
-    <div class="col-md-3 col-md-offset-4 vert-align">
-      <div class="sign-in-form">
 
-        <div class="home-link">
-          <%= link_to "Hastigram", root_url %>
-        </div>
+<div class="col-md-3 col-md-offset-4 vert-align">
+  <div class="cred-form">
 
-        <%= flash_messages %>
-
-        <form class="form-horizontal" action="<%= session_url %>" method="POST">
-
-          <%= render_auth_token %>
-
-          <div class="form-group">
-            <label class="maxwidth">Email:
-              <input type="text" class="form-control" name="user[email]" value="<%= @user.email %>">
-            </label>
-          </div>
-
-          <div class="form-group">
-            <label class="maxwidth">Password:
-             <input type="password" class="form-control" name="user[password]">
-            </label>
-          </div>
-
-          <div class="form-group">
-            <input type="submit" class="btn btn-default maxwidth" value="Log In">
-          </div>
-
-        </form>
-      </div>
-      <div class="sign-up-link">
-       <%= link_to "Need an account?", new_user_url %>
-      </div>
+    <div class="home-link">
+      <%= link_to "Hastigram", root_url %>
     </div>
+
+    <%= flash_messages %>
+
+    <form class="form-horizontal" action="<%= session_url %>" method="POST">
+
+      <%= render_auth_token %>
+
+      <div class="form-group">
+        <label class="maxwidth">Email:
+          <input type="text" class="form-control" name="user[email]" value="<%= @user.email %>">
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label class="maxwidth">Password:
+         <input type="password" class="form-control" name="user[password]">
+        </label>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" class="btn btn-default maxwidth" value="Log In">
+      </div>
+
+    </form>
   </div>
+  <div class="sign-up-link">
+   <%= link_to "Need an account?", new_user_url %>
+  </div>
+</div>

@@ -1,30 +1,46 @@
-<div class="sign-up-form">
+<div class="row">
+  <div class="col-md-3 col-md-offset-4 vert-align">
+    <div class="cred-form">
 
-  <h3>Sign Up</h3>
+      <div class="home-link">
+        <%= link_to "Hastigram", root_url %>
+      </div>
 
-  <%= link_to "Index", root_url %>
-  <%= link_to "Log In", new_session_url %>
+      <div class="billabong">
+        Instagram
+      </div>
 
-  <%= flash_messages %>
+      <%= flash_messages %>
 
-  <form action="<%= users_url %>" method="POST">
+      <form class="form-horizontal" action="<%= users_url %>" method="POST">
 
-    <%= render_auth_token %>
+        <%= render_auth_token %>
+        <h5>Sign Up</h5>
 
-    <label>Email:
-      <input type="text" name="user[email]" value="<%= @user.email %>">
-    </label>
+       <div class="form-group">
+        <label class="maxwidth">Email:
+          <input type="text" class="form-control" name="user[email]" value="<%= @user.email %>">
+        </label>
+      </div>
 
-    <label>Username:
-      <input type="text" name="user[username]" value="<%= @user.username %>">
-    </label>
+      <div class="form-group">
+        <label class="maxwidth">Username:
+          <input type="text" class="form-control" name="user[username]" value="<%= @user.username %>">
+        </label>
+      </div>
 
-    <label>Password:
-     <input type="password" name="user[password]">
-    </label>
+      <div class="form-group">
+        <label class="maxwidth">Password:
+         <input type="password" class="form-control" name="user[password]">
+        </label>
+      </div>
 
-    <input type="submit" value="Log In">
+      <div class="form-group">
+        <input class="btn btn-default maxwidth" type="submit" value="Log In">
+      </div>
+      </form>
 
-  </form>
-
-<div>
+    </div>
+      <%= link_to "Already registered? Sign In", new_session_url %>
+  </div>
+</div>

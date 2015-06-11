@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   resources :users
   resource :session
   match '/activate/:activation_token', :to => 'sessions#activate', via: :get
-
+  namespace :api do
+    resources :posts
+  end
 end
