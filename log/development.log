@@ -13291,3 +13291,180 @@ Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:54:52 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 22:56:52 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 44ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:56:52 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 22:56:56 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 42ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:56:56 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 22:57:00 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:00 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 22:57:02 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:02 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 22:57:03 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:04 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 22:57:05 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:05 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 22:57:06 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:07 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 22:57:08 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:08 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 22:57:10 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:10 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 22:57:13 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:13 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 22:57:15 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 116ms (Views: 114.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:15 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 22:57:17 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:17 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 22:57:19 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:19 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 22:57:21 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:57:21 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 22:59:14 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 22:59:14 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 23:00:57 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 52ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 23:00:57 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 23:01:00 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/billabong-webfont.woff2" for 127.0.0.1 at 2015-06-10 23:01:00 -0700
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 23:05:18 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1544ms (Views: 1543.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ce768161b9cc6fc58a3bd0e411fe6fdc9e594cc4820be95df9522235185f109e.css?body=1" for 127.0.0.1 at 2015-06-10 23:05:20 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-10 23:05:20 -0700
+
+
+Started GET "/session/new" for 127.0.0.1 at 2015-06-10 23:05:21 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-06-10 23:05:22 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
