@@ -1,5 +1,6 @@
-<div class="row">
+
   <div class="col-md-3 col-md-offset-4 vert-align">
+    <div class="spacer"></div>
     <div class="cred-form">
 
       <div class="home-link">
@@ -9,11 +10,9 @@
       <div class="billabong">
         Instagram
       </div>
-
       <%= flash_messages %>
 
       <form class="form-horizontal" action="<%= users_url %>" method="POST">
-
         <%= render_auth_token %>
         <h5>Sign Up</h5>
 
@@ -43,4 +42,3 @@
     </div>
       <%= link_to "Already registered? Sign In", new_session_url %>
   </div>
-</div>
