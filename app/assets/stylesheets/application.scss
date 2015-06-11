@@ -28,6 +28,11 @@
   font-size: 200%;
 }
 
+.feed-stream {
+  padding: 0px 15px;
+  background-color: #CCC;
+}
+
 .billabong{
  font-family:'billabong';
 }
@@ -61,6 +66,22 @@
 
 .outerDiv {
   height: 100%;
+}
+
+.post {
+  min-height: 600px;
+  border: 1px solid black;
+  background-color: #FFF;
+}
+
+.post-image {
+  border: 1px solid black;
+  height: 500px;
+}
+
+.post-body {
+  border: 1px solid black;
+  height: 100px;
 }
 
 body {

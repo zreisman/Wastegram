@@ -21,6 +21,6 @@ end
 
 User.all.each do |user|
   5.times do |n|
-    user.posts.create!(body: "body 1", image_url: "www.google.com")
+    user.posts.create!(body: "body #{n}", image_url: "www.google.com")
   end
 end

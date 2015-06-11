@@ -1,0 +1,3 @@
+<% posts.each(function(post) { %>
+  <div class="post"><%= post.escape('body') %>: <%= post.escape('image_url') %></div>
+<% }) %>
