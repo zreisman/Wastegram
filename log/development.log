@@ -38384,3 +38384,2797 @@ Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
 Processing by Api::PostsController#index as JSON
   [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
 Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:22:23 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (179.6ms)
+Completed 200 OK in 204ms (Views: 202.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/posts/form.self-7d995075344ae2c8a07b535fc76ac6dc8b83ed7750845f2c050486832fcc7465.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:22:24 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:23:02 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (171.0ms)
+Completed 200 OK in 196ms (Views: 193.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/posts/form.self-2e43044803d95e09f14ec049cb271b7eec0c7a3afd6675aafa8b8cc6a09f27b1.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:23:03 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (68.6ms)
+Completed 200 OK in 92ms (Views: 90.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/posts/form.self-2e43044803d95e09f14ec049cb271b7eec0c7a3afd6675aafa8b8cc6a09f27b1.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:23:14 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:24:14 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (184.6ms)
+Completed 200 OK in 208ms (Views: 206.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/posts/form.self-507f74f9440e3c862082b53818fd7df5cfd470e26f2cfbb19d3e5bbcfe1ec6e1.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/views/posts/form.self-c9df441dd0bbd5e382d259c5353185c5239978997965b1da52c346453df360b7.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:24:15 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (175.4ms)
+Completed 200 OK in 208ms (Views: 206.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/posts/form.self-4081431b065014b1eddd18e23bd2178a3ed22d2bfc72478bdfcb7e854f760c89.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/views/posts/form.self-c9df441dd0bbd5e382d259c5353185c5239978997965b1da52c346453df360b7.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:24:34 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:32 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 325ms (Views: 3.5ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:33 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 5ms (Views: 0.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:33 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 7ms (Views: 0.5ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:34 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 4ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:34 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 3ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:34 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 9ms (Views: 0.9ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:47 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 5ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:47 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 3ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:47 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 7ms (Views: 0.7ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:47 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 9ms (Views: 0.8ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:48 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 4ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:48 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:48 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 3ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:48 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 6ms (Views: 0.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:49 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 5ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:49 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.1ms)
+Completed 402 Payment Required in 5ms (Views: 1.1ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:49 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 3ms (Views: 0.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:50 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.7ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 9ms (Views: 0.7ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:50 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 7ms (Views: 0.3ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:50 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:50 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 6ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:50 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 7ms (Views: 0.7ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:51 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:51 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 5ms (Views: 0.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:54 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 4ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:54 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 6ms (Views: 0.6ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:54 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 5ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:54 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 5ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:28:54 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 402 Payment Required in 9ms (Views: 0.8ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:20 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 47ms (Views: 0.8ms | ActiveRecord: 18.2ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:21 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 9ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:21 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 8ms (Views: 0.7ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:21 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 10ms (Views: 1.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:22 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:22 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 7ms (Views: 0.3ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:22 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 4ms (Views: 0.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:22 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 8ms (Views: 0.8ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:22 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 404 Not Found in 4ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:46 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 36ms (Views: 0.7ms | ActiveRecord: 11.3ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:47 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 7ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:47 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 7ms (Views: 0.6ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:47 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:47 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 5ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:48 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 7ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:48 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 10ms (Views: 0.5ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:48 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 5ms (Views: 0.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:48 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 8ms (Views: 0.4ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:48 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 7ms (Views: 0.3ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:49 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 7ms (Views: 1.0ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:49 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"", "body"=>""}}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered text template (0.0ms)
+Completed 422 Unprocessable Entity in 6ms (Views: 0.5ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:29:57 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"some image url", "body"=>"holy cows"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (7.9ms)[0m  INSERT INTO "posts" ("image_url", "body", "author_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["image_url", "some image url"], ["body", "holy cows"], ["author_id", 6], ["created_at", "2015-06-12 20:29:57.443792"], ["updated_at", "2015-06-12 20:29:57.443792"]]
+  [1m[36m (2.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 20ms (Views: 0.7ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/some%20image%20url" for 127.0.0.1 at 2015-06-12 13:29:57 -0700
+
+ActionController::RoutingError (No route matches [GET] "/some%20image%20url"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (17.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (33.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (163.0ms)
+Completed 200 OK in 187ms (Views: 184.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/posts/form.self-4081431b065014b1eddd18e23bd2178a3ed22d2bfc72478bdfcb7e854f760c89.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/views/posts/form.self-ae7d0c84dc66f1c976772cd8a279a373f283fe604cf3b045034d0907d8394f33.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:30:41 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:30:42 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:30:42 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/some%20image%20url" for 127.0.0.1 at 2015-06-12 13:30:42 -0700
+
+ActionController::RoutingError (No route matches [GET] "/some%20image%20url"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:31:22 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (63.8ms)
+Completed 200 OK in 1458ms (Views: 1457.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-e14af6599ce0d3b6b6c7ba925884e79b9568fd0ce305efd7e2c94c75f1e82ac7.css?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/posts/form.self-4081431b065014b1eddd18e23bd2178a3ed22d2bfc72478bdfcb7e854f760c89.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/views/posts/form.self-ae7d0c84dc66f1c976772cd8a279a373f283fe604cf3b045034d0907d8394f33.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:23 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:24 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:24 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:24 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:24 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:31:24 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:31:24 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/some%20image%20url" for 127.0.0.1 at 2015-06-12 13:31:24 -0700
+
+ActionController::RoutingError (No route matches [GET] "/some%20image%20url"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:31:41 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (57.4ms)
+Completed 200 OK in 1339ms (Views: 1336.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/application.self-af9d575b05cbf6cf5674d3678b30a01b6b5dd26e6e589daea21a6374c919f401.css?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/posts/form.self-4081431b065014b1eddd18e23bd2178a3ed22d2bfc72478bdfcb7e854f760c89.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/views/posts/form.self-ae7d0c84dc66f1c976772cd8a279a373f283fe604cf3b045034d0907d8394f33.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:31:42 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/some%20image%20url" for 127.0.0.1 at 2015-06-12 13:31:43 -0700
+
+ActionController::RoutingError (No route matches [GET] "/some%20image%20url"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (17.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (37.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:33:30 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (69.3ms)
+Completed 200 OK in 1434ms (Views: 1432.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-70ce3f62d6027e29ef418c81341c3532f9712646060a96a29fe600ea736a6b0d.css?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/posts/form.self-4081431b065014b1eddd18e23bd2178a3ed22d2bfc72478bdfcb7e854f760c89.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/views/posts/form.self-ae7d0c84dc66f1c976772cd8a279a373f283fe604cf3b045034d0907d8394f33.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/some%20image%20url" for 127.0.0.1 at 2015-06-12 13:33:32 -0700
+
+ActionController::RoutingError (No route matches [GET] "/some%20image%20url"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:33:51 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (113.4ms)
+Completed 200 OK in 1462ms (Views: 1460.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-9783f147b5d5869ade47ac3cf16fef5920fc3983bf7994d48e7587a6a933fb83.css?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/posts/form.self-4081431b065014b1eddd18e23bd2178a3ed22d2bfc72478bdfcb7e854f760c89.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/views/posts/form.self-ae7d0c84dc66f1c976772cd8a279a373f283fe604cf3b045034d0907d8394f33.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/some%20image%20url" for 127.0.0.1 at 2015-06-12 13:33:53 -0700
+
+ActionController::RoutingError (No route matches [GET] "/some%20image%20url"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (9.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (21.6ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:33:57 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"slfkdsjflskfj", "body"=>"slfdsjfsklfskjlf"}}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "posts" ("image_url", "body", "author_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["image_url", "slfkdsjflskfj"], ["body", "slfdsjfsklfskjlf"], ["author_id", 6], ["created_at", "2015-06-12 20:33:57.435003"], ["updated_at", "2015-06-12 20:33:57.435003"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/slfkdsjflskfj" for 127.0.0.1 at 2015-06-12 13:33:57 -0700
+
+ActionController::RoutingError (No route matches [GET] "/slfkdsjflskfj"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.9ms)
+
+
+Started PUT "/api/posts/32" for 127.0.0.1 at 2015-06-12 13:33:59 -0700
+Processing by Api::PostsController#update as JSON
+  Parameters: {"post"=>{"image_url"=>"slfkdsjflskfj", "body"=>"slfdsjfsklfskjlf"}, "id"=>"32", "body"=>"slfdsjfsklfskjlf", "image_url"=>"slfkdsjflskfj", "author_id"=>6, "created_at"=>"2015-06-12T20:33:57.435Z", "updated_at"=>"2015-06-12T20:33:57.435Z"}
+  [1m[35mPost Load (0.6ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 32]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/slfkdsjflskfj" for 127.0.0.1 at 2015-06-12 13:33:59 -0700
+
+ActionController::RoutingError (No route matches [GET] "/slfkdsjflskfj"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.0ms)
+
+
+Started PUT "/api/posts/32" for 127.0.0.1 at 2015-06-12 13:34:16 -0700
+Processing by Api::PostsController#update as JSON
+  Parameters: {"post"=>{"image_url"=>"slfkdsjflskfj", "body"=>"something somethign"}, "id"=>"32", "body"=>"slfdsjfsklfskjlf", "image_url"=>"slfkdsjflskfj", "author_id"=>6, "created_at"=>"2015-06-12T20:33:57.435Z", "updated_at"=>"2015-06-12T20:33:57.435Z"}
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 32]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mUPDATE "posts" SET "body" = $1, "updated_at" = $2 WHERE "posts"."id" = $3[0m  [["body", "something somethign"], ["updated_at", "2015-06-12 20:34:16.367790"], ["id", 32]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/slfkdsjflskfj" for 127.0.0.1 at 2015-06-12 13:34:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/slfkdsjflskfj"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (213.1ms)
+Completed 200 OK in 236ms (Views: 233.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-9783f147b5d5869ade47ac3cf16fef5920fc3983bf7994d48e7587a6a933fb83.css?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/posts/form.self-4081431b065014b1eddd18e23bd2178a3ed22d2bfc72478bdfcb7e854f760c89.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/views/posts/form.self-4a5d2a4ca4f7ee17d14b580be6656d9434beca63d3f927210109f42708c280a1.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:34:35 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/some%20image%20url" for 127.0.0.1 at 2015-06-12 13:34:36 -0700
+
+ActionController::RoutingError (No route matches [GET] "/some%20image%20url"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.4ms)
+
+
+Started GET "/slfkdsjflskfj" for 127.0.0.1 at 2015-06-12 13:34:36 -0700
+
+ActionController::RoutingError (No route matches [GET] "/slfkdsjflskfj"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.8ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:34:40 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"sdkjffsl", "body"=>"sdlkfjdslfksjfd"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("image_url", "body", "author_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image_url", "sdkjffsl"], ["body", "sdlkfjdslfksjfd"], ["author_id", 6], ["created_at", "2015-06-12 20:34:40.669628"], ["updated_at", "2015-06-12 20:34:40.669628"]]
+  [1m[35m (2.5ms)[0m  COMMIT
+Completed 200 OK in 10ms (Views: 0.6ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:35:30 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (151.3ms)
+Completed 200 OK in 175ms (Views: 172.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/application.self-9783f147b5d5869ade47ac3cf16fef5920fc3983bf7994d48e7587a6a933fb83.css?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/posts/form.self-4081431b065014b1eddd18e23bd2178a3ed22d2bfc72478bdfcb7e854f760c89.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-3edd02bc49fe0c0d08385e4c570c69097d31b4fef193dea4bb76786c24572f7b.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/views/posts/form.self-55026f37243438acaf6ffa72710f762c3512c5f6e98da65d43ff4c6b0384cbfd.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/some%20image%20url" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+ActionController::RoutingError (No route matches [GET] "/some%20image%20url"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.6ms)
+
+
+Started GET "/slfkdsjflskfj" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+ActionController::RoutingError (No route matches [GET] "/slfkdsjflskfj"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (30.4ms)
+
+
+Started GET "/sdkjffsl" for 127.0.0.1 at 2015-06-12 13:35:31 -0700
+
+ActionController::RoutingError (No route matches [GET] "/sdkjffsl"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.2ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:35:36 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"lsjdfskldf", "body"=>"asljasdk"}}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "posts" ("image_url", "body", "author_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["image_url", "lsjdfskldf"], ["body", "asljasdk"], ["author_id", 6], ["created_at", "2015-06-12 20:35:36.013220"], ["updated_at", "2015-06-12 20:35:36.013220"]]
+  [1m[35m (2.7ms)[0m  COMMIT
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/lsjdfskldf" for 127.0.0.1 at 2015-06-12 13:35:36 -0700
+
+ActionController::RoutingError (No route matches [GET] "/lsjdfskldf"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.2ms)
+
+
+Started PUT "/api/posts/34" for 127.0.0.1 at 2015-06-12 13:35:46 -0700
+Processing by Api::PostsController#update as JSON
+  Parameters: {"post"=>{"image_url"=>"lsjdfskldf", "body"=>"arabica"}, "id"=>"34", "body"=>"asljasdk", "image_url"=>"lsjdfskldf", "author_id"=>6, "created_at"=>"2015-06-12T20:35:36.013Z", "updated_at"=>"2015-06-12T20:35:36.013Z"}
+  [1m[36mPost Load (0.7ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 34]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "posts" SET "body" = $1, "updated_at" = $2 WHERE "posts"."id" = $3[0m  [["body", "arabica"], ["updated_at", "2015-06-12 20:35:46.501118"], ["id", 34]]
+  [1m[35m (0.8ms)[0m  COMMIT
+Completed 200 OK in 8ms (Views: 0.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/lsjdfskldf" for 127.0.0.1 at 2015-06-12 13:35:46 -0700
+
+ActionController::RoutingError (No route matches [GET] "/lsjdfskldf"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.3ms)
+
+
+Started PUT "/api/posts/34" for 127.0.0.1 at 2015-06-12 13:35:48 -0700
+Processing by Api::PostsController#update as JSON
+  Parameters: {"post"=>{"image_url"=>"lsjdfskldf", "body"=>"arabica"}, "id"=>"34", "body"=>"arabica", "image_url"=>"lsjdfskldf", "author_id"=>6, "created_at"=>"2015-06-12T20:35:36.013Z", "updated_at"=>"2015-06-12T20:35:46.501Z"}
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1[0m  [["id", 34]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/lsjdfskldf" for 127.0.0.1 at 2015-06-12 13:35:48 -0700
+
+ActionController::RoutingError (No route matches [GET] "/lsjdfskldf"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 13:38:46 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (370.2ms)
+Completed 200 OK in 467ms (Views: 421.8ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/application.self-9783f147b5d5869ade47ac3cf16fef5920fc3983bf7994d48e7587a6a933fb83.css?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/posts/form.self-4081431b065014b1eddd18e23bd2178a3ed22d2bfc72478bdfcb7e854f760c89.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-972d040f428cab55566f689b18ee7afb3d61db6f1f034f7218586ea890b8e0d2.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/views/posts/form.self-55026f37243438acaf6ffa72710f762c3512c5f6e98da65d43ff4c6b0384cbfd.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (1.1ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 24ms (Views: 16.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/lsjdfskldf" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+ActionController::RoutingError (No route matches [GET] "/lsjdfskldf"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.6ms)
+
+
+Started GET "/sdkjffsl" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+ActionController::RoutingError (No route matches [GET] "/sdkjffsl"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.7ms)
+
+
+Started GET "/some%20image%20url" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+ActionController::RoutingError (No route matches [GET] "/some%20image%20url"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.6ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.2ms)
+
+
+Started GET "/slfkdsjflskfj" for 127.0.0.1 at 2015-06-12 13:38:47 -0700
+
+ActionController::RoutingError (No route matches [GET] "/slfkdsjflskfj"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (26.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.9ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.3ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-12 13:38:53 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"image_url"=>"lkdjflkfjsflk", "body"=>"sldkfjsdfds"}}
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "posts" ("image_url", "body", "author_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["image_url", "lkdjflkfjsflk"], ["body", "sldkfjsdfds"], ["author_id", 6], ["created_at", "2015-06-12 20:38:53.226400"], ["updated_at", "2015-06-12 20:38:53.226400"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 15ms (Views: 0.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/lkdjflkfjsflk" for 127.0.0.1 at 2015-06-12 13:38:53 -0700
+
+ActionController::RoutingError (No route matches [GET] "/lkdjflkfjsflk"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.1ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.8ms)
+
+
+Started PUT "/api/posts/35" for 127.0.0.1 at 2015-06-12 13:39:01 -0700
+Processing by Api::PostsController#update as JSON
+  Parameters: {"post"=>{"image_url"=>"lkdjflkfjsflk", "body"=>"cheesefish"}, "id"=>"35", "body"=>"sldkfjsdfds", "image_url"=>"lkdjflkfjsflk", "author_id"=>6, "created_at"=>"2015-06-12T20:38:53.226Z", "updated_at"=>"2015-06-12T20:38:53.226Z"}
+  [1m[35mPost Load (0.6ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT 1  [["id", 35]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "posts" SET "body" = $1, "updated_at" = $2 WHERE "posts"."id" = $3  [["body", "cheesefish"], ["updated_at", "2015-06-12 20:39:01.683578"], ["id", 35]]
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/lkdjflkfjsflk" for 127.0.0.1 at 2015-06-12 13:39:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/lkdjflkfjsflk"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/zreisman/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (10.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/zreisman/.rvm/gems/ruby-2.1.2/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.6ms)

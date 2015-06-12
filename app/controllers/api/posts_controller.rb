@@ -7,7 +7,7 @@ class Api::PostsController < ApplicationController
     if post.save
       render :json => post, status: 200
     else
-      render nothing: true, status: 402
+      render nothing: true, status: 422
     end
 
   end

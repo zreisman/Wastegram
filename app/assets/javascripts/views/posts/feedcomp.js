@@ -8,13 +8,23 @@ Hastigram.Views.FeedCompView = Backbone.CompositeView.extend({
     this.collection.each(function(post) {
       this.addPostSubview(post);
     });
+    this.model = new Hastigram.Models.Post();
+    var formView = new Hastigram.Views.PostForm({ model: this.model });
+    this.addSubview('.post-form', formView );
+  },
 
+  events: {
+    'click .submit-post': 'submit'
   },
 
   addPostSubview: function(post) {
     var postItem = new Hastigram.Views.PostItem({ model: post });
-    this.addSubview(".feed-stream", postItem);
+    this.addSubview(".feed-stream", postItem, true);
   },
+
+  // refreshFormSubview: function(post) {
+  //   this.addSubview('.post-form', formView);
+  // },
 
   render: function() {
     this.$el.html(this.template());
