@@ -9,7 +9,7 @@ Hastigram.Routers.Router = Backbone.Router.extend({
 
   feed: function() {
     Hastigram.posts.fetch();
-    var feedView = new Hastigram.Views.FeedView({ collection: Hastigram.posts });
+    var feedView = new Hastigram.Views.FeedCompView({ collection: Hastigram.posts });
     this._swapView(feedView);
 
   },

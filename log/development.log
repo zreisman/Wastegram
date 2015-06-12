@@ -36240,3 +36240,2147 @@ Started GET "/api/posts" for 127.0.0.1 at 2015-06-11 18:07:52 -0700
 Processing by Api::PostsController#index as JSON
   [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
 Completed 200 OK in 17ms (Views: 10.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 09:23:35 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (281.9ms)
+Completed 200 OK in 428ms (Views: 389.1ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/posts/form.self-1e43da8d96dbcc596f5a96259979b660d8e7bc4bf8fe50b481048d52710a9e70.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/posts/feed.self-0358df1278862f3c2d7d639b84ec53901897e7e1ed2b154212b5b63df51652ee.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/routers/router.self-31b41f97a09ee07eaaafb09a5db329fbd683a2f0d5588baf7702223ba13c49cd.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/application.self-b5567fb0cb73f9d4ecd4fa178bbc995d9efe2b53da5e5bf4ca587adb307de5b1.js?body=1" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 09:23:36 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 17ms (Views: 10.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 10:38:34 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (2.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (402.8ms)
+Completed 200 OK in 514ms (Views: 463.7ms | ActiveRecord: 11.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 10:38:35 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (57.4ms)
+Completed 200 OK in 82ms (Views: 78.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 10:38:35 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-32f7f082e75a64a68d165cf112f475a41ebe98d14cb0d3c84eb6d6afca529570.js?body=1" for 127.0.0.1 at 2015-06-12 10:38:36 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 10:38:36 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[35mPost Load (1.6ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 34ms (Views: 21.8ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:09:21 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (175.3ms)
+Completed 200 OK in 243ms (Views: 208.2ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:09:22 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 15ms (Views: 10.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:39:19 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (332.2ms)
+Completed 200 OK in 407ms (Views: 367.1ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/posts/feed.self-0358df1278862f3c2d7d639b84ec53901897e7e1ed2b154212b5b63df51652ee.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-aeba33a55f0ef8718fce21fb101cd05fe140892b706564ca88c5d5db123e2f02.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:39:20 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.8ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 22ms (Views: 15.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (195.4ms)
+Completed 200 OK in 222ms (Views: 217.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/posts/feed.self-0358df1278862f3c2d7d639b84ec53901897e7e1ed2b154212b5b63df51652ee.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-aeba33a55f0ef8718fce21fb101cd05fe140892b706564ca88c5d5db123e2f02.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/routers/router.self-ad11210b769e74fdfb2c4a26e8991c74d61439ed92f5d8ca4d820027af145889.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:39:52 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (157.4ms)
+Completed 200 OK in 179ms (Views: 177.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/posts/feed.self-0358df1278862f3c2d7d639b84ec53901897e7e1ed2b154212b5b63df51652ee.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-54ec55fbb0d0fb7dc87e39cb658c1cd74cd3e5f587b1d32e1378cd50dc688c35.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:16 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:17 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:17 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:17 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:17 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:17 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:17 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:41:17 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:41:22 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:41:23 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (173.5ms)
+Completed 200 OK in 197ms (Views: 195.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/posts/feed.self-0358df1278862f3c2d7d639b84ec53901897e7e1ed2b154212b5b63df51652ee.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-468d3bb8e8f46b6ea9d3b6b51e35027448b3ed886ce449be9d745f2e4a025bbf.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:02 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:42:04 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:42:07 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (72.6ms)
+Completed 200 OK in 95ms (Views: 92.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/posts/feed.self-0358df1278862f3c2d7d639b84ec53901897e7e1ed2b154212b5b63df51652ee.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-468d3bb8e8f46b6ea9d3b6b51e35027448b3ed886ce449be9d745f2e4a025bbf.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:42:10 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (167.9ms)
+Completed 200 OK in 192ms (Views: 189.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/posts/feed.self-0358df1278862f3c2d7d639b84ec53901897e7e1ed2b154212b5b63df51652ee.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-99bab48906e77be7f409d5be8e5c5a983bc526cb064d9ae5c7a56146c00d43d7.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:42:44 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (175.3ms)
+Completed 200 OK in 199ms (Views: 197.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/posts/feed.self-0358df1278862f3c2d7d639b84ec53901897e7e1ed2b154212b5b63df51652ee.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:38 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-1abad71dcb5fc8a189318f5e9051c4698ff474b61ea6e950000413f04a8b1ed4.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:43:39 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 91ms (Views: 89.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/posts/feed.self-0358df1278862f3c2d7d639b84ec53901897e7e1ed2b154212b5b63df51652ee.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-1abad71dcb5fc8a189318f5e9051c4698ff474b61ea6e950000413f04a8b1ed4.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:43:48 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (66.8ms)
+Completed 200 OK in 95ms (Views: 92.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/posts/feed.self-0358df1278862f3c2d7d639b84ec53901897e7e1ed2b154212b5b63df51652ee.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-1abad71dcb5fc8a189318f5e9051c4698ff474b61ea6e950000413f04a8b1ed4.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:44:06 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (173.4ms)
+Completed 200 OK in 198ms (Views: 194.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/posts/feed.self-afb706dca6b8b08ed712c30ed3c5f8557b5b039fed0fea758d27ec019c7403fe.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0941f20834b18e484297b892d9b88b93b76a360db5448895d2b2a2eaee23f9.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:50:57 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (66.6ms)
+Completed 200 OK in 92ms (Views: 89.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/posts/feed.self-afb706dca6b8b08ed712c30ed3c5f8557b5b039fed0fea758d27ec019c7403fe.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:50:59 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0941f20834b18e484297b892d9b88b93b76a360db5448895d2b2a2eaee23f9.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:51:00 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:51:11 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (159.9ms)
+Completed 200 OK in 186ms (Views: 183.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:11 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:11 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:11 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/utils/composite_view.self-f66b6c655266c80542f8c00a4d7dd95d165b76b75795c186b1b0dc9cfa1fb799.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/posts/feed.self-afb706dca6b8b08ed712c30ed3c5f8557b5b039fed0fea758d27ec019c7403fe.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-537fc5f370fededa6d36b4eee30f6121c00ee7cd1454b2dad8033e94913010e8.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:51:12 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:59:30 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (198.1ms)
+Completed 200 OK in 221ms (Views: 219.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (66.9ms)
+Completed 200 OK in 93ms (Views: 90.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/posts/feed.self-afb706dca6b8b08ed712c30ed3c5f8557b5b039fed0fea758d27ec019c7403fe.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:35 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-537fc5f370fededa6d36b4eee30f6121c00ee7cd1454b2dad8033e94913010e8.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 11:59:36 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 12:01:55 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (155.1ms)
+Completed 200 OK in 178ms (Views: 175.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 12:01:57 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (112.3ms)
+Completed 200 OK in 135ms (Views: 133.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/posts/feed.self-afb706dca6b8b08ed712c30ed3c5f8557b5b039fed0fea758d27ec019c7403fe.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:04 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0941f20834b18e484297b892d9b88b93b76a360db5448895d2b2a2eaee23f9.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 12:02:05 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 12:02:06 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (74.2ms)
+Completed 200 OK in 99ms (Views: 96.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/posts/feed.self-afb706dca6b8b08ed712c30ed3c5f8557b5b039fed0fea758d27ec019c7403fe.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0941f20834b18e484297b892d9b88b93b76a360db5448895d2b2a2eaee23f9.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 12:02:07 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 12:03:09 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (174.3ms)
+Completed 200 OK in 197ms (Views: 195.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/posts/feed.self-f94e60c73bd00ad712b4d936bd1729fbb47aa40120cf3a4f7f4fc293492a2bfe.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-7119221a7db8c8a022ade4e3c9e11fb22ffd8be8e7b0c7382720c07ff658180d.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 12:03:10 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (157.7ms)
+Completed 200 OK in 185ms (Views: 181.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/posts/feed.self-f94e60c73bd00ad712b4d936bd1729fbb47aa40120cf3a4f7f4fc293492a2bfe.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-4bb889d9ab08251e44454187f55b4f2d03a7a87437673ab12baf5241e64435fe.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:31 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 12:56:32 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 12:56:32 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 12:56:32 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (185.0ms)
+Completed 200 OK in 211ms (Views: 208.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/posts/feed.self-729ab074202a24fb8419850757fae1afcd9bc0c8d34fd2edbab896621c142446.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-4bb889d9ab08251e44454187f55b4f2d03a7a87437673ab12baf5241e64435fe.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 12:58:06 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 12:58:14 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (158.5ms)
+Completed 200 OK in 184ms (Views: 182.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/posts/feed.self-8133bd2fc0528cbc97a788390430a614c480ad51e4e26e30ccbca9620b007798.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-4bb889d9ab08251e44454187f55b4f2d03a7a87437673ab12baf5241e64435fe.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 12:58:15 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 12:59:01 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (168.7ms)
+Completed 200 OK in 195ms (Views: 191.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/posts/feed.self-ac17685033faad4e0fb5f6a48266f389699c67a3981cf23e3b21818adb17ef7b.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-1ea0d99f8abb9e6d1a3daf369525a5598b932d1ef1af1bcacabda1929ac35bed.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 12:59:02 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (64.7ms)
+Completed 200 OK in 100ms (Views: 96.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/posts/feed.self-ac17685033faad4e0fb5f6a48266f389699c67a3981cf23e3b21818adb17ef7b.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-1ea0d99f8abb9e6d1a3daf369525a5598b932d1ef1af1bcacabda1929ac35bed.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 12:59:13 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "qvNr5AfLNP_O_Tqtc5Uqrg"]]
+  Rendered static_pages/index.html.erb within layouts/application (155.8ms)
+Completed 200 OK in 180ms (Views: 176.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-abeb75e9506db873dc3e8c188ab45dc280ee2b9770867065155322930e051039.css?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/posts/feed.self-6e6028d5ceaea7c86040a8bce20ece86a7ae5bdc650fcc3a4c526a2472aac5f4.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/posts/form.self-80704e2d8334e9feee42f6475684815f59e22618b7643204e1f50f10fa92c8fa.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-1ea0d99f8abb9e6d1a3daf369525a5598b932d1ef1af1bcacabda1929ac35bed.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/views/posts/form.self-77188ef7b4952d5b8bea35d4f1a520652878813e3ef1bf58fb086225c993ee98.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-12 12:59:57 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.3ms)
