@@ -7,9 +7,12 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
+names = ['Jamie Lannister', 'Tyrion Lannister', 'Rob Start', 'Tywin Lannister', 'John Snow']
+
+
 5.times do |n|
-  username = "user#{n}"
-  email = "#{username}@example.com"
+  username = Faker::Internet.user_name(names[n], %w(. _ -))
+  email = "#{username}@westeros.com"
   password = "password"
 
   User.create!(username: username,
@@ -19,8 +22,12 @@
   )
 end
 
+User.create(username: 'johnnyfive', email: 'johnny@five.com', password: 'password');
+
 User.all.each do |user|
   5.times do |n|
-    user.posts.create!(body: "body #{n}", image_url: "www.google.com")
+    user.posts.create!(body: Faker::Hacker.say_something_smart,
+                       image_url: Faker::Avatar.image(SecureRandom.urlsafe_base64(8), "500x500")
+                       )
   end
 end

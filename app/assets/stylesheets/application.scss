@@ -3,14 +3,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-// @font-face {
-//  font-family: 'billbong';
-//  src: url(font_path('Billabong.eot'));
-//  src: url(font_path('Billabong.ttf')) format('truetype');
-//  font-weight: normal;
-//  font-style: normal;
-// }
-
 @font-face {
     font-family: 'billabong';
     src: font-url('billabong-webfont.eot');
@@ -24,14 +16,6 @@
     font-size: 200%;
 }
 
-.home-link {
-  font-size: 200%;
-}
-
-.feed-stream {
-  padding: 0px 15px;
-  background-color: #CCC;
-}
 
 .billabong{
  font-family:'billabong';
@@ -45,8 +29,80 @@
   // top: calc(50vh - 125px);
 }
 
+body {
+  position: relative;
+  background-color: #F0F0F0;
+}
+
+.feed-stream {
+  padding: 0px 15px;
+  background-color: #CCC;
+}
+
+.flash-message {
+  padding-left: 0px;
+}
+
+.home-link {
+  font-size: 200%;
+}
+
 .maxwidth {
   width: 100%;
+}
+
+.m-backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 20;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+
+}
+
+.m-content {
+  position: fixed;
+  right: calc(50% - 350px);
+  width: 700px;
+  height: 500px;
+  background-color: #FFF;
+  border-radius: 5px;
+  z-index: 50;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  padding: 50px;
+}
+
+.outerDiv {
+  height: 100%;
+}
+
+.compose-post {
+  position: fixed;
+  right: calc(50% - 500px);
+}
+
+.post {
+  min-height: 600px;
+  min-width: 30%;
+  border: 1px solid black;
+  background-color: #FFF;
+}
+
+.post-form {
+
+}
+
+.post-image {
+  border: 1px solid black;
+  height: 500px;
+}
+
+.post-body {
+  border: 1px solid black;
+  height: 100px;
 }
 
 .spacer {
@@ -60,34 +116,4 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  // position: absolute;
-}
-
-.outerDiv {
-  height: 100%;
-}
-
-.post {
-  min-height: 600px;
-  border: 1px solid black;
-  background-color: #FFF;
-}
-
-.post-image {
-  border: 1px solid black;
-  height: 500px;
-}
-
-.post-body {
-  border: 1px solid black;
-  height: 100px;
-}
-
-body {
-  background-color: #F0F0F0;
-}
-
-.flash-message {
-  padding-left: 0px;
 }

@@ -31,6 +31,7 @@ gem 'bootstrap-sass'
 gem 'backbone-on-rails'
 
 
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -51,6 +52,7 @@ group :development, :test do
 
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'faker'
 
 end
 
