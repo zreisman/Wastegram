@@ -9,6 +9,32 @@ class User < ActiveRecord::Base
     primary_key: :id
   )
 
+  has_many(
+    :follows,
+    class_name: 'Follow',
+    foreign_key: :follower_id,
+    primary_key: :id
+  )
+
+  has_many(
+    :followings,
+    class_name: 'Follow',
+    foreign_key: :followed_id,
+    primary_key: :id
+  )
+
+  has_many(
+    :followed,
+    through: :follows,
+    source: :followed
+  )
+
+  has_many(
+    :followers,
+    through: :followings,
+    source: :follower
+  )
+
   after_initialize :ensure_session_token, :ensure_activation_token
 
   attr_reader :password

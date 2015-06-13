@@ -37,6 +37,7 @@ body {
 .feed-stream {
   padding: 0px 15px;
   background-color: #CCC;
+  top: 69px;
 }
 
 .flash-message {
@@ -75,6 +76,16 @@ body {
   padding: 50px;
 }
 
+.navbar {
+  position: fixed;
+  z-index: 50;
+  background-color: #006699;
+  height: 70px;
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 0px;
+}
+
 .outerDiv {
   height: 100%;
 }
@@ -92,9 +103,11 @@ body {
 }
 
 .post-form-cont {
-  float: right;
+  position: fixed;
   margin: 0 50px;
-
+  top: 20%;
+  z-index: 500;
+  right: 15%;
 }
 
 .post-image {
@@ -117,6 +130,11 @@ body {
 .spacer {
   min-height: 20%;
   height: 200px;
+}
+
+.nav-title {
+  position: absolute;
+  right: calc(50% - 55px);
 }
 
 .vert-align {

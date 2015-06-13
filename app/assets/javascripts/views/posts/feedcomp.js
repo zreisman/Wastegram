@@ -11,6 +11,8 @@ Hastigram.Views.FeedCompView = Backbone.CompositeView.extend({
     this.model = new Hastigram.Models.Post();
     var formView = new Hastigram.Views.PostForm({ model: this.model });
     this.addSubview('.post-form-cont', formView );
+    var navBarView = new Hastigram.Views.Navbar();
+    this.addSubview('.navbar', navBarView);
   },
 
   events: {
@@ -21,10 +23,6 @@ Hastigram.Views.FeedCompView = Backbone.CompositeView.extend({
     var postItem = new Hastigram.Views.PostItem({ model: post });
     this.addSubview(".feed-stream", postItem, true);
   },
-
-  // refreshFormSubview: function(post) {
-  //   this.addSubview('.post-form', formView);
-  // },
 
   render: function() {
     this.$el.html(this.template());
