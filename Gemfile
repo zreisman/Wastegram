@@ -30,6 +30,10 @@ gem 'bootstrap-sass'
 
 gem 'backbone-on-rails'
 
+gem 'cloudinary'
+
+gem 'figaro'
+
 
 
 # Use Unicorn as the app server

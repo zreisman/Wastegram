@@ -85,13 +85,13 @@ body {
 }
 
 .post {
-  min-height: 600px;
-  min-width: 30%;
+  // min-height: 600px;
+  // min-width: 30%;
   border: 1px solid black;
   background-color: #FFF;
 }
 
-.post-form {
+.post-form-cont {
   float: right;
   margin: 0 50px;
 
@@ -99,12 +99,19 @@ body {
 
 .post-image {
   border: 1px solid black;
-  height: 500px;
+}
+
+.post-image img {
+  width: 100%;
 }
 
 .post-body {
   border: 1px solid black;
   height: 100px;
+}
+
+.widget .powered_by_cloudinary.active {
+  display: none !important;
 }
 
 .spacer {

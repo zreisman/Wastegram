@@ -10,7 +10,7 @@ Hastigram.Views.FeedCompView = Backbone.CompositeView.extend({
     });
     this.model = new Hastigram.Models.Post();
     var formView = new Hastigram.Views.PostForm({ model: this.model });
-    this.addSubview('.post-form', formView );
+    this.addSubview('.post-form-cont', formView );
   },
 
   events: {

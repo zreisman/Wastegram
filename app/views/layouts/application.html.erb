@@ -3,8 +3,21 @@
 <head>
   <title>Hastigram</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
-  
+  <script src="http://widget.cloudinary.com/global/all.js"
+          type="text/javascript" charset="utf-8"></script>
 
+  <script type="text/javascript" charset="utf-8">
+    window.CLOUDINARY_OPTIONS = {
+      cloud_name: "<%= ENV['CLOUD_NAME']%>",
+      upload_preset: "<%= ENV['UPLOAD_PRESET'] %>",
+      cropping: 'server',
+      theme: 'white',
+      form: '.post-form',
+      field: 'post[image]',
+      show_powered_by: false
+
+    };
+  </script>
   <%= csrf_meta_tags %>
 </head>
 <body>
