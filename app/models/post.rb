@@ -8,6 +8,13 @@ class Post < ActiveRecord::Base
     primary_key: :id
   )
 
+  has_one(
+    :image,
+    class_name: 'Image',
+    foreign_key: :owner_id,
+    primary_key: :id
+  )
+
 
 
 end

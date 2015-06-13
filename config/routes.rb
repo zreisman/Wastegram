@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   match '/activate/:activation_token', :to => 'sessions#activate', via: :get
   namespace :api do
     resources :posts
+    match '/usersearch', :to => 'users#search', via: :post
   end
 end

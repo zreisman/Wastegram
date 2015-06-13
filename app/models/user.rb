@@ -35,6 +35,13 @@ class User < ActiveRecord::Base
     source: :follower
   )
 
+  has_one(
+    :profile_picture,
+    class_name: 'Image',
+    foreign_key: :owner_id,
+    primary_key: :id
+  )
+
   after_initialize :ensure_session_token, :ensure_activation_token
 
   attr_reader :password
