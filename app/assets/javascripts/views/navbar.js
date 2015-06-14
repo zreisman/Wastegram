@@ -1,12 +1,18 @@
 Hastigram.Views.Navbar = Backbone.View.extend({
 
   events: {
-    'keyup .user-search-input': 'search'
+    'keyup .user-search-input': 'search',
+    'focusout .user-search-input': 'clearSearch'
+
   },
 
   render: function() {
     this.$el.html(this.template());
     return this;
+  },
+
+  clearSearch: function() {
+    $('.search-results').html('');
   },
 
   search: function() {
@@ -18,13 +24,14 @@ Hastigram.Views.Navbar = Backbone.View.extend({
         url : "/api/usersearch",
         type: "POST",
         data : searchCrit,
-        success: function(data, textStatus, jqXHR)
-        {
-          var $list = $('<ul>');
+        success: function(data, textStatus, jqXHR) {
+          var $results = $('.search-results');
+          $results.html('');
           for(var i = 0; i < data.length; i++) {
-            $list.append($('<li>').html(data[i].username));
+            $results.append($('<div>')
+              .addClass('search-result-item')
+              .html(data[i].username));
           }
-          $('.search-results').html($list);
         },
         error: function (jqXHR, textStatus, errorThrown)
         {

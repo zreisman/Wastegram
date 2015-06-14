@@ -61803,3 +61803,2177 @@ Processing by Api::UsersController#search as */*
   [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
   Rendered api/users/search.json.jbuilder (1.6ms)
 Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:23:58 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (1.2ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.9ms)
+Completed 200 OK in 10ms (Views: 5.9ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:13 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"f"}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%f%')[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%f%')
+  Rendered api/users/search.json.jbuilder (1.0ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:15 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.8ms)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:18 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"t"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%t%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%t%')
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:18 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"th"}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%th%')[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%th%')
+  Rendered api/users/search.json.jbuilder (2.5ms)
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:18 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"the"}
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%the%')[0m
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%the%')
+  Rendered api/users/search.json.jbuilder (1.8ms)
+Completed 200 OK in 9ms (Views: 5.0ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:19 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"thei"}
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%thei%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%thei%')
+  Rendered api/users/search.json.jbuilder (1.9ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"theim"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%theim%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%theim%')
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"theimp"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%theimp%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%theimp%')
+  Rendered api/users/search.json.jbuilder (1.5ms)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:21 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"theim"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%theim%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%theim%')
+  Rendered api/users/search.json.jbuilder (1.2ms)
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:21 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"thei"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%thei%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%thei%')
+  Rendered api/users/search.json.jbuilder (1.5ms)
+Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:21 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"the"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%the%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%the%')
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:21 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"th"}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%th%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%th%')
+  Rendered api/users/search.json.jbuilder (1.2ms)
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:21 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"t"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%t%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%t%')
+  Rendered api/users/search.json.jbuilder (1.6ms)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:21 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (2.0ms)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:37 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (1.5ms)
+Completed 200 OK in 10ms (Views: 6.2ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:44 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ki"}
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ki%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%ki%')
+  Rendered api/users/search.json.jbuilder (1.3ms)
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:46 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:46 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.8ms)
+Completed 200 OK in 8ms (Views: 4.8ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:47 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"s"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%s%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%s%')
+  Rendered api/users/search.json.jbuilder (1.9ms)
+Completed 200 OK in 13ms (Views: 9.8ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:47 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"sl"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%sl%')[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%sl%')
+  Rendered api/users/search.json.jbuilder (1.0ms)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:48 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"s"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%s%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%s%')
+  Rendered api/users/search.json.jbuilder (1.6ms)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:49 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"sl"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%sl%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%sl%')
+  Rendered api/users/search.json.jbuilder (1.2ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:51 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"sla"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%sla%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%sla%')
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:51 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"sl"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%sl%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%sl%')
+  Rendered api/users/search.json.jbuilder (1.3ms)
+Completed 200 OK in 11ms (Views: 7.4ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:51 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"s"}
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%s%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%s%')
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:24:53 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.8ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:30:38 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (1.3ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (3.7ms)
+Completed 200 OK in 12ms (Views: 7.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/?search=" for 127.0.0.1 at 2015-06-13 17:30:40 -0700
+Processing by StaticPagesController#index as HTML
+  Parameters: {"search"=>""}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "E6N3M3a3vMa_4S-0ugTP0w"]]
+  Rendered static_pages/index.html.erb within layouts/application (223.2ms)
+Completed 200 OK in 249ms (Views: 245.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-a04cb710e229f8748ee4f4b5c0d5faf7b43d717452dbc21fec22c7fc3359a512.css?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/navbar.self-8aff4a47538ef5b52eef836ddf637a000cb0e6a82c80ebccb2b7d2299ce023bb.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/posts/feed.self-a8708777feaf41221f98d131a965d72b56acff8d4c3f0faf412bf48cfb0bcc90.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/posts/form.self-a707d0f1d02f561115b3b1d0e3195f6e898a63b50467d7b88cdf59087a55078f.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/collections/users.self-9dc3dbe3538944c2b1e0dcffcd752cc69a9ee91679cb02c5b9c909cd0bcd439a.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/views/navbar.self-4faeb9c9679563ea7aadc27e36ee6de44e3077a0ca31f4572248acf547249891.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0e334168a0eba1f2257305ce38c5318d83af27ec030842434ef0bfd4de9264.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/views/posts/form.self-f05f9a5c0379680dedc6e7227bb222cef6a3a4da4f502208b18248748355d9e5.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/api/follows.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-13 17:30:41 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-13 17:30:42 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-13 17:30:42 -0700
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:30:45 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (1.5ms)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/?search=" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+Processing by StaticPagesController#index as HTML
+  Parameters: {"search"=>""}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "E6N3M3a3vMa_4S-0ugTP0w"]]
+  Rendered static_pages/index.html.erb within layouts/application (186.4ms)
+Completed 200 OK in 212ms (Views: 208.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-a04cb710e229f8748ee4f4b5c0d5faf7b43d717452dbc21fec22c7fc3359a512.css?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/navbar.self-8aff4a47538ef5b52eef836ddf637a000cb0e6a82c80ebccb2b7d2299ce023bb.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/posts/feed.self-a8708777feaf41221f98d131a965d72b56acff8d4c3f0faf412bf48cfb0bcc90.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/posts/form.self-a707d0f1d02f561115b3b1d0e3195f6e898a63b50467d7b88cdf59087a55078f.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/collections/users.self-9dc3dbe3538944c2b1e0dcffcd752cc69a9ee91679cb02c5b9c909cd0bcd439a.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/views/navbar.self-9fd72e248736c26a11598f03ed01c4178b5f3f302ad612f77d88cc10a7311d33.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0e334168a0eba1f2257305ce38c5318d83af27ec030842434ef0bfd4de9264.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/views/posts/form.self-f05f9a5c0379680dedc6e7227bb222cef6a3a4da4f502208b18248748355d9e5.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/api/follows.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-13 17:31:36 -0700
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:31:55 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (1.3ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:12 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (2.1ms)
+Completed 200 OK in 13ms (Views: 9.7ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:18 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (1.6ms)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:19 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ki"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ki%')[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%ki%')
+  Rendered api/users/search.json.jbuilder (1.6ms)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:19 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kin"}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kin%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%kin%')
+  Rendered api/users/search.json.jbuilder (1.5ms)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"king"}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%king%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%king%')
+  Rendered api/users/search.json.jbuilder (1.6ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskd"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskd%')[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdj"}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdj%')
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjf"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjf%')[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjf"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjf%')
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjf"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjf%')[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjf"}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjf%')
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjfslj"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjfslj%')[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjfslj"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjfslj%')
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjfsljf"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjfsljf%')[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjfsljf"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjfsljf%')
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjfsljfsf"}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjfsljfsf%')[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:20 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjfsljfsf"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjfsljfsf%')
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:21 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjfsljfsfs"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjfsljfsfs%')[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:21 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kinglskdjfsljfsf"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kinglskdjfsljfsf%')
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:22 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (1.3ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:23 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.5ms)
+Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:39 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (3.5ms)
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/?search=" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+Processing by StaticPagesController#index as HTML
+  Parameters: {"search"=>""}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "E6N3M3a3vMa_4S-0ugTP0w"]]
+  Rendered static_pages/index.html.erb within layouts/application (233.1ms)
+Completed 200 OK in 258ms (Views: 254.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-a04cb710e229f8748ee4f4b5c0d5faf7b43d717452dbc21fec22c7fc3359a512.css?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/navbar.self-8aff4a47538ef5b52eef836ddf637a000cb0e6a82c80ebccb2b7d2299ce023bb.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/posts/feed.self-a8708777feaf41221f98d131a965d72b56acff8d4c3f0faf412bf48cfb0bcc90.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/posts/form.self-a707d0f1d02f561115b3b1d0e3195f6e898a63b50467d7b88cdf59087a55078f.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:41 -0700
+
+
+Started GET "/assets/collections/users.self-9dc3dbe3538944c2b1e0dcffcd752cc69a9ee91679cb02c5b9c909cd0bcd439a.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/views/navbar.self-6735cb537a5c9b40cfc866f9e3f465ffd24c04544afcc312b75559f855cc7d62.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0e334168a0eba1f2257305ce38c5318d83af27ec030842434ef0bfd4de9264.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/views/posts/form.self-f05f9a5c0379680dedc6e7227bb222cef6a3a4da4f502208b18248748355d9e5.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/api/follows.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-13 17:32:42 -0700
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:44 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:45 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (2.3ms)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:47 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"l"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%l%')[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%l%')
+  Rendered api/users/search.json.jbuilder (2.2ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:51 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:53 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (1.8ms)
+Completed 200 OK in 10ms (Views: 7.0ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:54 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ki"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ki%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%ki%')
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:54 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kin"}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kin%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%kin%')
+  Rendered api/users/search.json.jbuilder (1.2ms)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:55 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ki"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ki%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%ki%')
+  Rendered api/users/search.json.jbuilder (1.3ms)
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:55 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:55 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (2.6ms)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:57 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"i"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%i%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%i%')
+  Rendered api/users/search.json.jbuilder (1.3ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:57 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"im"}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%im%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%im%')
+  Rendered api/users/search.json.jbuilder (1.2ms)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:57 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"imp"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%imp%')[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%imp%')
+  Rendered api/users/search.json.jbuilder (0.9ms)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:58 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"im"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%im%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%im%')
+  Rendered api/users/search.json.jbuilder (1.2ms)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:58 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"i"}
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%i%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%i%')
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:58 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:32:58 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (0.9ms)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:33:55 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (3.2ms)
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/?search=" for 127.0.0.1 at 2015-06-13 17:33:57 -0700
+Processing by StaticPagesController#index as HTML
+  Parameters: {"search"=>""}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "E6N3M3a3vMa_4S-0ugTP0w"]]
+  Rendered static_pages/index.html.erb within layouts/application (78.3ms)
+Completed 200 OK in 1683ms (Views: 1679.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-5de69cb0c22d62c94ef86b2d90b33201787c58a08208312f6d04efc4a38b110f.css?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/navbar.self-8aff4a47538ef5b52eef836ddf637a000cb0e6a82c80ebccb2b7d2299ce023bb.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/posts/feed.self-a8708777feaf41221f98d131a965d72b56acff8d4c3f0faf412bf48cfb0bcc90.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/posts/form.self-a707d0f1d02f561115b3b1d0e3195f6e898a63b50467d7b88cdf59087a55078f.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/collections/users.self-9dc3dbe3538944c2b1e0dcffcd752cc69a9ee91679cb02c5b9c909cd0bcd439a.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/views/navbar.self-6735cb537a5c9b40cfc866f9e3f465ffd24c04544afcc312b75559f855cc7d62.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0e334168a0eba1f2257305ce38c5318d83af27ec030842434ef0bfd4de9264.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/views/posts/form.self-f05f9a5c0379680dedc6e7227bb222cef6a3a4da4f502208b18248748355d9e5.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/api/follows.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[35mPost Load (0.6ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-13 17:33:59 -0700
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:14 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"j"}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%j%')[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:16 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jh"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jh%')
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:17 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jhkl"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jhkl%')[0m
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:17 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jhkl"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jhkl%')
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:19 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jhk"}
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jhk%')[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:19 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jh"}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jh%')
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:19 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"j"}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%j%')[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:19 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:19 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:21 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"j"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%j%')
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:22 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.5ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:23 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.6ms)
+Completed 200 OK in 7ms (Views: 4.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:37:59 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (3.0ms)
+Completed 200 OK in 11ms (Views: 7.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/?search=" for 127.0.0.1 at 2015-06-13 17:38:01 -0700
+Processing by StaticPagesController#index as HTML
+  Parameters: {"search"=>""}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "E6N3M3a3vMa_4S-0ugTP0w"]]
+  Rendered static_pages/index.html.erb within layouts/application (83.6ms)
+Completed 200 OK in 115ms (Views: 111.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-a04cb710e229f8748ee4f4b5c0d5faf7b43d717452dbc21fec22c7fc3359a512.css?body=1" for 127.0.0.1 at 2015-06-13 17:38:01 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:01 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:01 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:01 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:01 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:01 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/navbar.self-8aff4a47538ef5b52eef836ddf637a000cb0e6a82c80ebccb2b7d2299ce023bb.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/posts/feed.self-a8708777feaf41221f98d131a965d72b56acff8d4c3f0faf412bf48cfb0bcc90.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/posts/form.self-a707d0f1d02f561115b3b1d0e3195f6e898a63b50467d7b88cdf59087a55078f.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/collections/users.self-9dc3dbe3538944c2b1e0dcffcd752cc69a9ee91679cb02c5b9c909cd0bcd439a.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/views/navbar.self-6735cb537a5c9b40cfc866f9e3f465ffd24c04544afcc312b75559f855cc7d62.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0e334168a0eba1f2257305ce38c5318d83af27ec030842434ef0bfd4de9264.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/views/posts/form.self-f05f9a5c0379680dedc6e7227bb222cef6a3a4da4f502208b18248748355d9e5.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/api/follows.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-13 17:38:02 -0700
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:04 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"j"}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%j%')[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:05 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jl"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jl%')
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:05 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jllj"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jllj%')[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:05 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jllj"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jllj%')
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:06 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jlljj"}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jlljj%')[0m
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:07 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jlljjh"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jlljjh%')
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:08 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jlljj"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jlljj%')[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:08 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jllj"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jllj%')
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:08 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jll"}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jll%')[0m
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:09 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jl"}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jl%')
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:09 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"j"}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%j%')[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:09 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (1.9ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:10 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"j"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%j%')
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:11 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jk"}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jk%')[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:12 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"j"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%j%')
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:12 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.3ms)
+Completed 200 OK in 7ms (Views: 4.2ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:12 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (2.0ms)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:13 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.5ms)
+Completed 200 OK in 9ms (Views: 5.4ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:13 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 7ms (Views: 4.5ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:14 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"j"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%j%')[0m
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:14 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jj"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jj%')
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:14 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jjh"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jjh%')[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:15 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"jj"}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%jj%')
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:15 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"j"}
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%j%')[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:15 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (1.9ms)
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:15 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%k%')[0m
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:15 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ki"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ki%')
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%ki%')[0m
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:16 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kin"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kin%')
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%kin%')[0m
+  Rendered api/users/search.json.jbuilder (1.1ms)
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:17 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ki"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ki%')
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%ki%')[0m
+  Rendered api/users/search.json.jbuilder (1.2ms)
+Completed 200 OK in 12ms (Views: 8.2ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:17 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%k%')[0m
+  Rendered api/users/search.json.jbuilder (1.6ms)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:38:17 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/posts" for 127.0.0.1 at 2015-06-13 17:39:12 -0700
+Processing by Api::PostsController#create as JSON
+  Parameters: {"post"=>{"body"=>"lskjdfdf", "public_id"=>"yahkp1ebbdkcyezoisqp", "format"=>"jpg", "image_url"=>"http://res.cloudinary.com/dvd7awvbl/image/upload/w_600/yahkp1ebbdkcyezoisqp.jpg"}}
+Unpermitted parameters: public_id, format
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "E6N3M3a3vMa_4S-0ugTP0w"]]
+  [1m[36m (1.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.6ms)[0m  INSERT INTO "posts" ("image_url", "body", "author_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["image_url", "http://res.cloudinary.com/dvd7awvbl/image/upload/w_600/yahkp1ebbdkcyezoisqp.jpg"], ["body", "lskjdfdf"], ["author_id", 1], ["created_at", "2015-06-14 00:39:12.126364"], ["updated_at", "2015-06-14 00:39:12.126364"]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 41ms (Views: 0.8ms | ActiveRecord: 13.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:41:39 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"j"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%j%')
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:41:41 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 9ms (Views: 5.3ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:42:04 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 11ms (Views: 7.2ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:42:44 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 8ms (Views: 4.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/?search=" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+Processing by StaticPagesController#index as HTML
+  Parameters: {"search"=>""}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "E6N3M3a3vMa_4S-0ugTP0w"]]
+  Rendered static_pages/index.html.erb within layouts/application (198.6ms)
+Completed 200 OK in 223ms (Views: 221.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/application.self-a04cb710e229f8748ee4f4b5c0d5faf7b43d717452dbc21fec22c7fc3359a512.css?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/navbar.self-8aff4a47538ef5b52eef836ddf637a000cb0e6a82c80ebccb2b7d2299ce023bb.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/posts/feed.self-a8708777feaf41221f98d131a965d72b56acff8d4c3f0faf412bf48cfb0bcc90.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/posts/form.self-a707d0f1d02f561115b3b1d0e3195f6e898a63b50467d7b88cdf59087a55078f.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/collections/users.self-9dc3dbe3538944c2b1e0dcffcd752cc69a9ee91679cb02c5b9c909cd0bcd439a.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/views/navbar.self-4fd8bade27d6e0eb55e32e6986976611bb268c70fe2b7489a4de777329e963dc.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0e334168a0eba1f2257305ce38c5318d83af27ec030842434ef0bfd4de9264.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/views/posts/form.self-f05f9a5c0379680dedc6e7227bb222cef6a3a4da4f502208b18248748355d9e5.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:28 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:29 -0700
+
+
+Started GET "/assets/api/follows.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:29 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:29 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:29 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:29 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:29 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:29 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-13 17:45:29 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/?search=" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+Processing by StaticPagesController#index as HTML
+  Parameters: {"search"=>""}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1[0m  [["session_token", "E6N3M3a3vMa_4S-0ugTP0w"]]
+  Rendered static_pages/index.html.erb within layouts/application (192.7ms)
+Completed 200 OK in 217ms (Views: 215.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-a04cb710e229f8748ee4f4b5c0d5faf7b43d717452dbc21fec22c7fc3359a512.css?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/navbar.self-8aff4a47538ef5b52eef836ddf637a000cb0e6a82c80ebccb2b7d2299ce023bb.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/posts/feed.self-a8708777feaf41221f98d131a965d72b56acff8d4c3f0faf412bf48cfb0bcc90.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/posts/form.self-a707d0f1d02f561115b3b1d0e3195f6e898a63b50467d7b88cdf59087a55078f.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/collections/users.self-9dc3dbe3538944c2b1e0dcffcd752cc69a9ee91679cb02c5b9c909cd0bcd439a.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/views/navbar.self-7a3295a68db43535a5f85ddc77598575601f199a6e775761db231086e1888e06.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0e334168a0eba1f2257305ce38c5318d83af27ec030842434ef0bfd4de9264.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/views/posts/form.self-f05f9a5c0379680dedc6e7227bb222cef6a3a4da4f502208b18248748355d9e5.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/api/follows.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-13 17:45:48 -0700
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:45:51 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (2.3ms)
+Completed 200 OK in 13ms (Views: 9.6ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:45:53 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%%')
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:45:59 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE (username ILIKE '%k%')
+  Rendered api/users/search.json.jbuilder (1.3ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:46:00 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kn"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kn%')[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:46:00 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kng"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kng%')
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:46:01 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kn"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kn%')[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:46:01 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%k%')[0m
+  Rendered api/users/search.json.jbuilder (1.6ms)
+Completed 200 OK in 10ms (Views: 6.2ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:46:02 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ki"}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ki%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%ki%')[0m
+  Rendered api/users/search.json.jbuilder (1.3ms)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:46:02 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kin"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kin%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%kin%')[0m
+  Rendered api/users/search.json.jbuilder (1.6ms)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:46:02 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"king"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%king%')
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%king%')[0m
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:46:05 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kin"}
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kin%')
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%kin%')[0m
+  Rendered api/users/search.json.jbuilder (1.8ms)
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:46:05 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ki"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ki%')
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%ki%')[0m
+  Rendered api/users/search.json.jbuilder (1.1ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:46:06 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%k%')[0m
+  Rendered api/users/search.json.jbuilder (1.6ms)
+Completed 200 OK in 11ms (Views: 7.4ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:46:06 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (1.9ms)
+Completed 200 OK in 6ms (Views: 3.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/?search=" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+Processing by StaticPagesController#index as HTML
+  Parameters: {"search"=>""}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "E6N3M3a3vMa_4S-0ugTP0w"]]
+  Rendered static_pages/index.html.erb within layouts/application (182.4ms)
+Completed 200 OK in 210ms (Views: 206.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-a04cb710e229f8748ee4f4b5c0d5faf7b43d717452dbc21fec22c7fc3359a512.css?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/underscore.self-4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/utils/composite_view.self-aedacb61e42feeaf38ca5fc32cd9be9ffd955d10a8c40cac7fd72f24276d1722.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/backbone.self-4ac1c9ebee6ebcd1614a8f92d41cb270e61e0b8f61c804c0d1b26fda4b889824.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/jquery.serializejson.self-c480e85ec7f2b02efd59ab693b310ece9aaac9ce35b2b7f9fc817a27d5ee0a79.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/hastigram.self-6dab5c6d2211c433575c1a3b1c22f223e192d7a37cd6b7259aa3f2269678afab.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/navbar.self-8aff4a47538ef5b52eef836ddf637a000cb0e6a82c80ebccb2b7d2299ce023bb.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/posts/backdrop.self-78fed28fc8217c48d607171c38803343c4a18e218bfd0f15dd7506b7f0ccaf76.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/posts/feed.self-a8708777feaf41221f98d131a965d72b56acff8d4c3f0faf412bf48cfb0bcc90.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/posts/form.self-a707d0f1d02f561115b3b1d0e3195f6e898a63b50467d7b88cdf59087a55078f.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/posts/item.self-247607d6ffc59cf39eb6bee44ceeea72c550752fc4e9c64b98d3f660090aee44.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/models/post.self-7cb33d2d1efe6e7298b88aaffa14f677583db4ed51b91ceb27f9a34c2b7e2f83.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/collections/posts.self-7e338436d71b2076ff609096fc182778fb49c7001f4c46281765f679f88de3ec.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/collections/users.self-9dc3dbe3538944c2b1e0dcffcd752cc69a9ee91679cb02c5b9c909cd0bcd439a.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/views/navbar.self-68913180dc008db200a5ef9b58eaa5a11b227436bff3402abb8254e57bd1355c.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/views/posts/backdrop.self-095eb5ec1edeef49ebf408822f758bf455c0c68cf7fac1890622360965dd240a.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/views/posts/feed.self-d4396a987d90a331598404a28fa65a6699a57bf4dc77741ef46f4450a6523457.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/views/posts/feedcomp.self-0e0e334168a0eba1f2257305ce38c5318d83af27ec030842434ef0bfd4de9264.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/views/posts/form.self-f05f9a5c0379680dedc6e7227bb222cef6a3a4da4f502208b18248748355d9e5.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/views/posts/item.self-8c5a3ff3d98a0b2954a96f548eb7aca96c5a8ffd0efbc70a1e42ae49cd85f1b0.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/routers/router.self-4e405bb4a1c7427012fed1e525e72c055d5d8f0e9787bbbea637cffcc26c1b37.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/api/follows.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/api/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:42 -0700
+
+
+Started GET "/assets/application.self-55d2f88127dcaaa99d5c6a5261f9015880991431c520781213525a199c900f0d.js?body=1" for 127.0.0.1 at 2015-06-13 17:47:43 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-13 17:47:43 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/billabong-webfont-9ae5ebd98b51bf176698f0d29a7bbaa44e70af4a2e2a575996f185d2f8186029.woff2" for 127.0.0.1 at 2015-06-13 17:47:43 -0700
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:47:44 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%k%')[0m
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:47:45 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (2.0ms)
+Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:55 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kj"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kj%')
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:55 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kj"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kj%')[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:56 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kjf"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kjf%')
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:56 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"kj"}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%kj%')[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:56 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%k%')[0m
+  Rendered api/users/search.json.jbuilder (1.8ms)
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:56 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (2.2ms)
+Completed 200 OK in 8ms (Views: 5.3ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:57 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%k%')[0m
+  Rendered api/users/search.json.jbuilder (1.6ms)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:58 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 9ms (Views: 5.6ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:58 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ds"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ds%')
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:59 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ds"}
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ds%')[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:59 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"dsf"}
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%dsf%')
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:59 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ds"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ds%')[0m
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:59 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"d"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%d%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%d%')[0m
+  Rendered api/users/search.json.jbuilder (1.8ms)
+Completed 200 OK in 13ms (Views: 9.8ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:59 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (1.5ms)
+Completed 200 OK in 11ms (Views: 8.0ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:48:59 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"as"}
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%as%')
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:49:00 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"asf"}
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%asf%')[0m
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:49:00 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"asf"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%asf%')
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:49:00 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"as"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "users" WHERE (username ILIKE '%as%')[0m
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:49:00 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"a"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%a%')
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%a%')[0m
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 17:49:00 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-06-13 18:15:53 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (3.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT 1  [["session_token", "E6N3M3a3vMa_4S-0ugTP0w"]]
+  Rendered static_pages/index.html.erb within layouts/application (362.5ms)
+Completed 200 OK in 484ms (Views: 430.8ms | ActiveRecord: 15.4ms)
+
+
+Started GET "/assets/views/navbar.self-b2850713bee72dbce69df00440d3619fa3f561b293d7a5c8ddabc2402dbfb2dd.js?body=1" for 127.0.0.1 at 2015-06-13 18:15:53 -0700
+
+
+Started GET "/api/posts" for 127.0.0.1 at 2015-06-13 18:15:54 -0700
+Processing by Api::PostsController#index as JSON
+  [1m[36mPost Load (2.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Completed 200 OK in 24ms (Views: 15.3ms | ActiveRecord: 3.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 18:15:58 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[35m (1.4ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%k%')[0m
+  Rendered api/users/search.json.jbuilder (5.1ms)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 18:16:00 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"ki"}
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%ki%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%ki%')[0m
+  Rendered api/users/search.json.jbuilder (1.4ms)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 18:16:01 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>"k"}
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%k%')
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%k%')[0m
+  Rendered api/users/search.json.jbuilder (1.1ms)
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 18:16:02 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (1.7ms)
+Completed 200 OK in 11ms (Views: 7.4ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/api/usersearch" for 127.0.0.1 at 2015-06-13 18:16:02 -0700
+Processing by Api::UsersController#search as */*
+  Parameters: {"search"=>""}
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "users" WHERE (username ILIKE '%%')
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE (username ILIKE '%%')[0m
+  Rendered api/users/search.json.jbuilder (1.8ms)
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 1.2ms)
