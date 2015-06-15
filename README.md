@@ -11,9 +11,10 @@ to share pictures they haven't put enough thought into. Users can:
 - [x] Create accounts
 - [x] Create sessions (log in)
 - [x] Email validation
-- [ ] Create posts
-- [ ] Add images to posts
-- [ ] Follow Users
+- [x] Create posts
+- [x] Add images to posts
+- [x] Search Users
+- [x] Follow Users
 - [ ] Comment on posts
 - [ ] View posts and their comments
 - [ ] Like posts
