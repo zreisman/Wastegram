@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   namespace :api do
     resources :posts
     resources :follows, only: [:create, :destroy]
+    resources :comments, only: [:create]
     match '/usersearch', :to => 'users#search', via: :post
   end
 end
