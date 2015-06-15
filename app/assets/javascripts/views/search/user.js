@@ -1,12 +1,14 @@
 Hastigram.Views.UserSearch = Backbone.CompositeView.extend({
   events: {
     'keyup .user-search-input': 'search',
-    'click .follow': 'follow'
-    // 'focusout .user-search-input': 'clearSearch'
+    'click .follow': 'follow',
+    'focusout .user-search-input': 'clearSearch'
   },
 
   clearSearch: function() {
-    $('.search-results').html('');
+    setTimeout(function() {
+      $('.search-results').html('');
+    }, 100);
   },
 
   follow: function() {
