@@ -8,4 +8,11 @@ json.array!(@posts) do |post|
     json.username post.user.username
     # Add profile pic link
   end
+
+  json.comments do
+    json.array!(post.comments) do |comment|
+      json.body comment.body
+      json.username comment.author.username 
+    end
+  end
 end

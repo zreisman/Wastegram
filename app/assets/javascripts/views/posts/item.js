@@ -8,6 +8,11 @@ Hastigram.Views.PostItem = Backbone.CompositeView.extend({
     var poster = this.model.users().get(posterId);
     var userTagView = new Hastigram.Views.UserTag({ model: poster });
     this.addSubview('.post-usertag', userTagView);
+    var that = this;
+    this.model.comments().each(function(comment) {
+      var commentView = new Hastigram.Views.CommentItem({ model: comment });
+      that.addSubview('.post-comments', commentView);
+    });
   },
 
   render: function() {

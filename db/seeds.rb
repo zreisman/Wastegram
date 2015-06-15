@@ -16,7 +16,7 @@ end
 
 Post.all.each do |post|
   3.times do |n|
-    user_id = rand(User.all.length)
+    user_id = rand(User.all.length) + 1
     post.comments.create(body: Faker::Hacker.say_something_smart, author_id: user_id)
   end
 end
