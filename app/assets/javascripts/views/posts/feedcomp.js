@@ -1,6 +1,5 @@
 Hastigram.Views.FeedCompView = Backbone.CompositeView.extend({
   template: JST['posts/feed'],
-  className: 'feed-container',
   initialize: function() {
     this.listenTo(this.collection, 'add', this.addPostSubview);
     this.listenTo(this.collection, 'sync add', this.render);
