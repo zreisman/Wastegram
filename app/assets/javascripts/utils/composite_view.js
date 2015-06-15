@@ -1,6 +1,5 @@
 Backbone.CompositeView = Backbone.View.extend({
-  className: 'feed-stream col-md-4 col-md-offset-4',
-  
+
   addSubview: function (selector, subview, prepend) {
     if (prepend) {
       this.subviews(selector).unshift(subview);
