@@ -16,7 +16,8 @@ Hastigram.Views.PostItem = Backbone.CompositeView.extend({
   },
 
   render: function() {
-    this.$el.html( this.template({ post: this.model }) );
+    var user = this.model.users().get(this.model.get('author_id'));
+    this.$el.html( this.template({ post: this.model, user: user }) );
     this.attachSubviews();
 
     return this;
