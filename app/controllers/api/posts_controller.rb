@@ -13,7 +13,9 @@ class Api::PostsController < ApplicationController
   end
 
   def index
-    render :json => Post.all, status: 200
+    @posts = Post.all
+    render :index
+    # render :json => Post.all, status: 200
   end
 
   def show
