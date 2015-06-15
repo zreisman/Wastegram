@@ -12,7 +12,16 @@ json.array!(@posts) do |post|
   json.comments do
     json.array!(post.comments) do |comment|
       json.body comment.body
-      json.username comment.author.username 
+      json.username comment.author.username
+    end
+  end
+
+  json.likes do
+    json.total post.likers.length
+    json.likers do
+      json.array!(post.likers.take(5)) do |liker|
+        json.username liker.username
+      end
     end
   end
 end

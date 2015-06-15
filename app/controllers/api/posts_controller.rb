@@ -13,7 +13,7 @@ class Api::PostsController < ApplicationController
   end
 
   def index
-    @posts = Post.all.includes(:comments)
+    @posts = Post.all.includes(:likes, :likers, :user, comments: :author)
     render :index
     # render :json => Post.all, status: 200
   end
