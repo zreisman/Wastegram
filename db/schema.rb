@@ -11,10 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150613215902) do
+ActiveRecord::Schema.define(version: 20150615175734) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "comments", force: :cascade do |t|
+    t.string   "body",       null: false
+    t.integer  "author_id",  null: false
+    t.integer  "post_id",    null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_index "comments", ["author_id"], name: "index_comments_on_author_id", using: :btree
+  add_index "comments", ["post_id"], name: "index_comments_on_post_id", using: :btree
 
   create_table "follows", force: :cascade do |t|
     t.integer  "followed_id", null: false
@@ -27,9 +38,9 @@ ActiveRecord::Schema.define(version: 20150613215902) do
   add_index "follows", ["follower_id"], name: "index_follows_on_follower_id", using: :btree
 
   create_table "images", force: :cascade do |t|
-    t.string   "public_id",  null: false
-    t.string   "format",     null: false
     t.integer  "owner_id",   null: false
+    t.string   "image_url",  null: false
+    t.string   "thumb_url",  null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
