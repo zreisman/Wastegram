@@ -44,6 +44,10 @@ body {
   padding-left: 0px;
 }
 
+.follow {
+  float: right;
+}
+
 .home-link {
   font-size: 200%;
 }
@@ -125,6 +129,15 @@ body {
 
 .widget .powered_by_cloudinary.active {
   display: none !important;
+}
+
+.search-results {
+  width: 15%;
+}
+
+.search-result-item {
+  margin: 5px;
+  padding: 5px;
 }
 
 .spacer {
