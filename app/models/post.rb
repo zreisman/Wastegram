@@ -29,6 +29,12 @@ class Post < ActiveRecord::Base
     primary_key: :id
   )
 
+  has_many(
+    :likers,
+    through: :likes,
+    source: :liker
+  )
+
 
 
 end

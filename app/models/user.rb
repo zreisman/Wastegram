@@ -56,6 +56,12 @@ class User < ActiveRecord::Base
     primary_key: :id
   )
 
+  has_many(
+    :liked_posts,
+    through: :likes,
+    source: :post
+  )
+
   after_initialize :ensure_session_token, :ensure_activation_token
 
   attr_reader :password
