@@ -13,3 +13,10 @@ User.all.each do |user|
                        )
   end
 end
+
+Post.all.each do |post|
+  3.times do |n|
+    user_id = rand(User.all.length)
+    post.comments.create(body: Faker::Hacker.say_something_smart, author_id: user_id)
+  end
+end
