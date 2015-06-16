@@ -1,7 +1,7 @@
 Hastigram.Models.Post = Backbone.Model.extend({
   urlRoot: '/api/posts',
 
-  users: function () {
+  users: function () { // TODO: remove if deprecated
     if (!this._users) {
       this._users = new Hastigram.Collections.Users([], { post: this });
     }
@@ -24,7 +24,7 @@ Hastigram.Models.Post = Backbone.Model.extend({
 
   parse: function (response) {
     if (response.author) {
-      this.users().set(response.author);
+      this.users().set(response.author); // TODO: change to a User model, not a collection
       delete response.author;
     }
 

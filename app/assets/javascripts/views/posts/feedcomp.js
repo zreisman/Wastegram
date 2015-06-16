@@ -2,14 +2,16 @@ Hastigram.Views.FeedCompView = Backbone.CompositeView.extend({
   template: JST['posts/feed'],
   initialize: function() {
     this.listenTo(this.collection, 'add', this.addPostSubview);
-    this.listenTo(this.collection, 'sync add', this.render);
+    // this.listenTo(this.collection, 'sync add', this.render);
 
     this.collection.each(function(post) {
       this.addPostSubview(post);
     });
-    this.model = new Hastigram.Models.Post();
-    var formView = new Hastigram.Views.PostForm({ model: this.model });
+
+    // this.model = new Hastigram.Models.Post();
+    var formView = new Hastigram.Views.PostForm({ model: new Hastigram.Models.Post() });
     this.addSubview('.post-form-cont', formView );
+
     var navBarView = new Hastigram.Views.NavbarComp();
     this.addSubview('.navbar', navBarView);
   },

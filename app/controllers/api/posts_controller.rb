@@ -5,7 +5,7 @@ class Api::PostsController < ApplicationController
     @post = Post.new(post_params)
     @post.author_id = current_user.id
     if @post.save
-      render :show, status: 200
+      render :show#, status: 200
     else
       render nothing: true, status: 422
     end
@@ -39,6 +39,7 @@ class Api::PostsController < ApplicationController
 
   def update
     post = Post.find(params[:id])
+    # TODO: check that current_user owns the post (before_action)
     if post
       if post.update(post_params)
         render json: post, status: 200

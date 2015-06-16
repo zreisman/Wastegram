@@ -1,8 +1,10 @@
-User.create(username: "kingslayer", email: 'jamie.lannister@westeros.com', password: 'password', activated: true)
-User.create(username: "thewolf", email: 'rob.stark@westerose.com', password: 'password', activated: true)
-User.create(username: "sansa-sparkles", email: 'sansa.stark@westeros.com', password: 'password', activated: true)
-User.create(username: "theimp", email: 'tyrion.lannister@westeros.com', password: 'password', activated: true)
-User.create(username: "bigdaddy", email: 'tywin.lannister@westeros.com', password: 'password', activated: true)
+User.create(username: "sherrif", email: 'rick.grimes@dead.organ', password: 'password', activated: true)
+User.create(username: "coral", email: 'carl.grimes@dead.organ', password: 'password', activated: true)
+User.create(username: "michonne", email: 'michonne@dead.organ', password: 'password', activated: true)
+User.create(username: "carol", email: 'carol@dead.organ', password: 'password', activated: true)
+User.create(username: "glenn", email: 'glenn.rhee@dead.organ', password: 'password', activated: true)
+User.create(username: "deerhunter9000", email: 'daryl.dixon@dead.organ', password: 'password', activated: true)
+User.create(username: "magpie", email: 'maggie.green@dead.organ', password: 'password', activated: true)
 
 
 

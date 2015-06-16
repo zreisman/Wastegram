@@ -40,6 +40,12 @@ Hastigram.Views.UserSearch = Backbone.CompositeView.extend({
     var searchCrit = $('.user-search-form').serializeJSON();
 
     var that = this;
+    // var users = new Hastigram.Collections.Users();
+    // users.fetch({
+    //   url: "/api/usersearch",
+    //   data: searchCrit,
+    // })
+
     $.ajax({
         url : "/api/usersearch",
         type: "POST",

@@ -21,7 +21,8 @@ json.array!(@posts) do |post|
   json.num_likes post.likers.length
 
   if post.likers.include?(current_user)
-    json.like post.id
+    # json.like post.id
+    json.like post.likes.find_by(liker_id: current_user.id).id
   else
     json.like nil
   end

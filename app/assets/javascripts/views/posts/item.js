@@ -8,23 +8,28 @@ Hastigram.Views.PostItem = Backbone.CompositeView.extend({
 
   initialize: function() {
     this.listenTo(this.model, 'sync', this.render);
-    this.listenTo(this.model.comments(), 'add', this.render);
+    // this.listenTo(this.model.comments(), 'add', this.render);
 
     var posterId = this.model.get('author_id');
     var poster = this.model.users().get(posterId);
     var userTagView = new Hastigram.Views.UserTag({ model: poster });
+    // TODO: use this.author() model, not this.users() association
     this.addSubview('.post-usertag', userTagView);
 
     var that = this;
-    this.model.comments().each(function(comment) {
-      var commentView = new Hastigram.Views.CommentItem({ model: comment });
-      that.addSubview('.post-comments', commentView);
-    });
+
+    this.model.comments().each(this.addComment.bind(this));
+    this.listenTo(this.model.comments(), 'add', this.addComment);
 
     var likesView = new Hastigram.Views.Likes({
       model: this.model
     });
     this.addSubview('.post-likes', likesView);
+  },
+
+  addComment: function (comment) {
+    var commentView = new Hastigram.Views.CommentItem({ model: comment });
+    this.addSubview('.post-comments', commentView);
   },
 
   postComment: function() {
@@ -35,8 +40,9 @@ Hastigram.Views.PostItem = Backbone.CompositeView.extend({
     var newComment = new Hastigram.Models.Comment(commentAttributes);
     newComment.save({}, {
       success: function() {
-        var commentView = new Hastigram.Views.CommentItem({ model: newComment });
-        that.addSubview('.post-comments', commentView);
+        // var commentView = new Hastigram.Views.CommentItem({ model: newComment });
+        // that.addSubview('.post-comments', commentView);
+        that.$(".comment-text-input").val("");
         that.model.comments().add(newComment, { merge: true });
 
       }

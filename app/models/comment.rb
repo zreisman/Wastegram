@@ -1,5 +1,5 @@
 class Comment < ActiveRecord::Base
-  validates :body, :author_id, :post_id, presence: true
+  validates :body, :author, :post, presence: true
 
   belongs_to(
     :post,
@@ -14,5 +14,5 @@ class Comment < ActiveRecord::Base
     foreign_key: :author_id,
     primary_key: :id
   )
-  
+
 end

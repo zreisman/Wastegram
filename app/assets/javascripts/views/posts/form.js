@@ -31,6 +31,8 @@ Hastigram.Views.PostForm = Backbone.View.extend({
 
       success: function() {
         Hastigram.posts.unshift(that.model);
+        that.model.unset();
+        that.render();
       },
       error: function() {
 
