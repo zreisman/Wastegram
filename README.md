@@ -17,7 +17,7 @@ to share pictures they haven't put enough thought into. Users can:
 - [x] Follow Users
 - [x] Comment on posts
 - [x] View posts and their comments
-- [ ] Like posts
+- [x] Like posts
 - [ ] View a feed of subscribed user's posts
 
 
