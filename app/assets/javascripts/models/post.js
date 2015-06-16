@@ -15,6 +15,13 @@ Hastigram.Models.Post = Backbone.Model.extend({
     return this._comments;
   },
 
+  likers: function () {
+    if (!this._likers) {
+      this._likers = new Hastigram.Collections.Likers([], { post: this });
+    }
+    return this._likers;
+  },
+
   parse: function (response) {
     if (response.author) {
       this.users().set(response.author);
@@ -24,6 +31,11 @@ Hastigram.Models.Post = Backbone.Model.extend({
     if (response.comments) {
       this.comments().set(response.comments);
       delete response.comments;
+    }
+
+    if (response.likers) {
+      this.likers().set(response.likers);
+      delete response.likers;
     }
     return response;
   }
