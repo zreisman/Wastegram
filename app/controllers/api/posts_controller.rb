@@ -2,10 +2,10 @@ class Api::PostsController < ApplicationController
 
   def create
 
-    post = Post.new(post_params)
-    post.author_id = current_user.id
-    if post.save
-      render :json => post, status: 200
+    @post = Post.new(post_params)
+    @post.author_id = current_user.id
+    if @post.save
+      render :show, status: 200
     else
       render nothing: true, status: 422
     end
@@ -19,9 +19,9 @@ class Api::PostsController < ApplicationController
   end
 
   def show
-    post = Post.find(params[:id])
-    if post
-      render json: post, status: 200
+    @post = Post.find(params[:id])
+    if @post
+      render :show, status: 200
     else
       render json: {}, status: 404  #returning too much info?
     end

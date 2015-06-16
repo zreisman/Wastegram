@@ -3,9 +3,11 @@ json.array!(@posts) do |post|
   json.body post.body
   json.image_url post.image_url
   json.author_id post.author_id
+
   json.author do
     json.id post.user.id
     json.username post.user.username
+    json.when time_ago_in_words(post.created_at)
     # Add profile pic link
   end
 
