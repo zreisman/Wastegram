@@ -1,5 +1,13 @@
-<button class="like btn btn-default">Like</button>
-<% likers.each(function(like) { %>
-  <%= like.escape('username') %>
-<% }) %>
-and <%= total %> others likes this.
+<button class="like btn btn-primary">
+  <% if (like.isNew()) { %>
+    <span class="glyphicon glyphicon-plus"></span>
+    Like
+  <% } else { %>
+    <span class="glyphicon glyphicon-minus"></span>
+    Unlike
+  <% } %>
+</button>
+
+<span class="like-info">
+  <%= num_likes %> likes.
+</span>

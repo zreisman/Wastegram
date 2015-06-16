@@ -22,9 +22,7 @@ Hastigram.Views.PostItem = Backbone.CompositeView.extend({
     });
 
     var likesView = new Hastigram.Views.Likes({
-      collection: this.model.likes(),
-      model: this.model.likes_total,
-      post: this.model
+      model: this.model
     });
     this.addSubview('.post-likes', likesView);
   },
