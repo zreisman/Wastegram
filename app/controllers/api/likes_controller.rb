@@ -7,4 +7,8 @@ class Api::LikesController < ApplicationController
       render json: {}, status: 422
     end
   end
+
+  def destroy
+    debugger
+  end
 end

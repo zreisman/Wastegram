@@ -16,11 +16,18 @@ json.array!(@posts) do |post|
     end
   end
 
-  json.likes post.likers.length
+  json.likes_total post.likers.length
+
+  if post.likers.include?(current_user)
+    json.like current_user.id
+  else
+    json.like nil
+  end
 
   json.likers do
     json.array!(post.likers.take(5)) do |liker|
       json.username liker.username
+      json.id liker.id
     end
   end
 
