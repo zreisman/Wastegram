@@ -1,40 +1,13 @@
 Hastigram.Views.UserSearch = Backbone.CompositeView.extend({
   events: {
-    'keyup .user-search-input': 'search',
-    'click .follow': 'follow'
+    'keyup .user-search-input': 'search'
     // 'focusout .user-search-input': 'clearSearch'
   },
 
   initialize: function() {
     this.collection = new Hastigram.Collections.Users();
     var resultsView = new Hastigram.Views.SearchResults({ collection: this.collection });
-    globe = resultsView;
-    $('.search-results').html(globe.$el);
     this.addSubview('.search-results', resultsView);
-  },
-
-
-
-  clearSearch: function() {
-    $('.search-results').html('');
-  },
-
-  follow: function() {
-    payLoad = {};
-    payLoad.followid = $(event.target).data('user-id');
-    var that = this;
-    $.ajax({
-        url : "/api/follows",
-        type: "POST",
-        data : payLoad,
-        success: function(data, textStatus, jqXHR) {
-          that.clearSearch();
-        },
-        error: function (jqXHR, textStatus, errorThrown)
-        {
-          //  debugger;
-        }
-    });
   },
 
   render: function() {
