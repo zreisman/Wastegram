@@ -1,14 +1,22 @@
 Hastigram.Views.UserSearch = Backbone.CompositeView.extend({
   events: {
     'keyup .user-search-input': 'search',
-    'click .follow': 'follow',
-    'focusout .user-search-input': 'clearSearch'
+    'click .follow': 'follow'
+    // 'focusout .user-search-input': 'clearSearch'
   },
 
+  initialize: function() {
+    this.collection = new Hastigram.Collections.Users();
+    var resultsView = new Hastigram.Views.SearchResults({ collection: this.collection });
+    globe = resultsView;
+    $('.search-results').html(globe.$el);
+    this.addSubview('.search-results', resultsView);
+  },
+
+
+
   clearSearch: function() {
-    setTimeout(function() {
-      $('.search-results').html('');
-    }, 100);
+    $('.search-results').html('');
   },
 
   follow: function() {
@@ -38,31 +46,22 @@ Hastigram.Views.UserSearch = Backbone.CompositeView.extend({
 
   search: function() {
     var searchCrit = $('.user-search-form').serializeJSON();
+    // this.clearSearch();
 
     var that = this;
-    // var users = new Hastigram.Collections.Users();
-    // users.fetch({
-    //   url: "/api/usersearch",
-    //   data: searchCrit,
-    // })
 
-    $.ajax({
-        url : "/api/usersearch",
-        type: "POST",
-        data : searchCrit,
-        success: function(data, textStatus, jqXHR) {
-          var $results = $('.search-results');
-          $results.html('');
-          for(var i = 0; i < data.length; i++) {
-            var searchItem = new Hastigram.Views.SearchListItem({ model: data[i]});
-            that.addSubview('.search-results', searchItem);
-          }
-        },
-        error: function (jqXHR, textStatus, errorThrown)
-        {
-          //  debugger;
-        }
+    this.collection.reset();
+    this.collection.fetch({
+      url: "/api/usersearch",
+      type: "POST",
+      data: searchCrit,
+      reset: true,
+      success: function(collection, response, options) {
+      },
+      error: function() {
+      }
     });
+
   },
 
   template: JST['search/form']
