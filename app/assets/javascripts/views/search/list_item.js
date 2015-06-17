@@ -3,31 +3,28 @@ Hastigram.Views.SearchListItem = Backbone.View.extend({
   template: JST['search/list_item'],
 
   events: {
-    'click .follow': 'follow'
+    'click .follow': 'toggleFollow'
   },
 
-  follow: function() {
-    payLoad = {};
-    payLoad.followid = this.model.id;
-    this.$el.find('button').removeClass('btn-default');
-    this.$el.find('button').addClass('btn-success');
-    this.$el.find('button').text('Followed');
-    $.ajax({
-        url : "/api/follows",
-        type: "POST",
-        data : payLoad,
-        success: function(data, textStatus, jqXHR) {
+  initialize: function() {
+    this.listenTo(this.model.follow(), 'sync change', this.render);
+  },
 
-        },
-        error: function (jqXHR, textStatus, errorThrown)
-        {
-          //  debugger;
-        }
-    });
+  toggleFollow: function () {
+
+    if (this.model.follow().isNew()) {
+      this.model.createFollow();
+    } else {
+      this.model.destroyFollow();
+    }
   },
 
   render: function() {
-    this.$el.html(this.template({ user: this.model }));
+
+    this.$el.html(this.template({
+      user: this.model,
+      follow: this.model.follow()
+    }));
     return this;
   }
 });
