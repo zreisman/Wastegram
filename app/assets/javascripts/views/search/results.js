@@ -22,9 +22,11 @@ Hastigram.Views.SearchResults = Backbone.CompositeView.extend({
   },
 
   clearSearch: function() {
-    this.eachSubview(function (subview) {
-      subview.remove();
-    });
+    if(Hastigram.blocker !== true) {
+      this.eachSubview(function (subview) {
+        subview.remove();
+      });
+    }
   },
 
   resetEverything: function() {

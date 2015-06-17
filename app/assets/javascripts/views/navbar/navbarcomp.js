@@ -1,8 +1,12 @@
 Hastigram.Views.NavbarComp = Backbone.CompositeView.extend({
+  className: 'exclude',
 
   initialize: function() {
     var userSearchView = new Hastigram.Views.UserSearch();
     this.addSubview('.user-search', userSearchView);
+
+    var profileButton = new Hastigram.Views.ProfileButton();
+    this.addSubview('.profile', profileButton);
   },
 
   render: function() {

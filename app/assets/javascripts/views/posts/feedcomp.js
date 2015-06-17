@@ -6,7 +6,7 @@ Hastigram.Views.FeedCompView = Backbone.CompositeView.extend({
 
     this.collection.each(function(post) {
       this.addPostSubview(post);
-    });
+    }.bind(this));
 
     // this.model = new Hastigram.Models.Post();
     var formView = new Hastigram.Views.PostForm({ model: new Hastigram.Models.Post() });

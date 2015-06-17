@@ -4,7 +4,8 @@ Hastigram.Routers.Router = Backbone.Router.extend({
   },
 
   routes: {
-    "": "feed"
+    "": "feed",
+    "profile": "profile"
   },
 
   feed: function() {
@@ -12,6 +13,11 @@ Hastigram.Routers.Router = Backbone.Router.extend({
     var feedView = new Hastigram.Views.FeedCompView({ collection: Hastigram.posts });
     this._swapView(feedView);
 
+  },
+
+  profile: function() {
+    var profileView = new Hastigram.Views.Profile({ model: Hastigram.current_user });
+    this._swapView(profileView);
   },
 
   _swapView: function(view) {

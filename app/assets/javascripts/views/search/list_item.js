@@ -11,7 +11,11 @@ Hastigram.Views.SearchListItem = Backbone.View.extend({
   },
 
   toggleFollow: function () {
-
+    Hastigram.blocker = true;
+    $('.user-search-input').focus();
+    setTimeout(function() {
+      Hastigram.blocker = false;
+    }, 150);
     if (this.model.follow().isNew()) {
       this.model.createFollow();
     } else {

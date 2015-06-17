@@ -16,6 +16,11 @@
     font-size: 200%;
 }
 
+.group:after {
+  display: block;
+  clear: both;
+  content: '';
+}
 
 .billabong{
  font-family:'billabong';
@@ -142,6 +147,15 @@ body {
   height: 100px;
   width: 250px;
   border: 1px solid black;
+  top: 0%;
+}
+
+.profile {
+  height: 69px;
+  border: 1px solid black;
+  width: 100px;
+  position: absolute;
+  right: 35%;
   top: 0%;
 }
 

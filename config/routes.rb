@@ -9,5 +9,6 @@ Rails.application.routes.draw do
     resources :comments, only: [:create]
     resources :likes, only: [:create, :destroy]
     match '/usersearch', :to => 'users#search', via: :post
+    match '/usersearch', :to => 'users#current', via: :get
   end
 end

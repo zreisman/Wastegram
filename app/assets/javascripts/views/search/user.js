@@ -1,7 +1,7 @@
 Hastigram.Views.UserSearch = Backbone.CompositeView.extend({
   events: {
-    'keyup .user-search-input': 'search'
-    // 'focusout .user-search-input': 'clearSearch'
+    'keyup .user-search-input': 'search',
+    'focusout .user-search-input': 'clearSearch'
   },
 
   initialize: function() {
@@ -11,8 +11,9 @@ Hastigram.Views.UserSearch = Backbone.CompositeView.extend({
   },
 
   clearSearch: function() {
+    console.log('clearing!');
     var that = this;
-    setTimeout(that._resultsView.clearSearch.bind(that._resultsView), 2000);
+    setTimeout(that._resultsView.clearSearch.bind(that._resultsView), 50);
   },
 
   render: function() {

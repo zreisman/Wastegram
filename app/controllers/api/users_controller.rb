@@ -10,6 +10,10 @@ class Api::UsersController < ApplicationController
     end
   end
 
+  def current
+    render :current
+  end
+
   private
 
   def search_params
