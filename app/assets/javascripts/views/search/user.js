@@ -6,8 +6,13 @@ Hastigram.Views.UserSearch = Backbone.CompositeView.extend({
 
   initialize: function() {
     this.collection = new Hastigram.Collections.Users();
-    var resultsView = new Hastigram.Views.SearchResults({ collection: this.collection });
-    this.addSubview('.search-results', resultsView);
+    this._resultsView = new Hastigram.Views.SearchResults({ collection: this.collection });
+    this.addSubview('.search-results', this._resultsView);
+  },
+
+  clearSearch: function() {
+    var that = this;
+    setTimeout(that._resultsView.clearSearch.bind(that._resultsView), 2000);
   },
 
   render: function() {
@@ -19,9 +24,6 @@ Hastigram.Views.UserSearch = Backbone.CompositeView.extend({
 
   search: function() {
     var searchCrit = $('.user-search-form').serializeJSON();
-    // this.clearSearch();
-
-    var that = this;
 
     this.collection.reset();
     this.collection.fetch({
@@ -29,12 +31,7 @@ Hastigram.Views.UserSearch = Backbone.CompositeView.extend({
       type: "POST",
       data: searchCrit,
       reset: true,
-      success: function(collection, response, options) {
-      },
-      error: function() {
-      }
     });
-
   },
 
   template: JST['search/form']

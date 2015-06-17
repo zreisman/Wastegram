@@ -1,5 +1,7 @@
 Hastigram.Views.SearchResults = Backbone.CompositeView.extend({
   template: JST['search/result_list'],
+
+
   initialize: function() {
     this.listenTo(this.collection, 'add', this.addResult);
     this.listenTo(this.collection, 'reset', this.resetEverything);
@@ -16,6 +18,12 @@ Hastigram.Views.SearchResults = Backbone.CompositeView.extend({
     this.collection.each(function(result) {
       var resultView = new Hastigram.Views.SearchListItem({ model: result });
       that.addSubview('.search-result-list', resultView);
+    });
+  },
+
+  clearSearch: function() {
+    this.eachSubview(function (subview) {
+      subview.remove();
     });
   },
 
