@@ -6,7 +6,7 @@ class Api::UsersController < ApplicationController
 
   def search
     #vulnerable to SQL injection?
-    @users = User.where('username ILIKE ?', "%#{params[:search]}%")
+    @users = User.where('username ILIKE ?', "%#{params[:search]}%").limit(5)
     if @users.count < 1
       render nothing: true, status: 200
     else
