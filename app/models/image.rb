@@ -1,5 +1,5 @@
 class Image < ActiveRecord::Base
-  validates :public_id, :format, presence: true
+  validates :image_url, :thumb_url, presence: true
 
   belongs_to(
     :user,
@@ -14,5 +14,5 @@ class Image < ActiveRecord::Base
     foreign_key: :owner_id,
     primary_key: :id
   )
-  
+
 end

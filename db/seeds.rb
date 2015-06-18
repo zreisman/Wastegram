@@ -14,6 +14,10 @@ User.all.each do |user|
                        image_url: Faker::Avatar.image(SecureRandom.urlsafe_base64(8), "500x500")
                        )
   end
+
+  user.build_profile_picture(image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_limit,w_300/v1434576931/t604klj869c13xolh9pf.png",
+    thumb_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_limit,w_100/v1434576931/t604klj869c13xolh9pf.png")
+  user.save!
 end
 
 Post.all.each do |post|

@@ -11,19 +11,20 @@
       <h5><%= user.escape('username') %> Profile</h5>
 
      <div class="form-group profile-img-preview">
-
+       <img src="<%= user.escape('image_url') %>">
+       <div class="filters"></div>
      </div>
 
      <div class="form-group">
        <label class="maxwdth">Profile Picture
-         <button class="upload-profile-pic">Upload</button>
+         <button class="upload-profile-pic btn btn-default">Upload</button>
       </label>
     </div>
 
 
      <div class="form-group">
       <label class="maxwidth">Email:
-        <input type="text" class="form-control" name="user[email]" value="<%= user.escape('email') %>">
+        <input type="text" class="form-control" name="email" value="<%= user.escape('email') %>">
       </label>
     </div>
 

@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     resources :follows, only: [:create, :destroy]
     resources :comments, only: [:create]
     resources :likes, only: [:create, :destroy]
+    resources :users, only: [:create, :update]
     match '/usersearch', :to => 'users#search', via: :post
     match '/usersearch', :to => 'users#current', via: :get
   end
