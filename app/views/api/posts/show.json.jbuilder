@@ -7,7 +7,8 @@ json.author do
   json.id @post.user.id
   json.username @post.user.username
   json.when time_ago_in_words(@post.created_at)
-  # Add profile pic link
+  json.image_url @post.user.profile_picture.image_url
+  json.thumb_url @post.user.profile_picture.thumb_url
 end
 
 json.comments do

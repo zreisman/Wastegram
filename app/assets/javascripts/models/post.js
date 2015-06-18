@@ -15,13 +15,6 @@ Wastegram.Models.Post = Backbone.Model.extend({
     return this._comments;
   },
 
-  // likes: function () {
-  //   if (!this._likes) {
-  //     this._likes = new Wastegram.Collections.Likes([], { post: this });
-  //   }
-  //   return this._likes;
-  // },
-
   parse: function (response) {
     if (response.author) {
       this.users().set(response.author); // TODO: change to a User model, not a collection
