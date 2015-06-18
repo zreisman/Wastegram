@@ -1,23 +1,38 @@
 Hastigram.Views.PostForm = Backbone.View.extend({
   template: JST['posts/form'],
 
+  initialize: function() {
+    this.baseImageURL = "http://res.cloudinary.com/dvd7awvbl/image/upload/";
+  },
+
   events: {
     'click .create-post': 'submit',
-    'click .cloudinary-upload': 'imageUpload'
+    'click .cloudinary-upload': 'imageUpload',
+    'click .sepia': 'sepia',
+    'click .grayscale': 'grayscale',
+    'click .oilpaint': 'oilPaint',
+    'click .saturate': 'saturate',
+    'click .original': 'original'
   },
 
   imageUpload: function() {
     event.preventDefault();
-    cloudinary.openUploadWidget(CLOUDINARY_OPTIONS, function(error, result) {
+    var that = this;
+    cloudinary.openUploadWidget(CLOUDINARY_POST, function(error, result) {
+        var image = result[0].public_id + "." + result[0].format;
+        that.image = image;
+        var imageURL = that.baseImageURL + "c_scale,w_600/" + image;
+
         $('.post-form').append(
-          "<input type='hidden' name='post[public_id]' value='" +
-          result[0].public_id + "'>");
-        $('.post-form').append(
-          "<input type='hidden' name='post[format]' value='" +
-          result[0].format + "'>");
-        $('.post-form-cont').append(
-          "<img src='" + result[0].thumbnail_url + "'>"
-        );
+          "<input type=\"hidden\" class=\"image-url\" name=\"post[image_url]\" value=\"" + imageURL + "\">");
+
+        $('.filters').append("<button class=\"original btn btn-default\">Original</button>");
+        $('.filters').append("<button class=\"sepia btn btn-default\">Sepia</button>");
+        $('.filters').append("<button class=\"oilpaint btn btn-default\">Oil Paint</button>");
+        $('.filters').append("<button class=\"saturate btn btn-default\">Saturate</button>");
+        $('.filters').append("<button class=\"grayscale btn btn-default\">Grayscale</button>");
+
+        $('.post-img-preview img').attr('src', imageURL);
 
     });
   },
@@ -25,10 +40,8 @@ Hastigram.Views.PostForm = Backbone.View.extend({
   submit: function() {
     event.preventDefault();
     var formData = this.$('.post-form').serializeJSON();
-    formData['post']['image_url'] = "http://res.cloudinary.com/dvd7awvbl/image/upload/w_600/" + formData['post']['public_id'] + "." + formData['post']['format']
     var that = this;
     this.model.save(formData, {
-
       success: function() {
         Hastigram.posts.unshift(that.model);
         that.model.unset();
@@ -40,6 +53,48 @@ Hastigram.Views.PostForm = Backbone.View.extend({
     });
   },
 
+  imageOptions: function(size, filter) {
+    var effects = "c_fill" + ",w_" + size;
+    if (filter) {
+      return effects + "," + filter + "/";
+    } else {
+      return effects + "/";
+    }
+  },
+  grayscale: function() {
+    event.preventDefault();
+    var newURL = this.baseImageURL + this.imageOptions(600, "e_grayscale") + this.image;
+    $('.post-img-preview img').attr('src', newURL);
+    $('.image-url').attr('value', newURL);
+  },
+
+  oilPaint: function() {
+    event.preventDefault();
+    var newURL = this.baseImageURL + this.imageOptions(600, "e_oil_paint") + this.image;
+    $('.post-img-preview img').attr('src', newURL);
+    $('.image-url').attr('value', newURL);
+  },
+
+  original: function() {
+    event.preventDefault();
+    var newURL = this.baseImageURL + this.imageOptions(600) + this.image;
+    $('.post-img-preview img').attr('src', newURL);
+    $('.image-url').attr('value', newURL);
+  },
+
+  saturate: function() {
+    event.preventDefault();
+    var newURL = this.baseImageURL + this.imageOptions(600, "e_saturation:70") + this.image;
+    $('.post-img-preview img').attr('src', newURL);
+    $('.image-url').attr('value', newURL);
+  },
+
+  sepia: function() {
+    event.preventDefault();
+    var newURL = this.baseImageURL + this.imageOptions(600, "e_sepia") + this.image;
+    $('.post-img-preview img').attr('src', newURL);
+    $('.image-url').attr('value', newURL);
+  },
 
   render: function() {
     this.$el.html(this.template());

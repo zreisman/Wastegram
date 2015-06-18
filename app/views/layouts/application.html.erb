@@ -7,16 +7,20 @@
           type="text/javascript" charset="utf-8"></script>
 
   <script type="text/javascript" charset="utf-8">
-    window.CLOUDINARY_OPTIONS = {
+    window.CLOUDINARY_PROFILE = {
       cloud_name: "<%= ENV['CLOUD_NAME']%>",
       upload_preset: "<%= ENV['UPLOAD_PRESET'] %>",
       cropping: 'server',
       theme: 'white',
-      form: '.post-form',
-      field: 'post[image]',
       cropping_aspect_ratio: 1,
       show_powered_by: false
-
+    };
+    window.CLOUDINARY_POST = {
+      cloud_name: "<%= ENV['CLOUD_NAME']%>",
+      upload_preset: "<%= ENV['UPLOAD_PRESET'] %>",
+      cropping: 'server',
+      theme: 'white',
+      show_powered_by: false
     };
   </script>
   <%= csrf_meta_tags %>

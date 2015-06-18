@@ -1,4 +1,4 @@
-<img alt="Profile Pic" height="42" width="42">
+<img src="<%= user.escape('thumb_url') %>" alt="Profile Pic" height="42" width="42">
 <%= user.escape('username') %>
 
 <% if (follow.isNew()) { %>

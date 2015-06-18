@@ -18,7 +18,7 @@ Hastigram.Views.Settings = Backbone.View.extend({
   imageUpload: function() {
     event.preventDefault();
     var that = this;
-    cloudinary.openUploadWidget(CLOUDINARY_OPTIONS, function(error, result) {
+    cloudinary.openUploadWidget(CLOUDINARY_PROFILE, function(error, result) {
         var image = result[0].public_id + "." + result[0].format;
         that.image = image;
         var imageURL = that.baseImageURL + "c_fill,h_300,w_300/" + image;
