@@ -1,4 +1,4 @@
-Hastigram.Routers.Router = Backbone.Router.extend({
+Wastegram.Routers.Router = Backbone.Router.extend({
   initialize: function(options) {
     this.$rootEl = options.$rootEl;
   },
@@ -9,14 +9,14 @@ Hastigram.Routers.Router = Backbone.Router.extend({
   },
 
   feed: function() {
-    Hastigram.posts.fetch();
-    var feedView = new Hastigram.Views.FeedCompView({ collection: Hastigram.posts });
+    Wastegram.posts.fetch();
+    var feedView = new Wastegram.Views.FeedCompView({ collection: Wastegram.posts });
     this._swapView(feedView);
 
   },
 
   profile: function() {
-    var profileView = new Hastigram.Views.Profile({ model: Hastigram.current_user });
+    var profileView = new Wastegram.Views.Profile({ model: Wastegram.current_user });
     this._swapView(profileView);
   },
 

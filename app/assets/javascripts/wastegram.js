@@ -1,22 +1,22 @@
-window.Hastigram = {
+window.Wastegram = {
   Models: {},
   Collections: {},
   Views: {},
   Routers: {},
   initialize: function() {
-    Hastigram.current_user = new Hastigram.Models.User();
-    Hastigram.current_user.fetch({
+    Wastegram.current_user = new Wastegram.Models.User();
+    Wastegram.current_user.fetch({
       url: "/api/usersearch",
       type: "GET"
     });
 
     var $rootEl = $('#content');
-    new Hastigram.Routers.Router({ $rootEl: $rootEl });
+    new Wastegram.Routers.Router({ $rootEl: $rootEl });
 
     Backbone.history.start();
   }
 };
 
 $(document).ready(function(){
-  Hastigram.initialize();
+  Wastegram.initialize();
 });

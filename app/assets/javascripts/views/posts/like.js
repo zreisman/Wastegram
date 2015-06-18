@@ -1,4 +1,4 @@
-Hastigram.Views.Likes = Backbone.View.extend({
+Wastegram.Views.Likes = Backbone.View.extend({
   template: JST['posts/likes'],
 
   events: {

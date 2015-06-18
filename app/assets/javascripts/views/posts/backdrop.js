@@ -1,4 +1,4 @@
-Hastigram.Views.BackDrop = Backbone.View.extend({
+Wastegram.Views.BackDrop = Backbone.View.extend({
   template: JST['posts/backdrop'],
 
   render: function() {

@@ -1,4 +1,4 @@
-Hastigram.Views.Settings = Backbone.View.extend({
+Wastegram.Views.Settings = Backbone.View.extend({
   template: JST['user/settings'],
 
   initialize: function() {
@@ -87,8 +87,8 @@ Hastigram.Views.Settings = Backbone.View.extend({
     debugger;
     urlFrags = profileAttributes.image_url.split('c_fill,h_300,w_300');
     profileAttributes.thumb_url = urlFrags.join('c_fill,h_100,w_100');
-    Hastigram.current_user.set(profileAttributes, {merge: true});
-    Hastigram.current_user.save({}, {
+    Wastegram.current_user.set(profileAttributes, {merge: true});
+    Wastegram.current_user.save({}, {
       success: function() {
 
       }

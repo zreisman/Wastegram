@@ -1,12 +1,12 @@
-Hastigram.Views.UserSearch = Backbone.CompositeView.extend({
+Wastegram.Views.UserSearch = Backbone.CompositeView.extend({
   events: {
     'keyup .user-search-input': 'search',
     'focusout .user-search-input': 'clearSearch'
   },
 
   initialize: function() {
-    this.collection = new Hastigram.Collections.Users();
-    this._resultsView = new Hastigram.Views.SearchResults({ collection: this.collection });
+    this.collection = new Wastegram.Collections.Users();
+    this._resultsView = new Wastegram.Views.SearchResults({ collection: this.collection });
     this.addSubview('.search-results', this._resultsView);
   },
 

@@ -1,4 +1,4 @@
-Hastigram.Models.Follow = Backbone.Model.extend({
+Wastegram.Models.Follow = Backbone.Model.extend({
   urlRoot: '/api/follows'
 
 });

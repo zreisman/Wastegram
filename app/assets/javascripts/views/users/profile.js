@@ -1,11 +1,11 @@
-Hastigram.Views.Profile = Backbone.CompositeView.extend({
+Wastegram.Views.Profile = Backbone.CompositeView.extend({
   template: JST['user/profile'],
 
   initialize: function() {
-    var navBarView = new Hastigram.Views.NavbarComp();
+    var navBarView = new Wastegram.Views.NavbarComp();
     this.addSubview('.navbar', navBarView);
 
-    var settingsView = new Hastigram.Views.Settings({model: this.model });
+    var settingsView = new Wastegram.Views.Settings({model: this.model });
     this.addSubview('.main', settingsView);
   },
 

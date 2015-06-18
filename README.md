@@ -1,11 +1,11 @@
-# Hastigram
+# Wastegram
 
 [Heroku link][heroku]
 
 [heroku]: https://murmuring-dusk-1251.herokuapp.com/
 
 ## Minimum Viable Product
-Hastigram is a clone of Instagram on Rails and Backbone for users
+Wastegram is a clone of Instagram on Rails and Backbone for users
 to share pictures they haven't put enough thought into. Users can:
 
 - [x] Create accounts

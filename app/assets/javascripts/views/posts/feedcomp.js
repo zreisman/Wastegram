@@ -1,4 +1,4 @@
-Hastigram.Views.FeedCompView = Backbone.CompositeView.extend({
+Wastegram.Views.FeedCompView = Backbone.CompositeView.extend({
   template: JST['posts/feed'],
   initialize: function() {
     this.listenTo(this.collection, 'add', this.addPostSubview);
@@ -8,11 +8,11 @@ Hastigram.Views.FeedCompView = Backbone.CompositeView.extend({
       this.addPostSubview(post);
     }.bind(this));
 
-    // this.model = new Hastigram.Models.Post();
-    var formView = new Hastigram.Views.PostForm({ model: new Hastigram.Models.Post() });
+    // this.model = new Wastegram.Models.Post();
+    var formView = new Wastegram.Views.PostForm({ model: new Wastegram.Models.Post() });
     this.addSubview('.post-form-cont', formView );
 
-    var navBarView = new Hastigram.Views.NavbarComp();
+    var navBarView = new Wastegram.Views.NavbarComp();
     this.addSubview('.navbar', navBarView);
   },
 
@@ -21,7 +21,7 @@ Hastigram.Views.FeedCompView = Backbone.CompositeView.extend({
   },
 
   addPostSubview: function(post) {
-    var postItem = new Hastigram.Views.PostItem({ model: post });
+    var postItem = new Wastegram.Views.PostItem({ model: post });
     this.addSubview(".feed-stream", postItem, true);
   },
 

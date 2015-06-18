@@ -1,23 +1,23 @@
-Hastigram.Models.Post = Backbone.Model.extend({
+Wastegram.Models.Post = Backbone.Model.extend({
   urlRoot: '/api/posts',
 
   users: function () { // TODO: remove if deprecated
     if (!this._users) {
-      this._users = new Hastigram.Collections.Users([], { post: this });
+      this._users = new Wastegram.Collections.Users([], { post: this });
     }
     return this._users;
   },
 
   comments: function () {
     if (!this._comments) {
-      this._comments = new Hastigram.Collections.Comments([], { post: this });
+      this._comments = new Wastegram.Collections.Comments([], { post: this });
     }
     return this._comments;
   },
 
   // likes: function () {
   //   if (!this._likes) {
-  //     this._likes = new Hastigram.Collections.Likes([], { post: this });
+  //     this._likes = new Wastegram.Collections.Likes([], { post: this });
   //   }
   //   return this._likes;
   // },
@@ -42,7 +42,7 @@ Hastigram.Models.Post = Backbone.Model.extend({
 
   like: function () {
     if (!this._like) {
-      this._like = new Hastigram.Models.Like();
+      this._like = new Wastegram.Models.Like();
     }
     return this._like;
   },

@@ -1,5 +1,5 @@
-Hastigram.Collections.Likes = Backbone.Collection.extend({
+Wastegram.Collections.Likes = Backbone.Collection.extend({
   url: '/api/likes',
 
-  model: Hastigram.Models.Like
+  model: Wastegram.Models.Like
 });

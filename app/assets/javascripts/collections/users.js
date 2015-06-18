@@ -1,4 +1,4 @@
-Hastigram.Collections.Users = Backbone.Collection.extend({
+Wastegram.Collections.Users = Backbone.Collection.extend({
   url: '/api/users',
-  model: Hastigram.Models.User
+  model: Wastegram.Models.User
 });

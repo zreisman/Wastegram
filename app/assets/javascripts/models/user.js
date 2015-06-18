@@ -1,9 +1,9 @@
-Hastigram.Models.User = Backbone.Model.extend({
+Wastegram.Models.User = Backbone.Model.extend({
   urlRoot: '/api/users',
 
   follow: function () {
     if (!this._follow) {
-      this._follow = new Hastigram.Models.Follow();
+      this._follow = new Wastegram.Models.Follow();
     }
     return this._follow;
   },

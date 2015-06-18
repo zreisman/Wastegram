@@ -7,7 +7,7 @@ default: &default
 development:
   adapter: postgresql
   encoding: unicode
-  database: hastigram_development
+  database: Wastegram_development
   pool: 5
 
 # Warning: The database defined as "test" will be erased and
@@ -17,11 +17,11 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: hastigram_test
+  database: Wastegram_test
   pool: 5
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: hastigram_production
+  database: Wastegram_production
   pool: 5

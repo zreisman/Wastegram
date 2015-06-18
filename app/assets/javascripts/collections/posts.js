@@ -1,12 +1,12 @@
-Hastigram.Collections.Posts = Backbone.Collection.extend({
+Wastegram.Collections.Posts = Backbone.Collection.extend({
   url: '/api/posts',
-  model: Hastigram.Models.Post,
+  model: Wastegram.Models.Post,
 
   getOrFetch: function (id) {
       var post = this.get(id),
         posts = this;
       if(!post) {
-        post = new Hastigram.Models.Post({ id: id });
+        post = new Wastegram.Models.Post({ id: id });
         post.fetch({
           success: function () {
             posts.add(post);
@@ -19,4 +19,4 @@ Hastigram.Collections.Posts = Backbone.Collection.extend({
     }
 });
 
-Hastigram.posts = new Hastigram.Collections.Posts();
+Wastegram.posts = new Wastegram.Collections.Posts();

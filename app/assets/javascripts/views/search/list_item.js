@@ -1,4 +1,4 @@
-Hastigram.Views.SearchListItem = Backbone.View.extend({
+Wastegram.Views.SearchListItem = Backbone.View.extend({
   className: 'search-result-item maxwidth',
   template: JST['search/list_item'],
 
@@ -11,10 +11,10 @@ Hastigram.Views.SearchListItem = Backbone.View.extend({
   },
 
   toggleFollow: function () {
-    Hastigram.blocker = true;
+    Wastegram.blocker = true;
     $('.user-search-input').focus();
     setTimeout(function() {
-      Hastigram.blocker = false;
+      Wastegram.blocker = false;
     }, 150);
     if (this.model.follow().isNew()) {
       this.model.createFollow();

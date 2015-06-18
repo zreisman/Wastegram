@@ -16,7 +16,7 @@
 //= require jquery.serializejson
 //= require backbone
 //= require_tree ./utils
-//= require hastigram
+//= require wastegram
 //= require_tree ../templates
 //= require_tree ./models
 //= require_tree ./collections

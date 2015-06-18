@@ -1,4 +1,4 @@
-Hastigram.Views.CommentItem = Backbone.View.extend({
+Wastegram.Views.CommentItem = Backbone.View.extend({
   template: JST['comment/item'],
 
   // TODO: Maybe add `sync` listener

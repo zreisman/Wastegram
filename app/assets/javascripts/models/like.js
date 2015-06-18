@@ -1,4 +1,4 @@
-Hastigram.Models.Like = Backbone.Model.extend({
+Wastegram.Models.Like = Backbone.Model.extend({
   urlRoot: '/api/likes'
 
 });

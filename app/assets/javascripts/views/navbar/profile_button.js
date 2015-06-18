@@ -1,4 +1,4 @@
-Hastigram.Views.ProfileButton = Backbone.View.extend({
+Wastegram.Views.ProfileButton = Backbone.View.extend({
   template: JST['navbar/profile_button'],
 
   render: function() {

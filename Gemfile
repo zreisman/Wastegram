@@ -35,6 +35,8 @@ gem 'cloudinary'
 gem 'figaro'
 gem 'faker'
 
+gem 'rename'
+
 
 
 # Use Unicorn as the app server

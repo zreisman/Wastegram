@@ -1,4 +1,4 @@
-Hastigram.Views.SearchResults = Backbone.CompositeView.extend({
+Wastegram.Views.SearchResults = Backbone.CompositeView.extend({
   template: JST['search/result_list'],
 
 
@@ -9,20 +9,20 @@ Hastigram.Views.SearchResults = Backbone.CompositeView.extend({
 
   addResult: function(model) {
     console.log('adding results');
-    var resultView = new Hastigram.Views.SearchListItem({ model: model });
+    var resultView = new Wastegram.Views.SearchListItem({ model: model });
     this.addSubview('.search-result-list', resultView);
   },
 
   addResults: function() {
     var that = this;
     this.collection.each(function(result) {
-      var resultView = new Hastigram.Views.SearchListItem({ model: result });
+      var resultView = new Wastegram.Views.SearchListItem({ model: result });
       that.addSubview('.search-result-list', resultView);
     });
   },
 
   clearSearch: function() {
-    if(Hastigram.blocker !== true) {
+    if(Wastegram.blocker !== true) {
       this.eachSubview(function (subview) {
         subview.remove();
       });

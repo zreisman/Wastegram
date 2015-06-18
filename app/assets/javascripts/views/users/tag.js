@@ -1,4 +1,4 @@
-Hastigram.Views.UserTag = Backbone.View.extend({
+Wastegram.Views.UserTag = Backbone.View.extend({
   template: JST['user/tag'],
 
   render: function() {

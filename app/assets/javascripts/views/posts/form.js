@@ -1,4 +1,4 @@
-Hastigram.Views.PostForm = Backbone.View.extend({
+Wastegram.Views.PostForm = Backbone.View.extend({
   template: JST['posts/form'],
 
   initialize: function() {
@@ -43,7 +43,7 @@ Hastigram.Views.PostForm = Backbone.View.extend({
     var that = this;
     this.model.save(formData, {
       success: function() {
-        Hastigram.posts.unshift(that.model);
+        Wastegram.posts.unshift(that.model);
         that.model.unset();
         that.render();
       },

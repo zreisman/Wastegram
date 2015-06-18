@@ -1,3 +1,3 @@
-Hastigram.Views.Main = Backbone.CompositeView.extend({
+Wastegram.Views.Main = Backbone.CompositeView.extend({
 
 });
