@@ -9,6 +9,8 @@ window.Guest = {
 		$email = $('#email');
 		$password = $('#password');
 		$submitButton = $('.login-button');
+		$email.val("");
+		$password.val("");
 
 
 		this.slowtype($email, 'rickgrimes@dead.org', function(){
