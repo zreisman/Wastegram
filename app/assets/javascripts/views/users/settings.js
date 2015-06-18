@@ -84,13 +84,12 @@ Wastegram.Views.Settings = Backbone.View.extend({
   submit: function() {
     event.preventDefault();
     var profileAttributes = $(event.target).serializeJSON();
-    debugger;
     urlFrags = profileAttributes.image_url.split('c_fill,h_300,w_300');
     profileAttributes.thumb_url = urlFrags.join('c_fill,h_100,w_100');
     Wastegram.current_user.set(profileAttributes, {merge: true});
     Wastegram.current_user.save({}, {
       success: function() {
-
+        Backbone.history.navigate("", {trigger: true });
       }
     });
 
