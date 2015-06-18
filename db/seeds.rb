@@ -9,7 +9,7 @@ profile_pictures = {
 "default" => "http://res.cloudinary.com/dvd7awvbl/image/upload/c_limit,h_300,w_300/v1434576931/t604klj869c13xolh9pf.png"
 }
 
-User.create(username: "sherrif", email: 'rick.grimes@dead.org', password: 'password', activated: true)
+User.create(username: "sherrif", email: 'rickgrimes@dead.org', password: 'password', activated: true)
 User.create(username: "coral", email: 'carl.grimes@dead.org', password: 'password', activated: true)
 User.create(username: "michonne", email: 'michonne@dead.org', password: 'password', activated: true)
 User.create(username: "carol", email: 'carol@dead.org', password: 'password', activated: true)

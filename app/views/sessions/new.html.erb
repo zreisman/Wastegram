@@ -16,18 +16,22 @@
 
       <div class="form-group">
         <label class="maxwidth">Email:
-          <input type="text" class="form-control" name="user[email]" value="<%= @user.email %>">
+          <input type="text" class="form-control" id="email" name="user[email]" value="<%= @user.email %>">
         </label>
       </div>
 
       <div class="form-group">
         <label class="maxwidth">Password:
-         <input type="password" class="form-control" name="user[password]">
+         <input type="password" class="form-control" id="password" name="user[password]">
         </label>
       </div>
 
       <div class="form-group">
-        <input type="submit" class="btn btn-default maxwidth" value="Log In">
+        <button class="btn btn-default guest-login">Guest</button>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" class="btn btn-default maxwidth login-button" value="Log In">
       </div>
 
     </form>
@@ -36,3 +40,9 @@
    <%= link_to "Need an account?", new_user_url %>
   </div>
 </div>
+<%= javascript_include_tag 'application' %>
+<script>
+  $(document).ready(function(){
+    Guest.initialize();
+  });
+</script>
