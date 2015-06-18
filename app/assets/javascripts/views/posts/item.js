@@ -8,7 +8,8 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
 
   initialize: function() {
     this.listenTo(this.model, 'sync', this.render);
-    this.listenTo(this.model, 'remove', this.remove());
+    this.listenTo(this.model.comments(), 'add', this.addComment);
+    this.listenTo(this.model.comments(), 'sync', this.render);
 
     var posterId = this.model.get('author_id');
     var poster = this.model.users().get(posterId);
@@ -19,7 +20,6 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
     var that = this;
 
     this.model.comments().each(this.addComment.bind(this));
-    this.listenTo(this.model.comments(), 'add', this.addComment);
 
     var likesView = new Wastegram.Views.Likes({
       model: this.model

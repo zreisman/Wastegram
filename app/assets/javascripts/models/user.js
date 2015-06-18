@@ -21,7 +21,7 @@ Wastegram.Models.User = Backbone.Model.extend({
     this.follow().destroy({
       success: function (model) {
         model.unset("id");
-        
+
       }.bind(this)
     });
   },

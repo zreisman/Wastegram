@@ -13,6 +13,7 @@ end
 
 json.comments do
   json.array!(@post.comments) do |comment|
+    json.id comment.id
     json.body comment.body
     json.username comment.author.username
   end
