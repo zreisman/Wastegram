@@ -23,6 +23,7 @@ Wastegram.Views.PostForm = Backbone.View.extend({
         that.image = image;
         var imageURL = that.baseImageURL + "c_scale,w_600/" + image;
 
+        var coords = result[0].coordinates.custom[0];
         $('.post-form').append(
           "<input type=\"hidden\" class=\"image-url\" name=\"post[image_url]\" value=\"" + imageURL + "\">");
 
@@ -35,6 +36,13 @@ Wastegram.Views.PostForm = Backbone.View.extend({
         $('.post-img-preview img').attr('src', imageURL);
 
     });
+  },
+
+  coordify: function(coords) {
+    var lowLeft = "x_" + coords[0] + ",y_" + coords[1] + ",";
+    var upRight = "x_" + coords[2] + ",y_" + coords[3] + ",";
+    var crop = "c_crop";
+    return lowLeft + upRight + crop;
   },
 
   submit: function() {

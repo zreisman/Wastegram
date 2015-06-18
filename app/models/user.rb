@@ -24,6 +24,12 @@ class User < ActiveRecord::Base
   )
 
   has_many(
+    :followed_posts,
+    through: :followed,
+    source: :posts
+  )
+
+  has_many(
     :followed,
     through: :follows,
     source: :followed

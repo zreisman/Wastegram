@@ -2,7 +2,6 @@ Wastegram.Views.FeedCompView = Backbone.CompositeView.extend({
   template: JST['posts/feed'],
   initialize: function() {
     this.listenTo(this.collection, 'add', this.addPostSubview);
-    // this.listenTo(this.collection, 'sync add', this.render);
 
     this.collection.each(function(post) {
       this.addPostSubview(post);

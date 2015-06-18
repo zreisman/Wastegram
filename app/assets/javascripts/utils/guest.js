@@ -30,7 +30,7 @@ window.Guest = {
 				clearInterval(typing);
 				callback();
 			}
-		}, 100);
+		}, 70);
 	}
 
 };

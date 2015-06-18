@@ -8,7 +8,7 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
 
   initialize: function() {
     this.listenTo(this.model, 'sync', this.render);
-    // this.listenTo(this.model.comments(), 'add', this.render);
+    this.listenTo(this.model, 'remove', this.remove());
 
     var posterId = this.model.get('author_id');
     var poster = this.model.users().get(posterId);
