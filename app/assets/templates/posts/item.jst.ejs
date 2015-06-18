@@ -2,7 +2,7 @@
  <img src="<%= post.escape('image_url') %>">
  </div>
  <div class="post-body">
-  <%= user.escape('username') %>:
+  <strong><%= user.escape('username') %></strong>:
   <%= post.escape('body') %>
 </div>
 <div class="post-likes"></div>
