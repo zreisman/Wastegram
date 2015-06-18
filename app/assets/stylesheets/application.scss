@@ -143,11 +143,14 @@ body {
 
 .post-usertag {
   position: absolute;
-  left: -300px;
+  left: -150px;
   height: 100px;
-  width: 250px;
-  border: 1px solid black;
+  width: 125px;
   top: 0%;
+}
+
+.post-usertag img {
+  border-radius: 25%;
 }
 
 .profile {
@@ -165,6 +168,10 @@ body {
 
 .search-results {
   width: 15%;
+}
+
+.search-result-img {
+  border-radius: 25%;
 }
 
 .search-result-item {
