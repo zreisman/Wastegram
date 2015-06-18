@@ -8,7 +8,7 @@ class Api::UsersController < ApplicationController
     #vulnerable to SQL injection?
     @users = User.where('username ILIKE ?', "%#{params[:search]}%")
     if @users.count < 1
-      render json: {}, status: 200
+      render nothing: true, status: 200
     else
       render :search
     end
