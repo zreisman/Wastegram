@@ -11,7 +11,6 @@ Wastegram.Views.UserSearch = Backbone.CompositeView.extend({
   },
 
   clearSearch: function() {
-    console.log('clearing!');
     var that = this;
     setTimeout(that._resultsView.clearSearch.bind(that._resultsView), 50);
   },

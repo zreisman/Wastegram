@@ -8,7 +8,6 @@ Wastegram.Views.SearchResults = Backbone.CompositeView.extend({
   },
 
   addResult: function(model) {
-    console.log('adding results');
     var resultView = new Wastegram.Views.SearchListItem({ model: model });
     this.addSubview('.search-result-list', resultView);
   },

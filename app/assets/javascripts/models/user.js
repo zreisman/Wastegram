@@ -18,10 +18,14 @@ Wastegram.Models.User = Backbone.Model.extend({
   },
 
   destroyFollow: function () {
+    var user = this;
     this.follow().destroy({
       success: function (model) {
+        _.each(Wastegram.posts.where({author_id: this.id }), function(post) {
+          Wastegram.posts.remove(post);
+        });
+        // remove all posts with author_id that matches
         model.unset("id");
-
       }.bind(this)
     });
   },
