@@ -35,10 +35,6 @@ gem 'cloudinary'
 gem 'figaro'
 gem 'faker'
 
-gem 'rename'
-
-gem 'newrelic_rpm'
-
 
 # Use Unicorn as the app server
 # gem 'unicorn'
