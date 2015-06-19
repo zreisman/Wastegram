@@ -10,12 +10,16 @@ Wastegram.Views.SearchListItem = Backbone.View.extend({
     this.listenTo(this.model.follow(), 'sync change', this.render);
   },
 
-  toggleFollow: function () {
+  blocker: function () {
     Wastegram.blocker = true;
     $('.user-search-input').focus();
     setTimeout(function() {
       Wastegram.blocker = false;
     }, 150);
+  },
+
+  toggleFollow: function () {
+    this.blocker();
     if (this.model.follow().isNew()) {
       this.model.createFollow();
     } else {

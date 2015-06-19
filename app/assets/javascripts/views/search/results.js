@@ -1,6 +1,9 @@
 Wastegram.Views.SearchResults = Backbone.CompositeView.extend({
   template: JST['search/result_list'],
 
+  events: {
+    'click .search-result-list': 'blocker',
+  },
 
   initialize: function() {
     this.listenTo(this.collection, 'add', this.addResult);
@@ -18,6 +21,14 @@ Wastegram.Views.SearchResults = Backbone.CompositeView.extend({
       var resultView = new Wastegram.Views.SearchListItem({ model: result });
       that.addSubview('.search-result-list', resultView);
     });
+  },
+
+  blocker: function () {
+    Wastegram.blocker = true;
+    $('.user-search-input').focus();
+    setTimeout(function() {
+      Wastegram.blocker = false;
+    }, 150);
   },
 
   clearSearch: function() {
