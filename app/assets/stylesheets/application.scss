@@ -48,7 +48,7 @@ body {
 }
 
 .comment-text-input {
-  width: 80%;
+  width: 85% !important;
   margin: 10px 0px;
 }
 
@@ -73,6 +73,13 @@ body {
 .home-link {
   font-size: 200%;
 }
+
+.like {
+  float: left;
+  font-size: 30px;
+  height: 30px;
+}
+
 
 .logout-btn {
   float: right;
@@ -129,10 +136,10 @@ body {
 .post {
   // min-height: 600px;
   // min-width: 30%;
-  border: 1px solid black;
+  border: 1px solid #CCC;
   background-color: #FFF;
   position: relative;
-  margin: 20px 0px;
+  margin: 30px 0px;
   border-radius: 3px;
 }
 
@@ -152,7 +159,7 @@ body {
 
 .post-image {
   border-width: 0px 0px 1px 0px;
-  border-color: black;
+  border-color: #CCC;
   border-style: solid;
 }
 
@@ -188,6 +195,10 @@ body {
   position: absolute;
   right: 35%;
   top: 0%;
+}
+
+.red {
+  color: #660000;
 }
 
 .widget .powered_by_cloudinary.active {

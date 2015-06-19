@@ -1,13 +1,25 @@
-<button class="like btn btn-primary">
+<!-- <button class="like btn btn-primary">
   <% if (like.isNew()) { %>
-    <span class="glyphicon glyphicon-plus"></span>
+    <span class="glyphicon glyphicon-heart red"></span>
     Like
   <% } else { %>
-    <span class="glyphicon glyphicon-minus"></span>
+    <span class="glyphicon glyphicon-heart"></span>
     Unlike
   <% } %>
-</button>
+</button> -->
 
-<span class="like-info">
-  <%= num_likes %> likes.
+<span class="group">
+  <div class="like">
+    <% if (like.isNew()) { %>
+      <div class="glyphicon glyphicon-heart red"></div>
+
+    <% } else { %>
+      <div class="glyphicon glyphicon-heart"></div>
+
+    <% } %>
+  </div>
+
+  <div class="like-info">
+    <%= num_likes %> likes.
+  </div>
 </span>

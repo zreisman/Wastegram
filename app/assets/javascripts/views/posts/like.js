@@ -10,7 +10,7 @@ Wastegram.Views.Likes = Backbone.View.extend({
   },
 
   toggleLike: function (event) {
-    event.preventDefault();
+    // event.preventDefault();
     this.model.toggleLike();
   },
 
