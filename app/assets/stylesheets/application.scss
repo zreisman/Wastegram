@@ -129,6 +129,7 @@ body {
 
 .nav-title {
   color: white;
+  z-index: 5;
 }
 
 .outerDiv {
@@ -215,6 +216,7 @@ body {
   right: 35%;
   top: 0%;
   padding: 25px;
+  z-index: 5;
 }
 
 .profile strong {
@@ -262,6 +264,7 @@ body {
 
 .user-search-form {
   position: relative;
+  width: 80%;
 }
 
 .user-search-input {
