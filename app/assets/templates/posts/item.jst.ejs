@@ -14,3 +14,8 @@
   </form>
   <div class="post-usertag"></div>
 </div>
+<div class="delete-post">
+ <% if(Wastegram.current_user.id === post.get('author_id')) { %>
+  <div class="glyphicon glyphicon-remove"></div>
+ <% } %>
+</div>

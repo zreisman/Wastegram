@@ -3,7 +3,8 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
   className: "post maxwidth",
 
   events: {
-    'submit .comment-form': 'postComment'
+    'submit .comment-form': 'postComment',
+    'click .glyphicon-remove': 'deletePost'
   },
 
   initialize: function() {
@@ -30,6 +31,10 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
   addComment: function (comment) {
     var commentView = new Wastegram.Views.CommentItem({ model: comment });
     this.addSubview('.post-comments', commentView);
+  },
+
+  deletePost: function() {
+    this.model.destroy();
   },
 
   postComment: function() {
