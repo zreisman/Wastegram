@@ -67,5 +67,7 @@ group :production do
 
   gem 'rails_12factor' #Needed for Heroku
 
+  gem 'newrelic_rpm'
+
   ruby "2.1.2"
 end
