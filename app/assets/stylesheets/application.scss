@@ -124,6 +124,10 @@ body {
   border-radius: 0px;
 }
 
+.nav-title {
+  color: white;
+}
+
 .outerDiv {
   height: 100%;
 }
@@ -201,11 +205,17 @@ body {
 
 .profile {
   height: 69px;
-  border: 1px solid black;
+  // border-width: 0px 1px;
+  // border-style: solid;
   width: 100px;
   position: absolute;
   right: 35%;
   top: 0%;
+  padding: 25px;
+}
+
+.profile strong {
+  color: white;
 }
 
 .red {

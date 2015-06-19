@@ -1,5 +1,5 @@
 <% if (fragment === "") { %>
-  <a href="#profile">Edit Profile</a>
+  <a href="#profile"><strong><%= currentUser.escape('username') %></strong></a>
 <% } else { %>
-  <a href="#">Feed</a>
+
 <% } %>
