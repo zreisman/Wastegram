@@ -117,3 +117,4 @@
 [06/21/15 18:13:53 -0700 deep-thought (24520)] INFO : Doing deferred dependency-detection before Rack startup
 [06/21/15 18:13:56 -0700 deep-thought (24520)] ERROR : Invalid license key, please contact support@newrelic.com
 [06/21/15 18:13:56 -0700 deep-thought (24520)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[06/21/15 20:39:32 -0700 deep-thought (24520)] INFO : Starting Agent shutdown
