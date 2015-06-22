@@ -3,10 +3,12 @@
  </div>
 <div class="post-content">
   <div class="post-likes"></div>
-   <div class="post-body">
-    <strong><%= user.escape('username') %></strong>:
-    <%= post.escape('body') %>
-  </div>
+  <% if (user.get('body') !== "") { %>
+     <div class="post-body">
+      <strong><%= user.escape('username') %></strong>:
+      <%= post.escape('body') %>
+    </div>
+  <% } %>
   <div class="post-comments"></div>
   <form class="comment-form maxwidth form-inline">
     <input type="text" class="comment-text-input form-control" placeholder="Add a comment.." name="body">
