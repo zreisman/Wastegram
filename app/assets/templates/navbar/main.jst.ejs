@@ -6,6 +6,9 @@
 
 <div class="profile"></div>
 
-<div class="compose glyphicon glyphicon-pencil"></div>
-
+<% if (url === "") { %>
+  <div class="compose glyphicon glyphicon-pencil"></div>
+<% } else { %>
+  <div class="glyphicon glyphicon-home"></div>
+<% } %>
 <div class="user-search"></div>

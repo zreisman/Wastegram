@@ -3,6 +3,7 @@ Wastegram.Views.NavbarComp = Backbone.CompositeView.extend({
 
   events: {
     'click .nav-title': 'toMain',
+    'click .glyphicon-home': 'toMain',
     'click .compose': 'toCompose'
   },
 
@@ -23,7 +24,9 @@ Wastegram.Views.NavbarComp = Backbone.CompositeView.extend({
   },
 
   render: function() {
-    this.$el.html(this.template());
+    var url = Backbone.history.getFragment();
+
+    this.$el.html(this.template({url: url}));
     this.attachSubviews();
 
     return this;
