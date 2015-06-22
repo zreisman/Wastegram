@@ -1,13 +1,9 @@
 
+$screen-lg-min: 1500px;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-$screen-lg-min: 1600px;
-
-@media only screen and (min-width: $screen-lg){
-
-}
 
 @font-face {
     font-family: 'billabong';
@@ -218,7 +214,7 @@ body {
 }
 
 .post-form-spacer {
-  height: 200px;
+  height: 100px;
 }
 
 .post-usertag {
@@ -257,9 +253,6 @@ body {
   color: #660000;
 }
 
-.widget .powered_by_cloudinary.active {
-  display: none !important;
-}
 
 .search-results {
 
