@@ -165,3 +165,25 @@
 [06/22/15 11:28:39 -0700 deep-thought (3338)] INFO : Doing deferred dependency-detection before Rack startup
 [06/22/15 11:28:44 -0700 deep-thought (3338)] ERROR : Invalid license key, please contact support@newrelic.com
 [06/22/15 11:28:44 -0700 deep-thought (3338)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[06/22/15 12:06:28 -0700 deep-thought (3338)] INFO : Starting Agent shutdown
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 14:58:01 -0700 deep-thought (3936)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 14:58:01 -0700 deep-thought (3936)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Environment: development
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Dispatcher: webrick
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Application: development
+[06/22/15 14:58:01 -0700 deep-thought (3936)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Installing Net instrumentation
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Installing ActiveJob instrumentation
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Installing deferred Rack instrumentation
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 14:58:01 -0700 deep-thought (3936)] INFO : Finished instrumentation
+[06/22/15 14:58:02 -0700 deep-thought (3936)] INFO : Doing deferred dependency-detection before Rack startup
+[06/22/15 14:58:04 -0700 deep-thought (3936)] ERROR : Invalid license key, please contact support@newrelic.com
+[06/22/15 14:58:04 -0700 deep-thought (3936)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.

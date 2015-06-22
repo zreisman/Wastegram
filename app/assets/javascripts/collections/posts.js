@@ -2,6 +2,10 @@ Wastegram.Collections.Posts = Backbone.Collection.extend({
   url: '/api/posts',
   model: Wastegram.Models.Post,
 
+  comparator: function(post) {
+    return post.get('created_at');
+  },
+
   getOrFetch: function (id) {
       var post = this.get(id),
         posts = this;

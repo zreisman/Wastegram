@@ -3,6 +3,7 @@ json.array!(@posts) do |post|
   json.body post.body
   json.image_url post.image_url
   json.author_id post.author_id
+  json.created_at post.created_at.to_time.to_i
 
   json.author do
     json.id post.user.id
