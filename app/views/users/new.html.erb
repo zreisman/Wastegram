@@ -1,7 +1,7 @@
 
 <div class="m-background-image"></div>
-  <div class="col-md-4 col-sm-6">
-    <div class="spacer"></div>
+<div class="col-md-4 col-sm-12 col-xs-12 login-form">
+
     <div class="cred-form">
 
       <div class="home-link billabong text-center">
@@ -33,24 +33,24 @@
       </div>
 
       <div class="form-group">
-        <input class="btn btn-default maxwidth" type="submit" value="Sign Up">
+        <input class="btn btn-info maxwidth" type="submit" value="Sign Up">
       </div>
       </form>
 
     </div>
       <%= link_to "Already registered? Sign In", new_session_url %>
   </div>
-
+<%= javascript_include_tag 'application' %>
 <script>
   $(document).ready(function(){
 
 
-    var images = ['http://res.cloudinary.com/dvd7awvbl/image/upload/e_grayscale/zprlcjmy5pime95jdti5.jpg', 'http://res.cloudinary.com/dvd7awvbl/image/upload/b18gsbjebpen3jke58kb.jpg'];
+    var images = ['http://res.cloudinary.com/dvd7awvbl/image/upload/e_grayscale/zprlcjmy5pime95jdti5.jpg', 'http://res.cloudinary.com/dvd7awvbl/image/upload/e_saturation:70/zvbdgpvei9mdggplswp5.jpg'];
 
     var url = images[Math.floor(Math.random() * images.length)];
     var img = new Image();
     img.onload = function(){
-      $('.m-background-image').css({'background-image': 'url('+url+')', 'background-size' : 'cover'});
+      $('.m-background-image').css({'background-image': 'url('+url+')', 'background-size' : 'cover', 'opacity' : 0.6 });
       $('.m-background-image').hide().fadeIn('slow');
     }
     img.src = url;
