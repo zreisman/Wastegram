@@ -1,20 +1,25 @@
+<div class="post-form-spacer"></div>
 
-<form class="post-form form-horizontal">
+<div class="post-form-cont col-md-4 col-md-offset-4">
+  <form class="post-form form-horizontal">
+    <div class="form-group">
+     <button class="btn btn-default cloudinary-upload form-control">Image Upload</button>
+   </div>
+    <div class="form-group post-img-preview">
+      <img src="">
 
-  <div class="form-group post-img-preview">
-    <img src="">
+    </div>
+    <div class="form-group">
+     <div class="filters btn-group"></div>
+    </div>
 
-    <div class="filters"></div>
-  </div>
- <button class="btn btn-default cloudinary-upload">Image Upload</button>
+   <div class="form-group">
+    <input type="text" class="form-control" name="post[body]" placeholder="Say something...">
 
- <div class="form-group">
-    <label class="maxwidth">Say something:
-      <input type="text" class="form-control" name="post[body]">
-    </label>
- </div>
+   </div>
 
- <div class="form-group">
-   <input class="btn btn-success create-post" type="submit" value="Post!">
- </div>
-</form>
+   <div class="form-group">
+     <input class="btn btn-success create-post" type="submit" value="Post!">
+   </div>
+  </form>
+</div>

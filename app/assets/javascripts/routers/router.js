@@ -5,7 +5,13 @@ Wastegram.Routers.Router = Backbone.Router.extend({
 
   routes: {
     "": "feed",
-    "profile": "profile"
+    "profile": "profile",
+    "compose": "compose"
+  },
+
+  compose: function() {
+    var composeView = new Wastegram.Views.ComposeView();
+    this._swapView(composeView);
   },
 
   feed: function() {

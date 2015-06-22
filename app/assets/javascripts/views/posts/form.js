@@ -51,9 +51,9 @@ Wastegram.Views.PostForm = Backbone.View.extend({
     var that = this;
     this.model.save(formData, {
       success: function() {
+        Backbone.history.navigate("", {trigger: true });
         Wastegram.posts.unshift(that.model);
         that.model.unset();
-        that.render();
       },
       error: function() {
 

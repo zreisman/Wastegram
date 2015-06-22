@@ -31,7 +31,16 @@
 }
 
 .cloudinary-upload {
-  margin: 10px;
+  // margin: 10px;
+}
+
+.compose {
+  position: absolute;
+  right: 30%;
+  margin: 15px 0px;
+  font-size: 30px;
+  color: #FFF;
+  z-index: 20;
 }
 
 .cred-form {
@@ -166,17 +175,22 @@ body {
   color: #006699;
 }
 .post-form-cont {
-  position: fixed;
-  margin: 0 50px;
-  top: 20%;
-  z-index: 500;
-  right: 5%;
   border: 1px solid #CCC;
-  padding: 25px;
+  background-color: #FFF;
+  padding: 50px;
+  border-radius: 3px;
+}
+
+.post-img-preview {
+  background-color: #CCC;
+  height: 40vh;
+  border-style: dashed;
+  border-color: darkgrey;
 }
 
 .post-img-preview img {
-  width: 400px;
+  height: 39vh;
+  max-width: 100%;
 }
 
 .post-image {
@@ -196,6 +210,10 @@ body {
 .post-content {
   padding: 20px;
   // border: 1px solid black;
+}
+
+.post-form-spacer {
+  height: 200px;
 }
 
 .post-usertag {
@@ -265,8 +283,7 @@ body {
 }
 
 .spacer {
-  min-height: 20%;
-  height: 200px;
+  height: 30vh;
 }
 
 .user-search-form {

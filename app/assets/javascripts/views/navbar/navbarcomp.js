@@ -2,7 +2,8 @@ Wastegram.Views.NavbarComp = Backbone.CompositeView.extend({
   className: 'navbar-composite',
 
   events: {
-    'click .nav-title': 'toMain'
+    'click .nav-title': 'toMain',
+    'click .compose': 'toCompose'
   },
 
   initialize: function() {
@@ -11,6 +12,10 @@ Wastegram.Views.NavbarComp = Backbone.CompositeView.extend({
 
     var profileButton = new Wastegram.Views.ProfileButton({model: this.model });
     this.addSubview('.profile', profileButton);
+  },
+
+  toCompose: function() {
+    Backbone.history.navigate("#compose", {trigger: true});
   },
 
   toMain: function() {
