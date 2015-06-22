@@ -3,6 +3,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+$screen-lg-min: 1600px;
+
+@media only screen and (min-width: $screen-lg){
+
+}
+
 @font-face {
     font-family: 'billabong';
     src: font-url('billabong-webfont.eot');
@@ -69,7 +75,6 @@ body {
 }
 
 .feed-stream {
-  padding: 0px 15px;
   // background-color: #CCC;
   top: 69px;
 }
@@ -257,7 +262,7 @@ body {
 }
 
 .search-results {
-  width: 15%;
+
   position: absolute;
   top: 63px;
   left: -10px;
