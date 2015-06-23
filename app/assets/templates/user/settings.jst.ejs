@@ -1,25 +1,30 @@
 
 
-<div class="col-md-3 col-md-offset-4 vert-align">
-  <div class="spacer"></div>
-  <div class="cred-form">
+<div class="col-md-4 col-md-offset-4">
+  <div class="edit-profile-spacer"></div>
+  <div class="edit-profile-cont">
 
     <div class="home-link billabong text-center">
     </div>
 
     <form class="form-horizontal profile-form">
-      <h5><%= user.escape('username') %> Profile</h5>
 
      <div class="form-group profile-img-preview">
+       <div id="profile-spinner"></div>
        <img src="<%= user.escape('image_url') %>">
-       <div class="filters"></div>
+       <div class="filters btn-group"></div>
      </div>
 
-     <div class="form-group">
-       <label class="maxwdth">Profile Picture
-         <button class="upload-profile-pic btn btn-default">Upload</button>
-      </label>
-    </div>
+     <div class="user-stats">
+      <strong><%= user.escape('username') %></strong><br>
+      <%= user.escape('followers') %> followers
+      <%= user.escape('followed') %> followed
+      <%= user.escape('posts') %> posts
+      <div class="form-group">
+        <button class="upload-profile-pic btn btn-default">Change Picture</button>
+      </div>
+     </div>
+
 
 
      <div class="form-group">
@@ -29,7 +34,7 @@
     </div>
 
     <div class="form-group">
-      <input class="btn btn-default maxwidth" type="submit" value="Edit Profile">
+      <input class="btn btn-info maxwidth" type="submit" value="Edit Profile">
     </div>
     </form>
 

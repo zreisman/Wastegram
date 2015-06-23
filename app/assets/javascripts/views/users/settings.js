@@ -3,6 +3,7 @@ Wastegram.Views.Settings = Backbone.View.extend({
 
   initialize: function() {
     this.baseImageURL = "http://res.cloudinary.com/dvd7awvbl/image/upload/";
+    this.listenTo(this.model, 'sync', this.render);
   },
 
   events: {
@@ -47,37 +48,52 @@ Wastegram.Views.Settings = Backbone.View.extend({
   },
   grayscale: function() {
     event.preventDefault();
+    $('#profile-spinner').addClass('spinner-loader');
     var newURL = this.baseImageURL + this.imageOptions(300, "e_grayscale") + this.image;
-    $('.profile-img-preview img').attr('src', newURL);
+    $('.profile-img-preview img').attr('src', newURL).load(function() {
+      $('#profile-spinner').removeClass('spinner-loader');
+    });
     $('.image-url').attr('value', newURL);
   },
 
   oilPaint: function() {
     event.preventDefault();
+    $('#profile-spinner').addClass('spinner-loader');
     var newURL = this.baseImageURL + this.imageOptions(300, "e_oil_paint") + this.image;
-    $('.profile-img-preview img').attr('src', newURL);
+    $('.profile-img-preview img').attr('src', newURL).load(function() {
+      $('#profile-spinner').removeClass('spinner-loader');
+    });
     $('.image-url').attr('value', newURL);
 
   },
 
   original: function() {
     event.preventDefault();
+    $('#profile-spinner').addClass('spinner-loader');
     var newURL = this.baseImageURL + this.imageOptions(300) + this.image;
-    $('.profile-img-preview img').attr('src', newURL);
+    $('.profile-img-preview img').attr('src', newURL).load(function() {
+      $('#profile-spinner').removeClass('spinner-loader');
+    });
     $('.image-url').attr('value', newURL);
   },
 
   saturate: function() {
     event.preventDefault();
+    $('#profile-spinner').addClass('spinner-loader');
     var newURL = this.baseImageURL + this.imageOptions(300, "e_saturation:70") + this.image;
-    $('.profile-img-preview img').attr('src', newURL);
+    $('.profile-img-preview img').attr('src', newURL).load(function() {
+      $('#profile-spinner').removeClass('spinner-loader');
+    });
     $('.image-url').attr('value', newURL);
   },
 
   sepia: function() {
     event.preventDefault();
+    $('#profile-spinner').addClass('spinner-loader');
     var newURL = this.baseImageURL + this.imageOptions(300, "e_sepia") + this.image;
-    $('.profile-img-preview img').attr('src', newURL);
+    $('.profile-img-preview img').attr('src', newURL).load(function() {
+      $('#profile-spinner').removeClass('spinner-loader');
+    });
     $('.image-url').attr('value', newURL);
   },
 
