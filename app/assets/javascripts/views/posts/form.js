@@ -71,36 +71,51 @@ Wastegram.Views.PostForm = Backbone.View.extend({
   },
   grayscale: function() {
     event.preventDefault();
+    $('#spinner').addClass('spinner-loader');
     var newURL = this.baseImageURL + this.imageOptions(600, "e_grayscale") + this.image;
-    $('.post-img-preview img').attr('src', newURL);
+    $('.post-img-preview img').attr('src', newURL).load(function() {
+      $('#spinner').removeClass('spinner-loader');
+    });
     $('.image-url').attr('value', newURL);
   },
 
   oilPaint: function() {
     event.preventDefault();
+    $('#spinner').addClass('spinner-loader');
     var newURL = this.baseImageURL + this.imageOptions(600, "e_oil_paint") + this.image;
-    $('.post-img-preview img').attr('src', newURL);
+    $('.post-img-preview img').attr('src', newURL).load(function() {
+      $('#spinner').removeClass('spinner-loader');
+    });
     $('.image-url').attr('value', newURL);
   },
 
   original: function() {
     event.preventDefault();
+    $('#spinner').addClass('spinner-loader');
     var newURL = this.baseImageURL + this.imageOptions(600) + this.image;
-    $('.post-img-preview img').attr('src', newURL);
+    $('.post-img-preview img').attr('src', newURL).load(function() {
+      $('#spinner').removeClass('spinner-loader');
+    });
     $('.image-url').attr('value', newURL);
   },
 
   saturate: function() {
     event.preventDefault();
+    $('#spinner').addClass('spinner-loader');
     var newURL = this.baseImageURL + this.imageOptions(600, "e_saturation:70") + this.image;
-    $('.post-img-preview img').attr('src', newURL);
+    $('.post-img-preview img').attr('src', newURL).load(function() {
+      $('#spinner').removeClass('spinner-loader');
+    });
     $('.image-url').attr('value', newURL);
   },
 
   sepia: function() {
     event.preventDefault();
+    $('#spinner').addClass('spinner-loader');
     var newURL = this.baseImageURL + this.imageOptions(600, "e_sepia") + this.image;
-    $('.post-img-preview img').attr('src', newURL);
+    $('.post-img-preview img').attr('src', newURL).load(function() {
+      $('#spinner').removeClass('spinner-loader');
+    });
     $('.image-url').attr('value', newURL);
   },
 

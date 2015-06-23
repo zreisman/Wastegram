@@ -3,6 +3,7 @@ $screen-lg-min: 1500px;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "spinner";
 
 
 @font-face {
@@ -225,6 +226,8 @@ body {
 }
 
 .post-img-preview img {
+  display: block;
+  margin: auto;
   height: 39vh;
   max-width: 100%;
 }
@@ -319,6 +322,13 @@ border-top-right-radius: 3px;
 
 .spacer {
   height: 30vh;
+}
+
+.spinner-loader {
+  z-index: 20;
+  position: absolute;
+  right: 50%;
+  top: 35%;
 }
 
 .user-search-form {
