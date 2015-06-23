@@ -3,16 +3,41 @@ Wastegram.Views.NavbarComp = Backbone.CompositeView.extend({
 
   events: {
     'click .nav-title': 'toMain',
-    'click .glyphicon-home': 'toMain',
-    'click .compose': 'toCompose'
+    'click .home-link': 'toMain',
+    'click .compose': 'toCompose',
+    'mouseover .glyphicon-menu-hamburger': 'dropDown',
+    'mouseleave .menu-items': 'closeDrop',
+    'click .profile': 'toProfile',
+    'click .logout': 'logOut'
+
   },
 
   initialize: function() {
     var userSearchView = new Wastegram.Views.UserSearch();
     this.addSubview('.user-search', userSearchView);
 
-    var profileButton = new Wastegram.Views.ProfileButton({model: this.model });
-    this.addSubview('.profile', profileButton);
+    // var profileButton = new Wastegram.Views.ProfileButton({model: this.model });
+    // this.addSubview('.profile', profileButton);
+  },
+
+  closeDrop: function() {
+    $('.menu-items').addClass('hide');
+  },
+
+  dropDown: function() {
+    $('.menu-items').removeClass('hide');
+  },
+
+  logOut: function() {
+    $.ajax({
+      url: '/session',
+      type: 'POST',
+      data: { _method: 'delete'},
+      success: function() {
+
+        window.location.reload();
+      }
+    });
   },
 
   toCompose: function() {
@@ -21,6 +46,10 @@ Wastegram.Views.NavbarComp = Backbone.CompositeView.extend({
 
   toMain: function() {
     Backbone.history.navigate("#", {trigger: true});
+  },
+
+  toProfile: function() {
+    Backbone.history.navigate("#profile", {trigger: true});
   },
 
   render: function() {

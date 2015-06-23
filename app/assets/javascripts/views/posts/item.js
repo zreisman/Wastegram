@@ -33,6 +33,10 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
     this.addSubview('.post-comments', commentView);
   },
 
+  confirmDelete: function() {
+
+  },
+
   deletePost: function() {
     this.model.destroy();
   },

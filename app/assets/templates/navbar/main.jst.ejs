@@ -1,14 +1,19 @@
 <a href="#"><h1 class="nav-title billabong">Wastegram</h1></a>
 
-<a class="logout-btn" rel="nofollow" data-method="delete" href="/session">
-  <strong>Log out</strong>
-</a>
-
-<div class="profile"></div>
-
-<% if (url === "") { %>
-  <div class="compose glyphicon glyphicon-pencil"></div>
-<% } else { %>
-  <div class="glyphicon glyphicon-home"></div>
-<% } %>
 <div class="user-search"></div>
+
+<div class="glyphicon glyphicon-menu-hamburger"></div>
+
+<div class="menu-items col-md-3 col-md-offset-9 col-sm-4 col-sm-offset-8 col-xs-6 col-xs-offset-6 hide">
+  <% if (url === "") { %>
+    <div class="compose"><strong>New Post</strong></div>
+  <% } else { %>
+    <div class="home-link"><strong>Home</strong></div>
+  <% } %>
+
+  <div class="profile"><strong>Edit profile</strong></div>
+
+  <div class="logout">
+      <strong>Log out</strong>
+  </div>
+</div>

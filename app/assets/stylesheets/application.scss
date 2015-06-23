@@ -39,10 +39,6 @@ $screen-lg-min: 1500px;
 }
 
 .compose {
-  position: absolute;
-  right: 30%;
-  margin: 15px 0px;
-  font-size: 30px;
   color: #FFF;
   z-index: 20;
 }
@@ -89,14 +85,26 @@ body {
 .glyphicon-home {
   color: #FFF;
   font-size: 30px;
-  position: absolute;
-  right: 30%;
+
   margin: 15px 0px;
   z-index: 20;
 }
 
+.glyphicon-menu-hamburger {
+  position: absolute;
+  right: 2%;
+  z-index: 50;
+  font-size: 30px;
+  color: #FFF;
+  margin: 15px 0px;
+}
+
+.hide {
+  display: none;
+}
+
 .home-link {
-  font-size: 40px;
+  color: #FFF;
 }
 
 .follow {
@@ -123,8 +131,6 @@ body {
 
 
 .logout-btn strong {
-  float: right;
-  margin: 15px 20px;
   color: white;
 }
 
@@ -167,6 +173,25 @@ body {
   opacity: 0.9;
   filter: alpha(opacity=90);
   padding: 50px;
+}
+
+.menu-items {
+  background-color: #3385AD;
+  padding: 0px;
+  position: absolute;
+  top: 68px;
+}
+
+.menu-items div {
+  border-style: solid;
+  border-width: 1px 0px 0px 1px;
+  border-color: #FFF;
+  padding: 15px;
+  color: #FFF;
+}
+
+.menu-items div:hover {
+  background-color: #5C9DBD;
 }
 
 .navbar {
@@ -274,14 +299,8 @@ border-top-right-radius: 3px;
 }
 
 .profile {
-  height: 69px;
   // border-width: 0px 1px;
   // border-style: solid;
-  width: 100px;
-  position: absolute;
-  right: 35%;
-  top: 0%;
-  padding: 25px;
   z-index: 5;
 }
 
@@ -329,6 +348,10 @@ border-top-right-radius: 3px;
   position: absolute;
   right: 50%;
   top: 35%;
+}
+
+.title-link {
+  font-size: 40px;
 }
 
 .user-search-form {
