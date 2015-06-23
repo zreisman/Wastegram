@@ -469,3 +469,213 @@
 [06/22/15 21:56:13 -0700 deep-thought (3733)] INFO : Doing deferred dependency-detection before Rack startup
 [06/22/15 21:56:14 -0700 deep-thought (3733)] ERROR : Invalid license key, please contact support@newrelic.com
 [06/22/15 21:56:14 -0700 deep-thought (3733)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 22:36:51 -0700 deep-thought (8206)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 22:36:51 -0700 deep-thought (8206)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Environment: development
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : No known dispatcher detected.
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Application: development
+[06/22/15 22:36:51 -0700 deep-thought (8206)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Installing Net instrumentation
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Installing ActiveJob instrumentation
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Installing deferred Rack instrumentation
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 22:36:51 -0700 deep-thought (8206)] INFO : Finished instrumentation
+[06/22/15 22:37:08 -0700 deep-thought (3733)] INFO : Starting Agent shutdown
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 22:37:12 -0700 deep-thought (8257)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 22:37:12 -0700 deep-thought (8257)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Environment: development
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : No known dispatcher detected.
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Application: development
+[06/22/15 22:37:12 -0700 deep-thought (8257)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Installing Net instrumentation
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Installing ActiveJob instrumentation
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Installing deferred Rack instrumentation
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 22:37:12 -0700 deep-thought (8257)] INFO : Finished instrumentation
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 22:38:53 -0700 deep-thought (8431)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 22:38:53 -0700 deep-thought (8431)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Environment: development
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : No known dispatcher detected.
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Application: development
+[06/22/15 22:38:53 -0700 deep-thought (8431)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Installing Net instrumentation
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Installing ActiveJob instrumentation
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Installing deferred Rack instrumentation
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 22:38:53 -0700 deep-thought (8431)] INFO : Finished instrumentation
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 22:42:38 -0700 deep-thought (8877)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 22:42:38 -0700 deep-thought (8877)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Environment: development
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : No known dispatcher detected.
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Application: development
+[06/22/15 22:42:38 -0700 deep-thought (8877)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Installing Net instrumentation
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Installing ActiveJob instrumentation
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Installing deferred Rack instrumentation
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 22:42:38 -0700 deep-thought (8877)] INFO : Finished instrumentation
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 22:42:55 -0700 deep-thought (8921)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 22:42:55 -0700 deep-thought (8921)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Environment: development
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Dispatcher: webrick
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Application: development
+[06/22/15 22:42:55 -0700 deep-thought (8921)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Installing Net instrumentation
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Installing ActiveJob instrumentation
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Installing deferred Rack instrumentation
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Finished instrumentation
+[06/22/15 22:42:55 -0700 deep-thought (8921)] INFO : Doing deferred dependency-detection before Rack startup
+[06/22/15 22:43:00 -0700 deep-thought (8921)] ERROR : Invalid license key, please contact support@newrelic.com
+[06/22/15 22:43:00 -0700 deep-thought (8921)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[06/22/15 22:45:37 -0700 deep-thought (8921)] INFO : Starting Agent shutdown
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 22:45:43 -0700 deep-thought (9206)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 22:45:43 -0700 deep-thought (9206)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Environment: development
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : No known dispatcher detected.
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Application: development
+[06/22/15 22:45:43 -0700 deep-thought (9206)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Installing Net instrumentation
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Installing ActiveJob instrumentation
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Installing deferred Rack instrumentation
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 22:45:43 -0700 deep-thought (9206)] INFO : Finished instrumentation
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 22:46:02 -0700 deep-thought (9255)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 22:46:02 -0700 deep-thought (9255)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Environment: development
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Dispatcher: webrick
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Application: development
+[06/22/15 22:46:02 -0700 deep-thought (9255)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Installing Net instrumentation
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Installing ActiveJob instrumentation
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Installing deferred Rack instrumentation
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Finished instrumentation
+[06/22/15 22:46:02 -0700 deep-thought (9255)] INFO : Doing deferred dependency-detection before Rack startup
+[06/22/15 22:46:04 -0700 deep-thought (9255)] ERROR : Invalid license key, please contact support@newrelic.com
+[06/22/15 22:46:04 -0700 deep-thought (9255)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 22:47:59 -0700 deep-thought (9453)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 22:47:59 -0700 deep-thought (9453)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Environment: development
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : No known dispatcher detected.
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Application: development
+[06/22/15 22:47:59 -0700 deep-thought (9453)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Installing Net instrumentation
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Installing ActiveJob instrumentation
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Installing deferred Rack instrumentation
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 22:47:59 -0700 deep-thought (9453)] INFO : Finished instrumentation
+[06/22/15 22:48:05 -0700 deep-thought (9255)] INFO : Starting Agent shutdown
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 22:48:13 -0700 deep-thought (9488)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 22:48:13 -0700 deep-thought (9488)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Environment: development
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : No known dispatcher detected.
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Application: development
+[06/22/15 22:48:13 -0700 deep-thought (9488)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Installing Net instrumentation
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Installing ActiveJob instrumentation
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Installing deferred Rack instrumentation
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 22:48:13 -0700 deep-thought (9488)] INFO : Finished instrumentation
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 22:48:21 -0700 deep-thought (9518)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 22:48:21 -0700 deep-thought (9518)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Environment: development
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Dispatcher: webrick
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Application: development
+[06/22/15 22:48:21 -0700 deep-thought (9518)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Installing Net instrumentation
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Installing ActiveJob instrumentation
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Installing deferred Rack instrumentation
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 22:48:21 -0700 deep-thought (9518)] INFO : Finished instrumentation
+[06/22/15 22:48:22 -0700 deep-thought (9518)] INFO : Doing deferred dependency-detection before Rack startup
+[06/22/15 22:48:24 -0700 deep-thought (9518)] ERROR : Invalid license key, please contact support@newrelic.com
+[06/22/15 22:48:24 -0700 deep-thought (9518)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Starting the New Relic agent in "development" environment.
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/22/15 22:49:19 -0700 deep-thought (9640)] WARN : No configuration file found. Working directory = /home/zreisman/Workspaces/Wastegram
+[06/22/15 22:49:19 -0700 deep-thought (9640)] WARN : Looked in these locations (based on defaults): /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/Workspaces/Wastegram/config/newrelic.yml, /home/zreisman/Workspaces/Wastegram/newrelic.yml, /home/zreisman/.newrelic/newrelic.yml, /home/zreisman/newrelic.yml
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Environment: development
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : No known dispatcher detected.
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Application: development
+[06/22/15 22:49:19 -0700 deep-thought (9640)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Installing Net instrumentation
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Installing ActiveRecord 4 instrumentation
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Installing Rails 3+ middleware instrumentation
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Installing ActiveJob instrumentation
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Installing deferred Rack instrumentation
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Installing Rack::Builder middleware instrumentation
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Installing Rails 4 Controller instrumentation
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Installing Rails 4 view instrumentation
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Installing Rails 4 Error instrumentation
+[06/22/15 22:49:19 -0700 deep-thought (9640)] INFO : Finished instrumentation

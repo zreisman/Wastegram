@@ -13,6 +13,7 @@ class Api::PostsController < ApplicationController
 
   def index
     @posts = current_user.followed_posts.includes(:likes, :likers, :user, comments: :author)
+    @posts = @posts.sort_by { |obj| obj.created_at }
     render :index
   end
 

@@ -6,6 +6,7 @@ profile_pictures = {
 "deerhunter9000" => "http://res.cloudinary.com/dvd7awvbl/image/upload/c_fill,h_300,w_300/z2l2nfvaowdeqvsmfyx5.png",
 "bethe" => "http://res.cloudinary.com/dvd7awvbl/image/upload/c_fill,h_300,w_300/eqmmohyxfeduf6nsdsuw.jpg",
 "carol" => "http://res.cloudinary.com/dvd7awvbl/image/upload/c_fill,h_300,w_300/enlialgapjksbqfism6k.jpg",
+"merle" => "http://res.cloudinary.com/dvd7awvbl/image/upload/c_fill,h_300,w_300/o0huqnyeyek2ts8ahsgl.jpg",
 "default" => "http://res.cloudinary.com/dvd7awvbl/image/upload/c_limit,h_300,w_300/v1434576931/t604klj869c13xolh9pf.png"
 }
 
@@ -16,40 +17,57 @@ User.create(username: "carol", email: 'carol@dead.org', password: 'password', ac
 User.create(username: "bethe", email: 'beth.green@dead.org', password: 'password', activated: true)
 User.create(username: "deerhunter9000", email: 'daryl.dixon@dead.org', password: 'password', activated: true)
 User.create(username: "magpie", email: 'maggie.green@dead.org', password: 'password', activated: true)
+User.create(username: "merle", email: 'merle.dixon@dead.org', password: 'password', activated: true)
 
 User.find_by(username: "bethe").posts.create(
   image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/idkghwwqg6tsxvyihrte.jpg",
-  body: "New hair cut!")
-
+  body: "New hair cut!",
+  created_at: (rand*10).hours.ago)
 
 User.find_by(username: "carol").posts.create(
   image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/mwysqpjikstacaw7sdkw.jpg",
-  body: "Lookout duty")
+  body: "Lookout duty",
+  created_at: (rand*10).hours.ago)
 
 User.find_by(username: "deerhunter9000").posts.create(
   image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/ykotlikxpx2vsox2ai24.jpg",
-  body: "Check out ma sweet hog")
+  body: "Check out ma sweet hog",
+  created_at: (rand*10).hours.ago)
 
 User.find_by(username: "deerhunter9000").posts.create(
   image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/ant08cbigunagghqlhhg.png",
-  body: "Cleaning my crossbow")
+  body: "Cleaning my crossbow",
+  created_at: (rand*10).hours.ago)
 
 User.find_by(username: "bethe").posts.create(
   image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/mg3af4uz8owqa1rzawqo.jpg",
-  body: "Tickling the ivories!")
+  body: "Tickling the ivories!",
+  created_at: (rand*10).hours.ago)
 
 User.find_by(username: "coral").posts.create(
   image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/nnf5v2usse7515nhlxwb.jpg",
-  body: "I found this place yesterday. Let's see if there are supplies!")
+  body: "I found this place yesterday. Let's see if there are supplies!",
+  created_at: (rand*10).hours.ago)
 
 User.find_by(username: "michonne").posts.create(
   image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/riwl28vpb44y4edyhplv.jpg",
-  body: "Don't even...")
+  body: "Don't even...",
+  created_at: (rand*10).hours.ago)
+
+User.find_by(username: "michonne").posts.create(
+  image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/qwvah7xbnjynfppuz2o5.jpg",
+  body: "Giddeyup",
+  created_at: (rand*10).hours.ago)
 
 User.find_by(username: "sherrif").posts.create(
   image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/lnnrvczzmh7mdsprjkn7.jpg",
-  body: "Anyone want to play scrabble later? Coral?")
+  body: "Anyone want to play scrabble later? Coral?",
+  created_at: (rand*10).hours.ago)
 
+User.find_by(username: "merle").posts.create(
+  image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/qraby2ubhuexgdtji3eu.jpg",
+  body: "Shhhhhh",
+  created_at: (rand*10).hours.ago)
 
 
 
@@ -61,6 +79,7 @@ User.all.each do |user|
   #                      image_url: Faker::Avatar.image(SecureRandom.urlsafe_base64(8), "500x500")
   #                      )
   # end
+  user.followings.create(follower_id: 1)
 
   pic = profile_pictures[user.username]
   thumb = pic.split("h_300,w_300").join("h_100,w_100")
