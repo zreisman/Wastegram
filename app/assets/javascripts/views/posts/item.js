@@ -60,19 +60,14 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
     if (top && direction === 'down') {
       this.$el.find('.post-usertag').addClass('scroll-effect');
       this.$el.addClass('scroll-post');
-      // console.log('adding class' + direction);
     } else if (top && direction === 'up') {
       this.$el.find('.post-usertag').removeClass('scroll-effect');
       this.$el.removeClass('scroll-post');
-      // console.log('removing class' + direction);
     } else if (!top && direction === 'down') {
-      // this.$el.find('.post-usertag').removeClass('scroll-effect');
       this.$el.removeClass('scroll-post');
-      // console.log('removing class' + direction);
     } else if (!top && direction === 'up') {
       this.$el.find('.post-usertag').addClass('scroll-effect');
       this.$el.addClass('scroll-post');
-      // console.log('adding class' + direction);
     }
   },
 

@@ -11,9 +11,8 @@ window.Wastegram = {
       var postHeight = $('.scroll-post').innerHeight();
       if (postPos) {
         var postTop = postPos.top;
-        console.log("post height is " + postHeight);
         var max = $('.scroll-post .waypoint-bottom').position().top - 140;
-        var diff = top - postTop;
+        var diff = (top - postTop) -30;
         if (diff > max) {
           diff = max;
         } else if (diff < 0) {
@@ -21,11 +20,7 @@ window.Wastegram = {
         }
         var newVal = "" + diff + 'px';
         $('.scroll-effect').css('top', newVal);
-        console.log(newVal);
       }
-      // console.log('top is ' + top)
-      // console.log('post is ' + postPos)
-
     });
 
     Wastegram.current_user = new Wastegram.Models.User();
