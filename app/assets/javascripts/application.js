@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require underscore
 //= require jquery.serializejson
+//= require jquery.waypoints.min
 //= require backbone
 //= require_tree ./utils
 //= require wastegram

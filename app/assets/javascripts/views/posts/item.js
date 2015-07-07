@@ -4,7 +4,8 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
 
   events: {
     'submit .comment-form': 'postComment',
-    'click .glyphicon-remove': 'deletePost'
+    'click .glyphicon-remove': 'deletePost',
+    'scroll .post': 'detectScroll'
   },
 
   initialize: function() {
@@ -39,6 +40,10 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
 
   deletePost: function() {
     this.model.destroy();
+  },
+
+  detectScroll: function() {
+    console.log("scrolling")
   },
 
   postComment: function() {
