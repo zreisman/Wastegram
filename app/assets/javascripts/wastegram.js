@@ -8,7 +8,7 @@ window.Wastegram = {
     $(window).scroll(function() {
       var top = $(window).scrollTop();
       var postPos = $('.scroll-post').position();
-      var postHeight = $('.scroll-post').innerHeight();
+      var postHeight = $('.scroll-post').height();
       if (postPos) {
         var postTop = postPos.top;
         var max = $('.scroll-post .waypoint-bottom').position().top - 140;
