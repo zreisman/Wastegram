@@ -37,7 +37,7 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
 
   attachWaypoints: function() {
     var that = this;
-    var topWaypoint = new Waypoint({
+    this.topWaypoint = new Waypoint({
       element: this.$el.find('.waypoint-top'),
       handler: function(direction) {
         var top = true;
@@ -45,7 +45,7 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
       },
       offset: 70
     });
-    var bottomWaypoint = new Waypoint({
+    this.bottomWaypoint = new Waypoint({
       element: this.$el.find('.waypoint-bottom'),
       handler: function(direction) {
         var top = false;

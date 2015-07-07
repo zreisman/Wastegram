@@ -20,6 +20,7 @@ Wastegram.Views.FeedCompView = Backbone.CompositeView.extend({
   addPostSubview: function(post) {
     var postItem = new Wastegram.Views.PostItem({ model: post });
     this.addSubview(".feed-stream", postItem, true);
+    postItem.attachWaypoints();
   },
 
   removeFeedItem: function(model, collection, options) {
@@ -29,6 +30,9 @@ Wastegram.Views.FeedCompView = Backbone.CompositeView.extend({
   render: function() {
     this.$el.html(this.template());
     this.attachSubviews();
+    this.subviews('.feed-stream').each(function(postItem) {
+      postItem.attachWaypoints();
+    });
 
     return this;
   }
