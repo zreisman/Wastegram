@@ -3,6 +3,8 @@ Wastegram.Views.SearchResults = Backbone.CompositeView.extend({
 
   events: {
     'click .search-result-list': 'blocker',
+    'click .search-result-list *': 'blocker',
+    'focusin .search-result-list': 'blocker'
   },
 
   initialize: function() {
