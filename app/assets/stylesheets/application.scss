@@ -320,6 +320,7 @@ border-top-right-radius: 3px;
 }
 
 .profile-form {
+  min-height: 30vh;
   position: relative;
   padding: 0px 15px;
 }
@@ -333,8 +334,8 @@ border-top-right-radius: 3px;
 
   border-radius: 100%;
   border: 1px solid #CCC;
-  width: 10vw;
-  min-height: 10vw;
+  width: 15vw;
+  min-height: 15vw;
 }
 
 .red {
@@ -404,7 +405,7 @@ border-top-right-radius: 3px;
 
 .user-stats {
   position: absolute;
-  right: 10%;
+  right: 6%;
   top: 5%;
   font-size: 18px;
   color: #666666;
