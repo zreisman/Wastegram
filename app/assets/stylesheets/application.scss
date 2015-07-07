@@ -299,6 +299,7 @@ border-top-right-radius: 3px;
   height: 100px;
   width: 125px;
   top: 0%;
+  transition: .5s;
 }
 
 .post-usertag strong {
@@ -422,4 +423,23 @@ border-top-right-radius: 3px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.scroll-effect {
+  top: calc(90% - 140px);
+  transition: .5s;
+}
+
+.waypoint-top {
+  position: absolute;
+  top: 0%;
+  height: 20px;
+  width: 20px;
+}
+
+.waypoint-bottom {
+  position: absolute;
+  bottom: 0%;
+  height: 20px;
+  width: 20px;
 }
