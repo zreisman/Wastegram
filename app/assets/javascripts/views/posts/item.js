@@ -66,7 +66,7 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
       this.$el.removeClass('scroll-post');
       // console.log('removing class' + direction);
     } else if (!top && direction === 'down') {
-      this.$el.find('.post-usertag').removeClass('scroll-effect');
+      // this.$el.find('.post-usertag').removeClass('scroll-effect');
       this.$el.removeClass('scroll-post');
       // console.log('removing class' + direction);
     } else if (!top && direction === 'up') {

@@ -6,13 +6,25 @@ window.Wastegram = {
   initialize: function() {
 
     $(window).scroll(function() {
-      // var top = $(window).scrollTop() + 70;
-      // var postPos = $('.scroll-post').position().top;
+      var top = $(window).scrollTop();
+      var postPos = $('.scroll-post').position();
+      var postHeight = $('.scroll-post').innerHeight();
+      if (postPos) {
+        var postTop = postPos.top;
+        console.log("post height is " + postHeight);
+        var max = $('.scroll-post .waypoint-bottom').position().top - 140;
+        var diff = top - postTop;
+        if (diff > max) {
+          diff = max;
+        } else if (diff < 0) {
+          diff = 0;
+        }
+        var newVal = "" + diff + 'px';
+        $('.scroll-effect').css('top', newVal);
+        console.log(newVal);
+      }
       // console.log('top is ' + top)
       // console.log('post is ' + postPos)
-      // var newVal = "" + (top - postPos) + 'px';
-      // console.log(newVal);
-      // $('.scroll-effect').css('top', newVal);
 
     });
 
