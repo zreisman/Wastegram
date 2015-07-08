@@ -6,21 +6,7 @@ window.Wastegram = {
   initialize: function() {
 
     $(window).scroll(function() {
-      var top = $(window).scrollTop();
-      var postPos = $('.scroll-post').position();
-      var postHeight = $('.scroll-post').height();
-      if (postPos) {
-        var postTop = postPos.top;
-        var max = $('.scroll-post .waypoint-bottom').position().top - 140;
-        var diff = (top - postTop) -30;
-        if (diff > max) {
-          diff = max;
-        } else if (diff < 0) {
-          diff = 0;
-        }
-        var newVal = "" + diff + 'px';
-        $('.scroll-effect').css('top', newVal);
-      }
+      Wastegram.scrollEffect();
     });
 
     Wastegram.current_user = new Wastegram.Models.User();
@@ -33,6 +19,24 @@ window.Wastegram = {
     new Wastegram.Routers.Router({ $rootEl: $rootEl });
 
     Backbone.history.start();
+  },
+
+  scrollEffect: function() {
+    var top = $(window).scrollTop();
+    var postPos = $('.scroll-post').position();
+    var postHeight = $('.scroll-post').height();
+    if (postPos) {
+      var postTop = postPos.top;
+      var max = $('.scroll-post .waypoint-bottom').position().top - 140;
+      var diff = (top - postTop) -30;
+      if (diff > max) {
+        diff = max;
+      } else if (diff < 0) {
+        diff = 0;
+      }
+      var newVal = "" + diff + 'px';
+      $('.scroll-effect').css('top', newVal);
+    }
   }
 };
 

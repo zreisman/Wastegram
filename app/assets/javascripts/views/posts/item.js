@@ -42,6 +42,7 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
       handler: function(direction) {
         var top = true;
         that.toggleScrollEffect(direction, top);
+        Wastegram.scrollEffect();
       },
       offset: 70
     });

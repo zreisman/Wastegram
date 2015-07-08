@@ -8,7 +8,6 @@ Wastegram.Views.FeedCompView = Backbone.CompositeView.extend({
       this.addPostSubview(post);
     }.bind(this));
 
-    // this.model = new Wastegram.Models.Post();
     var navBarView = new Wastegram.Views.NavbarComp({ model: Wastegram.current_user });
     this.addSubview('.navbar', navBarView);
   },
