@@ -30,10 +30,10 @@ Wastegram.Views.FeedCompView = Backbone.CompositeView.extend({
   render: function() {
     this.$el.html(this.template());
     this.attachSubviews();
-    this.subviews('.feed-stream').each(function(postItem) {
-      postItem.attachWaypoints();
-    });
 
+    setTimeout(function() {
+      Waypoint.refreshAll();
+    });
     return this;
   }
 
