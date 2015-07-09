@@ -24,6 +24,9 @@ Wastegram.Views.FeedCompView = Backbone.CompositeView.extend({
 
   removeFeedItem: function(model, collection, options) {
     this.removeModelSubview('.feed-stream', model);
+    setTimeout(function() {
+      Waypoint.refreshAll();
+    }, 1000);
   },
 
   render: function() {

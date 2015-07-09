@@ -39,10 +39,10 @@ User.find_by(username: "deerhunter9000").posts.create(
   body: "Cleaning my crossbow",
   created_at: (rand*10).hours.ago)
 
-User.find_by(username: "bethe").posts.create(
-  image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/mg3af4uz8owqa1rzawqo.jpg",
-  body: "Tickling the ivories!",
-  created_at: (rand*10).hours.ago)
+# User.find_by(username: "bethe").posts.create(
+#   image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/mg3af4uz8owqa1rzawqo.jpg",
+#   body: "Tickling the ivories!",
+#   created_at: (rand*10).hours.ago)
 
 User.find_by(username: "coral").posts.create(
   image_url: "http://res.cloudinary.com/dvd7awvbl/image/upload/c_scale,w_600/nnf5v2usse7515nhlxwb.jpg",
