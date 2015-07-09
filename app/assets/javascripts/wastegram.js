@@ -43,3 +43,7 @@ window.Wastegram = {
 $(document).ready(function(){
   Wastegram.initialize();
 });
+
+$(window).load(function(){
+  Waypoint.refreshAll();
+});
