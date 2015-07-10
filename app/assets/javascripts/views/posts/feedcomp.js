@@ -23,10 +23,10 @@ Wastegram.Views.FeedCompView = Backbone.CompositeView.extend({
     var url = post.get('image_url');
     var img = new Image();
     img.onload = function(){
-      that.addSubview(".feed-stream", postItem, true);
       postItem.attachWaypoints();
     };
     img.src = url;
+    that.addSubview(".feed-stream", postItem, true);
   },
 
   removeFeedItem: function(model, collection, options) {
