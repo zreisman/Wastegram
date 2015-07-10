@@ -42,7 +42,7 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
       handler: function(direction) {
         var top = true;
         that.toggleScrollEffect(direction, top);
-        Wastegram.scrollEffect();
+        // Wastegram.scrollEffect();
       },
       offset: 70
     });
@@ -56,18 +56,35 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
     });
   },
 
+  imageLoad: function() {
+
+
+  },
+
   toggleScrollEffect: function(direction, top) {
+    var left = '';
 
     if (top && direction === 'down') {
-      this.$el.find('.post-usertag').addClass('scroll-effect');
+      $tag = this.$el.find('.post-usertag');
+      left = '' + $tag.offset().left + 'px';
+      $tag.addClass('scroll-effect').css('top', '70px').css('left', left);
       this.$el.addClass('scroll-post');
+
     } else if (top && direction === 'up') {
-      this.$el.find('.post-usertag').removeClass('scroll-effect');
+      $tag = $('.scroll-effect');
+      $tag.removeClass('scroll-effect').css('top', '0%').css('left', '-150px');
       this.$el.removeClass('scroll-post');
+
     } else if (!top && direction === 'down') {
+      $tag = $('.scroll-effect');
+      $tag.css('left', '-150px').css('top', 'calc(100% - 140px)');
+      $tag.removeClass('scroll-effect');
       this.$el.removeClass('scroll-post');
+
     } else if (!top && direction === 'up') {
-      this.$el.find('.post-usertag').addClass('scroll-effect');
+      $tag = this.$el.find('.post-usertag');
+      left = '' + $tag.offset().left + 'px';
+      $tag.addClass('scroll-effect').css('top', '70px').css('left', left);
       this.$el.addClass('scroll-post');
     }
   },
@@ -80,9 +97,6 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
     this.model.destroy();
   },
 
-  detectScroll: function() {
-    console.log("scrolling")
-  },
 
   postComment: function() {
     event.preventDefault();
@@ -105,7 +119,7 @@ Wastegram.Views.PostItem = Backbone.CompositeView.extend({
     var user = this.model.users().get(this.model.get('author_id'));
     this.$el.html( this.template({ post: this.model, user: user }) );
 
-    this.attachWaypoints();
+    // this.attachWaypoints();
     this.attachSubviews();
 
     return this;

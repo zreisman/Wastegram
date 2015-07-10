@@ -18,8 +18,15 @@ Wastegram.Views.FeedCompView = Backbone.CompositeView.extend({
 
   addPostSubview: function(post) {
     var postItem = new Wastegram.Views.PostItem({ model: post });
-    this.addSubview(".feed-stream", postItem, true);
-    postItem.attachWaypoints();
+    var that = this;
+
+    var url = post.get('image_url');
+    var img = new Image();
+    img.onload = function(){
+      that.addSubview(".feed-stream", postItem, true);
+      postItem.attachWaypoints();
+    };
+    img.src = url;
   },
 
   removeFeedItem: function(model, collection, options) {
@@ -33,9 +40,9 @@ Wastegram.Views.FeedCompView = Backbone.CompositeView.extend({
     this.$el.html(this.template());
     this.attachSubviews();
 
-    setTimeout(function() {
-      Waypoint.refreshAll();
-    });
+    // setTimeout(function() {
+    //   Waypoint.refreshAll();
+    // });
     return this;
   }
 

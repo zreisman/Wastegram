@@ -432,7 +432,9 @@ border-top-right-radius: 3px;
 }
 
 .scroll-effect {
-  // top: calc(90% - 140px);
+  position: fixed;
+  top: 70px;
+  left: 150px;
   // transition: .05s;
 }
 
@@ -445,7 +447,7 @@ border-top-right-radius: 3px;
 
 .waypoint-bottom {
   position: absolute;
-  bottom: 0%;
+  bottom: 100px;
   height: 20px;
   width: 20px;
 }

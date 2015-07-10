@@ -5,9 +5,9 @@ window.Wastegram = {
   Routers: {},
   initialize: function() {
 
-    $(window).scroll(function() {
-      Wastegram.scrollEffect();
-    });
+    // $(window).scroll(function() {
+    //   Wastegram.scrollEffect();
+    // });
 
     Wastegram.current_user = new Wastegram.Models.User();
     Wastegram.current_user.fetch({
